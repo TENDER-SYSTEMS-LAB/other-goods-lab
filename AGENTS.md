@@ -81,6 +81,14 @@ When ingesting a new conversation or document, follow this sequence:
 
 Create a page only when a meaningful unit has emerged that cannot be captured by one line in `current-state.md` and is likely to develop independently over time.
 
+## Agent Model Routing Preference
+
+For subagent model routing:
+
+- Simple search and localization agents: `gpt-5.6-luna`
+- Document drafting and editing agents: `gpt-5.6-terra`
+- Planning and verification agents: `gpt-5.6-sol`
+
 ## Git Identity and Push Policy
 
 All Git commits created for this repository must use the institutional TENDER SYSTEMS identity rather than the personal identity of the operator.

@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: jointly-developed
-updated: 2026-09-04
+updated: 2026-09-05
 sources:
   - SRC-2026-09-04-commerce-product-rnd-summary
   - SRC-2026-09-04-gemini-collection-v0.4-survey
@@ -10,6 +10,14 @@ sources:
   - SRC-2026-09-04-glm-collection-v0.5-survey
   - SRC-2026-09-04-grok-collection-v0.5-survey
   - SRC-2026-09-04-kimi-collection-v0.5-survey
+  - SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position
+  - SRC-2026-09-05-chatgpt-v0.6-rnd
+  - SRC-2026-09-04-claude-pre-v0.6-rnd-position
+  - SRC-2026-09-04-deepseek-pre-v0.6-rnd-position
+  - SRC-2026-09-04-glm-pre-v0.6-rnd-position
+  - SRC-2026-09-04-grok-pre-v0.6-rnd-position
+  - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
+  - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
 ---
 
 # Product Grammar
@@ -220,6 +228,12 @@ One notable convergence is that Gemini's Perceptual Threshold and Claude's Below
 
 The individual list is not repeated here. See [[v0.4-evaluation]].
 
+**(2026-09-05)** A conversation opened five further R&D territories from the user's interest in guilt, homecoming, atonement, responsibility, and control. The LLM labels are **Moral Residue** (consequences that continue after payment or punishment), **Responsibility–Control Mismatch** (felt responsibility beyond controllable scope), **Unownable Control** (ownership of the final outcome, possibly better expressed as an unavailable system option than a SKU), **Finite Repair** (partial but still meaningful intervention), and **Finite Destination** (a bounded destination replacing limitless responsibility). These are research prompts, not additions to the taxonomy; the conversation explicitly deferred taxonomy promotion.
+
+A derivative pre-v0.6 position note restates this as territory to test with external evaluators before composing v0.6. It does not independently validate the territories or promote them into Product Grammar.
+
+**(2026-09-05, `llm-proposed`)** The six critiques add pressure against making Product Grammar classification a mandatory Product Behavior Sheet field. Only Kimi explicitly retains it as essential; the others cut, demote, condition, or omit it. They also constrain Moral Residue to a test territory, often reframing it as non-transferable obligation, unsettled consequence, or settlement remainder. No new Grammar is added.
+
 ## Separation from Commerce Collision
 
 Record Product Grammar and Commerce Mechanic as separate data.
@@ -268,3 +282,6 @@ These questions are tracked in [[Q-003-product-grammar-taxonomy-scope]].
 - `SRC-2026-09-04-gemini-collection-v0.4-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md`. An `llm-proposed` survey that does not confirm the taxonomy.
 - `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`. An `llm-proposed` survey that does not confirm the taxonomy.
 - `SRC-2026-09-04-gemini-collection-v0.5-survey`, `SRC-2026-09-04-glm-collection-v0.5-survey`, `SRC-2026-09-04-grok-collection-v0.5-survey`, `SRC-2026-09-04-kimi-collection-v0.5-survey` — the four v0.5 surveys under `raw/surveys/`. All are `llm-proposed` and none confirms a taxonomy. Whether the four answered independently cannot be verified from the responses alone, so their convergence is a strong signal rather than four separate confirmations.
+- `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. The thematic starting point is user-originated; the five labels and example products are LLM-proposed and explicitly not promoted into the taxonomy.
+- `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. Derivative LLM synthesis that recommends testing the territory before v0.6.
+- `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.

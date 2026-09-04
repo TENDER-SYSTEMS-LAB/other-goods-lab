@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: jointly-developed
-updated: 2026-09-04
+updated: 2026-09-05
 sources:
   - SRC-2026-09-03-llm-wiki-agent-prompt
   - SRC-2026-09-03-chatgpt-brainstorming
@@ -18,11 +18,19 @@ sources:
   - SRC-2026-09-04-glm-collection-v0.5-survey
   - SRC-2026-09-04-grok-collection-v0.5-survey
   - SRC-2026-09-04-kimi-collection-v0.5-survey
+  - SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position
+  - SRC-2026-09-05-chatgpt-v0.6-rnd
+  - SRC-2026-09-04-claude-pre-v0.6-rnd-position
+  - SRC-2026-09-04-deepseek-pre-v0.6-rnd-position
+  - SRC-2026-09-04-glm-pre-v0.6-rnd-position
+  - SRC-2026-09-04-grok-pre-v0.6-rnd-position
+  - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
+  - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
 ---
 
 # Current State
 
-Reference date: 2026-09-04.
+Reference date: 2026-09-05.
 
 ## Current Definition
 
@@ -47,6 +55,12 @@ R&D advanced to v0.4 (30 items) and received evaluations in a second survey roun
 R&D then moved to v0.5, and this is the current version. **v0.5 is the first version to shrink: 30 → 24 items.** Nine v0.4 candidates were removed, including all four that both v0.4 surveys had placed in their Bottom 8, and three were added — `17,400 Hz`, `Unit 12B, Unoccupied`, and `First 12 Sheets Discarded Before Printing`. Two formal changes arrived with it and are explained by no registered source: the product titles are now English rather than translated Korean, and prices are in dollars rather than won. A third survey round of four models (Gemini, GLM, Grok, Kimi) evaluated v0.5, and **all four returned `WORKING BUT NEEDS CORRECTION`** — the same verdict as the v0.4 round. See [[v0.5-evaluation]] for the full comparison and [[rnd-collection]] for the version history.
 
 Two consecutive rounds returning the same verdict is itself a signal for [[Q-004-rnd-collection-exit-condition]]: swapping candidates is not moving the Collection toward a “ready” assessment. What changed instead is where the surveys locate the problem. In v0.4 the correction concerned *which products exist*; in v0.5 all four locate it in *what the store does after the product page*, and all four name building the transaction and post-purchase layer as the single thing to do before v0.6. This is `llm-proposed` convergence, not a user decision.
+
+A 2026-09-05 conversation began discussing v0.6 but did not create or confirm it. Its central `llm-proposed` move is to treat v0.6 as a **16-item Deep R&D Set** that tests selected products across the full commercial lifecycle rather than generating another broad list of titles. The user directly introduced guilt, homecoming, atonement, responsibility, control, and continuing consequences as territory to develop, then challenged the tendency to translate that human material into overly technical language. The proposed size, candidate composition, lifecycle sheet, names, and replacement naming principle all remain unadopted. See [[rnd-collection]], [[Q-006-post-purchase-behavior]], and [[Q-007-product-naming-register]].
+
+A separately registered ChatGPT position note qualifies that proposal as **approximately 12–16 products** and says not to finalize v0.6 before external critique, resolution of the naming principle, testing of moral residue, a decision on `What Payment Cannot Undo`, and selection of Product Behavior Sheet fields. It is derivative of the same Wiki, surveys, and discussion, so it is not independent evidence or a user decision.
+
+Six `llm-proposed` critiques of that unadopted position were then collected. All six say `READY WITH ONE REQUIRED CORRECTION`; 6/6 support reducing and deepening for an R&D experiment but warn that it is not catalog density, and 6/6 constrain moral-residue entry. They do not confirm project readiness, v0.6, or any proposed candidate, rule, or sheet. Their strongest unresolved cluster is [[Q-008-product-or-transaction]]: whether the atomic unit is a product or transaction, and whether real money moves. See [[pre-v0.6-evaluation]]. No v0.6 structure, candidate, naming rule, lifecycle rule, payment model, or taxonomy has been confirmed.
 
 Regarding product images, all three surveys—Gemini, GLM, and Grok—selected Option C: **do not use ASCII as a single global style; demote it to one renderer within a larger Representation System**. Their reasons differ. Gemini recognizes ASCII's structural metaphor but identifies risks of scalability and genre; GLM considers it structural only when actual store data is the material of its glyphs; Grok considers its conceptual necessity itself weak. The strong convergence is therefore not a justification for ASCII, but an architecture requiring a plural imaging policy rather than a single style. This is an `llm-proposed` hypothesis from the three LLMs, not a user decision. See [[product-image-system]] for details.
 
@@ -79,6 +93,8 @@ The v0.5 surveys added two further `llm-proposed` disconfirmations, both directe
 
 The three Product Image System surveys raised a separate repeated risk. All three noted that a single ASCII treatment could quickly be learned as one formula in a 100–200-item Catalog, classified as the net.art or terminal genre, and flatten different products into the same digital material. This is not an actual visitor observation but a design hypothesis to test in prototypes.
 
+The v0.6 discussion adds a user-originated pressure against the second bias above: matching a real-world register must not automatically force philosophical or emotional material into accounting or administrative language. The user did not select a replacement naming rule, so this refines [[Q-007-product-naming-register]] without resolving it.
+
 ## Active Product Candidates
 
 Candidates expanded from 14 in v0.1, through 14 in v0.2, 26 in v0.3, and 30 in v0.4, then contracted to **24 in v0.5**, the current version. The v0.4 and v0.5 lists were both reconstructed from their surveys because neither original prompt is in the repository; they appear in [[v0.4-evaluation]] and [[v0.5-evaluation]].
@@ -90,6 +106,8 @@ From the v0.5 round, six products appear in all four Top 8 lists: **02 `Yesterda
 Note one dependency: the three products added in v0.5 are near-verbatim instantiations of example objects Claude proposed in its v0.4 survey, and all four v0.5 surveys rate that new territory as the collection's most valuable. The strongest-rated material in the current version therefore rests on one `llm-proposed` source.
 
 All of the above is `llm-proposed`; the user has not yet selected any product.
+
+The 2026-09-05 conversation added an unselected R&D bench rather than a v0.6 list. Its most developed LLM-proposed candidates are `What Payment Cannot Undo`, `Self-Assigned Responsibility`, `Repair Scope: Partial`, and `Distance to Home: 1,847 mi`, alongside proposed system objects involving a pending refund, manufacturing tolerance, and standby power. Their shared thematic starting point is user-originated, but none of the English titles is user-confirmed.
 
 The complete list and version-by-version changes are in [[rnd-collection]]. This document does not repeat the candidate list; it only records the current disposition of the four initial candidates directly supplied by the user. All have `attribution: user-originated`.
 
@@ -121,11 +139,12 @@ These items were not discarded; they are deferred outside the current scope unde
 - [[Q-005-commerce-generative-vs-display]] — an unresolved challenge to the confirmed decision [[DEC-007-ontology-before-commerce]].
 - [[Q-006-post-purchase-behavior]] — no longer a single-source question; four v0.5 surveys now address it and split on whether the field should be mandatory for every product.
 - [[Q-007-product-naming-register]] — in what register products should be named, and whether the tested “driest name” principle survives. New on 2026-09-04.
+- [[Q-008-product-or-transaction]] — whether the atomic unit is a product or transaction, and whether real money moves.
 - The open question in [[product-image-system]] — can several renderers be bound into one store policy without closing them into a new style taxonomy?
 - **Price as a conceptual surface.** GLM's v0.5 survey names this the project's most dangerous blind spot: price is treated everywhere as a display field and never as conceptual material, yet at catalog scale arbitrary prices will read as arbitrary. Single-source and `llm-proposed`; no page created.
 - **What language the store's products are named in.** v0.5 switched to English titles and dollar prices with no registered explanation.
 - Which products should constitute the first Collection, and which commerce function should be primary for each product?
-- Does actual payment and checkout strengthen or weaken the concept?
+- [[Q-008-product-or-transaction]] — does actual payment and checkout strengthen or weaken the concept?
 - What does the visitor actually receive or own?
 - How should price, inventory, shipping, and return rules be set for each product?
 
@@ -151,10 +170,17 @@ The following are not confirmed decisions, but `attribution: llm-proposed` propo
 
 2026-09-04, v0.5 round. The four surveys converge on a different next step from the one above: **build the transaction and post-purchase layer, not more product names.** They differ only in scope — design the full post-purchase flow for exactly one abstract product (Gemini), wire the complete transaction loop including real prices, confirmation, a six-month order-history view, and working returns for the eight strongest (GLM), or write the complete post-purchase path for every retained product and discard those it only turns into gimmicks (Grok, Kimi). Kimi adds a gate: do not expand past 30 products until the Commerce-Displayed share falls below 20%. All `llm-proposed` and unselected. See [[Q-006-post-purchase-behavior]].
 
+2026-09-05, v0.6 discussion. A conversation synthesized that next step into a proposed 16-item Deep R&D Set and a Product Behavior Sheet covering name/register, role/type, price and inventory logic, confirmation, fulfillment, six-month order history, return, repurchase, representation, and a Commerce-removal failure test. It also proposed that post-purchase be mandatory as a diagnostic but become a visible feature only where it adds meaning. This is a more concrete experiment, not a user-confirmed plan or an R&D exit condition.
+
+A derivative pre-v0.6 position note expands the lifecycle sheet with Product Grammar, delivery, and resale where relevant; identifies nine products for deeper development and four for bench/rework; and sets the working two-part standard that Commerce must materially change the product while the product must still contain something worth changing. It recommends external challenge before v0.6 is composed. None of this is confirmed.
+
 On the same day, the three Product Image System surveys' shared next step was not to confirm a single ASCII approach, but to build comparative prototypes: an ASCII stress test for formless products; several-renderer comparisons of the same product; and visitor testing of a mixed-policy Catalog inside a normal Commerce shell. Detailed implementation and ordering remain unadopted and are organized in [[product-image-system]].
 
 ## Recently Changed
 
+- 2026-09-05 — Ingested six pre-v0.6 LLM critiques of that derivative position. Recorded 6/6 qualified support for a temporary 12–16-product R&D unit, split lifecycle/price/inventory positions, candidate dispositions, and the new atomic-unit/payment question in [[pre-v0.6-evaluation]] and [[Q-008-product-or-transaction]]. No v0.6 or recommendation was adopted.
+- 2026-09-05 — Ingested a derivative ChatGPT pre-v0.6 position note. It qualified the proposed set size to approximately 12–16, recorded nine deeper-development candidates, four bench/rework candidates, a six-step pre-v0.6 gate, and a two-part Commerce/product test. It was not counted as an independent evaluation and added no decision.
+- 2026-09-05 — Ingested a ChatGPT conversation about possible v0.6 work. Registered the user's new thematic territory and naming objection, and recorded the LLM-proposed Deep R&D Set, lifecycle sheet, candidate bench, and five unadopted Grammar territories. No v0.6 list or new decision was confirmed; the referenced video and attachment are not registered.
 - 2026-09-04 — Ingested four Collection v0.5 surveys (Gemini, GLM, Grok, Kimi). Candidates: 30 → 24, the first contraction. Created [[v0.5-evaluation]] and [[Q-007-product-naming-register]]. Recorded the 4/4 verdict, a six-product agreed Top, the 4/4 criticism that the generative formula has no rejection criterion, the five-category grammar convergence, and the 4/4 shift of the correction from products to the post-purchase layer. Removed the single-source dependency on [[Q-006-post-purchase-behavior]]. No new decision.
 - 2026-09-04 — Ingested three Product Image System surveys. Synthesized into [[product-image-system]] the 3/3 convergence against global ASCII and for a higher-level Representation System, five repeated risks, six alternative system families, and a prototype gate. No new decision.
 - 2026-09-04 — Ingested two v0.4 surveys. Candidates: 26 → 30; two new questions (Q-005 and Q-006); recorded an unresolved challenge in [[DEC-007-ontology-before-commerce]].
@@ -165,6 +191,9 @@ On the same day, the three Product Image System surveys' shared next step was no
 
 ## Sources
 
+- `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. A derivative `llm-proposed` position note synthesizing the Wiki, v0.5 surveys, naming discussion, and supplied video analysis. It is not an independent evaluation or user decision.
+- `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques under `raw/surveys/`. Their shared prompt, delivery, and independence are unverified; counts are LLM convergence, not user confirmation.
+- `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. A jointly developed conversation. The thematic territory and objection to over-technical naming are user-originated; v0.6 structure, lifecycle sheet, Grammar labels, and product titles are LLM-proposed. The referenced video and attachment are absent.
 - `SRC-2026-09-04-gemini-collection-v0.5-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.5-survey.md`. An `llm-proposed` survey. It also raises the visual-output risk recorded in [[product-image-system]] and refers to two concept names absent from this repository.
 - `SRC-2026-09-04-glm-collection-v0.5-survey` — `raw/surveys/2026-09-04-glm-collection-v0.5-survey.md`. An `llm-proposed` survey. The only source for the price blind spot and for the rejection-criterion test.
 - `SRC-2026-09-04-grok-collection-v0.5-survey` — `raw/surveys/2026-09-04-grok-collection-v0.5-survey.md`. An `llm-proposed` survey.

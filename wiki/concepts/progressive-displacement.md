@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: user-confirmed
-updated: 2026-09-04
+updated: 2026-09-05
 sources:
   - SRC-2026-09-03-chatgpt-brainstorming
   - SRC-2026-09-04-claude-collection-v0.4-survey
@@ -12,6 +12,12 @@ sources:
   - SRC-2026-09-04-glm-collection-v0.5-survey
   - SRC-2026-09-04-grok-collection-v0.5-survey
   - SRC-2026-09-04-kimi-collection-v0.5-survey
+  - SRC-2026-09-04-claude-pre-v0.6-rnd-position
+  - SRC-2026-09-04-deepseek-pre-v0.6-rnd-position
+  - SRC-2026-09-04-glm-pre-v0.6-rnd-position
+  - SRC-2026-09-04-grok-pre-v0.6-rnd-position
+  - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
+  - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
 ---
 
 # Progressive Displacement
@@ -50,6 +56,8 @@ Using multiple renderers under one imaging policy emerged as an alternative, but
 
 The sequences themselves are in [[v0.5-evaluation]] and are not repeated here. None is adopted.
 
+**(2026-09-05, `llm-proposed`)** Six further responses support a neutral, uniform system handling products of variable temperatures. They also warn that a uniformly “special” 12–16-product set can read as an exhibition rather than a catalog; ordinary stock and default behavior may be structurally necessary for realism and displacement.
+
 ## Design Implications
 
 - Use a different commerce function as the primary collision for each product (`attribution: llm-proposed`).
@@ -76,3 +84,4 @@ The sequences themselves are in [[v0.5-evaluation]] and are not repeated here. N
 - `SRC-2026-09-04-glm-product-image-system-survey` — `raw/surveys/2026-09-04-glm-product-image-system-survey.md`. An `llm-proposed` survey that raises the same risk and proposes a mixed-policy catalog test.
 - `SRC-2026-09-04-grok-product-image-system-survey` — `raw/surveys/2026-09-04-grok-product-image-system-survey.md`. An `llm-proposed` survey that raises the same risk and proposes audience testing.
 - `SRC-2026-09-04-gemini-collection-v0.5-survey`, `SRC-2026-09-04-glm-collection-v0.5-survey`, `SRC-2026-09-04-grok-collection-v0.5-survey`, `SRC-2026-09-04-kimi-collection-v0.5-survey` — the four v0.5 surveys under `raw/surveys/`. All `llm-proposed`; each proposes a displacement sequence, and none confirms the Principle.
+- `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.

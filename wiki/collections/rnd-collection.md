@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: jointly-developed
-updated: 2026-09-04
+updated: 2026-09-05
 sources:
   - SRC-2026-09-04-commerce-product-rnd-summary
   - SRC-2026-09-04-gemini-collection-v0.4-survey
@@ -10,6 +10,14 @@ sources:
   - SRC-2026-09-04-glm-collection-v0.5-survey
   - SRC-2026-09-04-grok-collection-v0.5-survey
   - SRC-2026-09-04-kimi-collection-v0.5-survey
+  - SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position
+  - SRC-2026-09-05-chatgpt-v0.6-rnd
+  - SRC-2026-09-04-claude-pre-v0.6-rnd-position
+  - SRC-2026-09-04-deepseek-pre-v0.6-rnd-position
+  - SRC-2026-09-04-glm-pre-v0.6-rnd-position
+  - SRC-2026-09-04-grok-pre-v0.6-rnd-position
+  - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
+  - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
 ---
 
 # R&D Collection
@@ -158,6 +166,30 @@ All four surveys returned **WORKING BUT NEEDS CORRECTION**, the same verdict as 
 
 What did change is where the surveys locate the problem. In v0.4 the correction demanded concerned *which products exist*; in v0.5 all four locate it in *what the store does after the product page*. All four name the transaction and post-purchase layer as the single thing to build before v0.6, and all four independently observe that the collection's generative formula — an ordinary phenomenon plus a condition or count — is now visible and has no rejection criterion. Details in [[v0.5-evaluation]].
 
+## v0.6 Discussion (Unadopted)
+
+**(2026-09-05)** No v0.6 collection has been selected or produced. A new conversation synthesized the four v0.5 surveys into an `llm-proposed` **16-item Deep R&D Set**: instead of generating another broad list of titles, take a smaller set through the full commercial lifecycle and test whether each remains conceptually alive across price, inventory, order confirmation, fulfillment, order history, return, and repurchase. The proposed 16-item size, approximately 25/50/25 balance among Commerce-Generated / Activated / Displayed products, nine retained core items, three middle-register items, and four new items are all unadopted.
+
+A separately registered ChatGPT position note qualifies the exact size as **approximately 12–16 products** and explicitly recommends not finalizing v0.6 yet. It identifies nine products as having earned deeper development: `Yesterday`, `First Typo in a New Notebook`, `First Canceled Order`, `Day After the Return Window Closed`, `Upper-Right Corner, Dented in Transit`, `$8.00 Price Drop, 10 Minutes After Purchase`, `17,400 Hz`, `Unit 12B, Unoccupied`, and `First 12 Sheets Discarded Before Printing`. It moves `Wrong-Turn Alley`, `6-Minute Unrecorded Conversation`, `Last 10 Minutes Before Knowing the Ending`, and `Before Reading the Reviews` to bench or rework. It treats `Summer, Age 16`, `One Day of the Trip, No Photos`, `The Room Before It Became Home`, `Third Door Opened Today`, and `“These Days,” 5 Years Ago` as references that should not advance automatically. All of these dispositions remain LLM proposals.
+
+The proposal also opened a new candidate territory from the user's interest in guilt, homecoming, and atonement, later sharpened through a pasted interpretation of responsibility, control, and consequences. The user wants to make products from that material; the conversation does not record acceptance of any particular title. LLM-proposed candidates include:
+
+- `What Payment Cannot Undo` — the final preferred revision in the conversation of `Payment Complete, Liability Outstanding` and `Account Settled, Consequences Ongoing`;
+- `Self-Assigned Responsibility` — responsibility extended beyond causal or controllable scope;
+- `Repair Scope: Partial` — finite action where only part of the damage can be repaired;
+- `Distance to Home: 1,847 mi` — a finite destination replacing an unbounded responsibility;
+- `Pending Refund, 3–5 Business Days`, `0.49 mm, Within Tolerance`, and `Standby Power, 2.3 W` — proposed commerce, standard, and infrastructure objects.
+
+The title sequence for the moral-residue candidate is itself useful evidence for [[Q-007-product-naming-register]]. The user challenged the narrowing effect of the accounting term `Account`; the conversation ended with an LLM preference for a more human title whose meaning Commerce would test rather than merely illustrate. No title was user-confirmed.
+
+Before composing v0.6, the position note proposes six gates: collect external critique; resolve the naming principle; test the moral-residue territory; decide whether `What Payment Cannot Undo` belongs in the core; decide the Product Behavior Sheet fields; then compose v0.6. Its final two-part test is that **Commerce must materially change the product, and the product must still contain something worth changing**. This is a pre-v0.6 recommendation, not a confirmed plan or a Catalog exit condition.
+
+### Six LLM Critiques (Unadopted)
+
+Six `llm-proposed` critiques of the derivative position note converge on a smaller, deeper R&D experiment, not a v0.6 approval: 6/6 support reducing to 12–16 for R&D, 6/6 warn that this does not create catalog density, and all return `READY WITH ONE REQUIRED CORRECTION`. Their shared correction pressure is to build a transactional surface or require a meaning-changing commerce operation; their strongest unresolved cluster is whether the atomic unit is a product or transaction and whether real money moves. The candidate votes are likewise unadopted: `Self-Assigned Responsibility` is 0 KEEP / 0 REWORK / 6 DROP; `What Payment Cannot Undo` is 1 KEEP / 5 REWORK; and `Control Over Final Outcome — Unavailable` points toward a system intervention rather than a normal SKU.
+
+The external-critique gate has therefore been satisfied only in an LLM sense. Unbriefed human evaluation remains absent. See [[pre-v0.6-evaluation]] and [[Q-008-product-or-transaction]].
+
 ## Why Product Pages Do Not Yet Exist
 
 Of the 26 candidates, only two—“The First Typo in a New Notebook” and “Summer at Sixteen”—have recorded Grammar/Collision data at the “separation from Commerce Collision” level (see [[product-grammar]]). Under the principle of [[DEC-001-minimal-wiki-first]], `wiki/products/` will not be created until actual content has accumulated; it will be created after step 5 of the v0.4 plan (developing 8–10 representative products to Product Page level) has actually been carried out.
@@ -173,6 +205,9 @@ Of the 26 candidates, only two—“The First Typo in a New Notebook” and “S
 - [[v0.5-evaluation]] — Connected because it holds the 24-item v0.5 list, the four-survey comparison, and the reconstruction of the v0.4 → v0.5 transition.
 - [[Q-004-rnd-collection-exit-condition]] — Connected because two consecutive rounds returning the same verdict bears directly on when this Collection should stop.
 - [[Q-007-product-naming-register]] — Connected because v0.5's shift to English titles and dollar prices makes the naming register a Collection-level variable.
+- [[Q-006-post-purchase-behavior]] — Holds the lifecycle test and Product Behavior Sheet proposed for v0.6.
+- [[pre-v0.6-evaluation]] — Compares the six critiques of the unadopted pre-v0.6 position.
+- [[Q-008-product-or-transaction]] — Holds the unresolved atomic-unit and real-payment question.
 
 ## Sources
 
@@ -180,3 +215,6 @@ Of the 26 candidates, only two—“The First Typo in a New Notebook” and “S
 - `SRC-2026-09-04-gemini-collection-v0.4-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md`. An `llm-proposed` survey that does not invalidate decisions.
 - `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`. An `llm-proposed` survey that does not invalidate decisions.
 - `SRC-2026-09-04-gemini-collection-v0.5-survey`, `SRC-2026-09-04-glm-collection-v0.5-survey`, `SRC-2026-09-04-grok-collection-v0.5-survey`, `SRC-2026-09-04-kimi-collection-v0.5-survey` — the four v0.5 surveys under `raw/surveys/`. All are `llm-proposed`. The v0.5 evaluation prompt itself is not registered, so the 24-item list and the v0.4 → v0.5 transition recorded above are reconstructions.
+- `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. A jointly developed conversation containing user-originated territory and LLM-proposed v0.6 structures and titles. The referenced video and attachment are not registered; only the user's pasted interpretation is available.
+- `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. A derivative LLM position note, not an independent evaluation or user decision.
+- `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques under `raw/surveys/`; their common brief and independence are not verified.

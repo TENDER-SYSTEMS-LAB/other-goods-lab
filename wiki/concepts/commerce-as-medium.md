@@ -1,11 +1,17 @@
 ---
 status: working
 attribution: jointly-developed
-updated: 2026-09-04
+updated: 2026-09-05
 sources:
   - SRC-2026-09-03-llm-wiki-agent-prompt
   - SRC-2026-09-03-chatgpt-brainstorming
   - SRC-2026-09-04-commerce-product-rnd-summary
+  - SRC-2026-09-04-claude-pre-v0.6-rnd-position
+  - SRC-2026-09-04-deepseek-pre-v0.6-rnd-position
+  - SRC-2026-09-04-glm-pre-v0.6-rnd-position
+  - SRC-2026-09-04-grok-pre-v0.6-rnd-position
+  - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
+  - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
 ---
 
 # Commerce as Medium
@@ -39,6 +45,8 @@ The early Wiki lacked the original conversation behind this concept and knew its
 
 **2026-09-04 — Commerce moved from origin to amplifier.** Previous state: an LLM proposal assigned one commerce function as the central collision for each product. Transition: while building R&D Collection v0.3, Commerce functions such as Return, Review, Cart, and Shipping began to be treated as Product Grammars, and the user observed that “the entire Product Grammar is excessively e-commerce-like.” Current state: separate Product Ontology (Layer 1) from Commerce Collision (Layer 2), and begin ideas in Layer 1. See [[DEC-007-ontology-before-commerce]].
 
+**2026-09-05, `llm-proposed` challenge.** Six pre-v0.6 critiques distinguish Commerce as a semantic agent from Commerce as a container. They propose a minimum test: at least one commerce operation must materially change a product's meaning. This is unadopted and challenges the current framing without modifying [[DEC-007-ontology-before-commerce]]. See [[Q-005-commerce-generative-vs-display]] and [[Q-008-product-or-transaction]].
+
 ## Related
 
 - [[DEC-002-perfect-store-principle]]
@@ -48,9 +56,12 @@ The early Wiki lacked the original conversation behind this concept and knew its
 - [[product-grammar]] — Defines Layer 1, Product Ontology.
 - [[DEC-007-ontology-before-commerce]] — Records this evolution of the Commerce concept as a decision.
 - [[rnd-collection]] — Records the work in which this framing changed.
+- [[Q-005-commerce-generative-vs-display]]
+- [[Q-008-product-or-transaction]]
 
 ## Sources
 
 - `SRC-2026-09-03-chatgpt-brainstorming` — `raw/conversations/ChatGPT-brain-storming-20260903-2252.md`
 - `SRC-2026-09-03-llm-wiki-agent-prompt` — `raw/documents/2026-09-03-llm-wiki-agent-prompt.md`
 - `SRC-2026-09-04-commerce-product-rnd-summary` — `raw/conversations/2026-09-04-commerce-product-rnd-summary.md`. This is a derivative summary rather than the original conversation transcript. If the original conversation is preserved separately, its provenance takes precedence.
+- `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.

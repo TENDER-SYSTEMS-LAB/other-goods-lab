@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: llm-synthesis
-updated: 2026-09-04
+updated: 2026-09-05
 sources:
   - SRC-2026-09-03-llm-wiki-agent-prompt
   - SRC-2026-09-03-chatgpt-brainstorming
@@ -18,6 +18,14 @@ sources:
   - SRC-2026-09-04-glm-collection-v0.5-survey
   - SRC-2026-09-04-grok-collection-v0.5-survey
   - SRC-2026-09-04-kimi-collection-v0.5-survey
+  - SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position
+  - SRC-2026-09-05-chatgpt-v0.6-rnd
+  - SRC-2026-09-04-claude-pre-v0.6-rnd-position
+  - SRC-2026-09-04-deepseek-pre-v0.6-rnd-position
+  - SRC-2026-09-04-glm-pre-v0.6-rnd-position
+  - SRC-2026-09-04-grok-pre-v0.6-rnd-position
+  - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
+  - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
 ---
 
 # OTHER GOODS Wiki Index
@@ -42,21 +50,22 @@ Before creating a page, check this catalog to see whether an existing page can b
 ## Core
 
 - [[overview]] — Definition, identity, central question, and principles of the work · `working` (2026-09-04)
-- [[current-state]] — Latest snapshot of confirmed decisions, current scope, candidates, unresolved questions, and priorities · `working` (2026-09-04)
+- [[current-state]] — Latest snapshot of confirmed decisions, current scope, candidates, unresolved questions, and priorities · `working` (2026-09-05)
 
 ## Concepts
 
-- [[commerce-as-medium]] — Uses the full set of e-commerce rules, including price, inventory, search, checkout, and shipping, as the work's medium · `working` (2026-09-04)
+- [[commerce-as-medium]] — Uses the full set of e-commerce rules, including price, inventory, search, checkout, and shipping, as the work's medium · `working` (2026-09-05)
 - [[conceptual-contrast]] — Collision between a normal commercial system and things that cannot be products · `working` (2026-09-03)
-- [[progressive-displacement]] — Visitor experience of discovering unfamiliar outcomes after becoming familiar with a rule · `working` (2026-09-04)
-- [[product-grammar]] — Current 14-part taxonomy for classifying what kind of “thing that cannot be a product” an object is · `working` (2026-09-04)
+- [[progressive-displacement]] — Visitor experience of discovering unfamiliar outcomes after becoming familiar with a rule · `working` (2026-09-05)
+- [[product-grammar]] — Current 14-part taxonomy plus unadopted consolidation and new-territory proposals · `working` (2026-09-05)
 - [[product-image-system]] — Hypothesis that places ASCII and other renderers under one store representation policy · `hypothesis` (2026-09-04)
 - [[time-as-currency]] — Blockchain-based `TIME` currency and changing-value direction · `deferred` (2026-09-03)
 - [[other-goods-as-entity]] — Organizational and system world in which OTHER GOODS exists independently of an artist · `deferred` (2026-09-03)
 
 ## Collections
 
-- [[rnd-collection]] — Candidates and changes from Collection v0.1 through v0.5, used to discover Product Grammar · `working` (2026-09-04)
+- [[rnd-collection]] — Candidates through current v0.5 plus unadopted pre-v0.6 discussion and six-critique synthesis · `working` (2026-09-05)
+- [[pre-v0.6-evaluation]] — Comparison of six LLM critiques of the unadopted pre-v0.6 position, including forced-decision splits and candidate dispositions · `working` (2026-09-05)
 - [[v0.4-evaluation]] — Comparison of the Gemini and Claude surveys of the 30-item R&D Collection v0.4 · `working` (2026-09-04)
 - [[v0.5-evaluation]] — Comparison of the Gemini, GLM, Grok, and Kimi surveys of the 24-item R&D Collection v0.5 · `working` (2026-09-04)
 
@@ -74,23 +83,24 @@ Before creating a page, check this catalog to see whether an existing page can b
 
 - [[Q-001-comprehensibility-vs-mystery]] — Balance between immediately understandable use and lasting interpretive depth · `unknown` (2026-09-04)
 - [[Q-002-first-collection-selection]] — How to compare evaluations of the first Collection and narrow it to a final composition · `unknown` (2026-09-04)
-- [[Q-003-product-grammar-taxonomy-scope]] — Where to place the scope and boundaries of the Product Grammar taxonomy · `unknown` (2026-09-04)
-- [[Q-004-rnd-collection-exit-condition]] — When to end the R&D Collection and move to the Catalog stage · `unknown` (2026-09-04)
-- [[Q-005-commerce-generative-vs-display]] — Whether Commerce amplifies already strong objects or produces new ontologies · `unknown` (2026-09-04)
-- [[Q-006-post-purchase-behavior]] — What is delivered to the visitor after checkout and what changes · `unknown` (2026-09-04)
-- [[Q-007-product-naming-register]] — Whether the “driest name” principle holds, and in what register products should be named · `unknown` (2026-09-04)
+- [[Q-003-product-grammar-taxonomy-scope]] — Where to place the scope and boundaries of the Product Grammar taxonomy · `unknown` (2026-09-05)
+- [[Q-004-rnd-collection-exit-condition]] — When to end the R&D Collection and move to the Catalog stage · `unknown` (2026-09-05)
+- [[Q-005-commerce-generative-vs-display]] — Whether Commerce amplifies already strong objects or produces new ontologies · `unknown` (2026-09-05)
+- [[Q-006-post-purchase-behavior]] — What changes after checkout and how a lifecycle sheet should test it · `unknown` (2026-09-05)
+- [[Q-007-product-naming-register]] — How to balance register fidelity with the user's objection to over-technical naming · `unknown` (2026-09-05)
+- [[Q-008-product-or-transaction]] — Whether the artwork's atomic unit is a product or transaction and whether real money moves · `unknown` (2026-09-05)
 
 ## Activity
 
-- [[log]] — Append-only history of ingestion, queries, linting, decisions, and maintenance (2026-09-04)
+- [[log]] — Append-only history of ingestion, queries, linting, decisions, and maintenance (2026-09-05)
 
 ## Repository Control
 
-- [README](../README.md) — Public overview of the work and repository; canonical English entry point (2026-09-04)
-- [AGENTS](../AGENTS.md) — Reading, language, ingestion, verification, and institutional Git identity rules for agents (2026-09-04)
+- [README](../README.md) — Public overview of the work and repository; canonical English entry point (2026-09-05)
+- [AGENTS](../AGENTS.md) — Reading, language, ingestion, verification, institutional Git identity, and model-routing rules for agents (2026-09-05)
 - [Schema](../schema.md) — Page taxonomy, status, attribution, provenance, language, and maintenance rules (2026-09-04)
-- [Raw README](../raw/README.md) — How to add and preserve original source material, including the original-language exception (2026-09-04)
-- [Raw Source Index](../raw/sources.md) — IDs, paths, hashes, and ingestion status for every raw source (2026-09-04)
+- [Raw README](../raw/README.md) — How to add and preserve original source material, including the original-language exception (2026-09-05)
+- [Raw Source Index](../raw/sources.md) — IDs, paths, hashes, and ingestion status for every raw source (2026-09-05)
 
 ## Page Creation Gates
 

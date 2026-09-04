@@ -1,12 +1,20 @@
 ---
 status: unknown
-attribution: llm-proposed
-updated: 2026-09-04
+attribution: jointly-developed
+updated: 2026-09-05
 sources:
   - SRC-2026-09-04-gemini-collection-v0.5-survey
   - SRC-2026-09-04-glm-collection-v0.5-survey
   - SRC-2026-09-04-grok-collection-v0.5-survey
   - SRC-2026-09-04-kimi-collection-v0.5-survey
+  - SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position
+  - SRC-2026-09-05-chatgpt-v0.6-rnd
+  - SRC-2026-09-04-claude-pre-v0.6-rnd-position
+  - SRC-2026-09-04-deepseek-pre-v0.6-rnd-position
+  - SRC-2026-09-04-glm-pre-v0.6-rnd-position
+  - SRC-2026-09-04-grok-pre-v0.6-rnd-position
+  - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
+  - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
 ---
 
 # Q-007 — In What Register Should Products Be Named?
@@ -61,6 +69,14 @@ Names at least three of four asked to revise: `Last 10 Minutes Before Knowing th
 
 GLM raises a factual objection no other survey makes: `First 12 Sheets Discarded Before Printing` is inaccurate, because the sheets *are* printed, during setup. It proposes `Makeready Sheets, First 12`, “makeready” being the real industry term — an example of its own register-matching rule.
 
+## User pressure against technical overcorrection
+
+**(2026-09-05)** While developing a candidate from guilt, atonement, and continuing consequences, the conversation moved from `Payment Complete, Liability Outstanding` to `Account Settled, Consequences Ongoing`. The user then objected that `Account` was again too technical and asked why philosophical or emotional language was being avoided. This is direct evidence against treating register fidelity as an automatic instruction to bureaucratize every title; it is an objection, not acceptance of a replacement rule.
+
+The LLM's revised proposal was: **a product name may carry human meaning, as long as the Commerce system does not merely illustrate it but meaningfully tests and transforms it.** It preferred `What Payment Cannot Undo`, with `The Cost Was Paid. The Consequences Remain.` as the more human alternative. Neither title nor the principle was user-confirmed.
+
+A derivative pre-v0.6 position note formalizes register fidelity as ChatGPT's current recommendation but also places external critique and resolution of the naming principle before v0.6 composition. Because it synthesizes the same surveys and discussion, it does not add an independent vote for register fidelity.
+
 ## Unresolved subproblems
 
 - **The store's naming language.** v0.5's titles are English and its prices are in dollars, whereas v0.4's were Korean-derived and in won. No registered source explains the change and no user decision records it. Whether English is the store's canonical product language, or a working language for evaluation only, is unknown.
@@ -69,7 +85,9 @@ GLM raises a factual objection no other survey makes: `First 12 Sheets Discarded
 
 ## Current State
 
-Unresolved and unadopted. The tested principle has four independent rejections as a global rule and four different replacements, three of which converge on register-matching. No user decision exists on any naming principle, on the naming language, or on the specific disputed titles.
+Unresolved and unadopted. The tested principle has four independent rejections as a global rule and four different replacements, three of which converge on register-matching. The later user objection adds direct pressure against technical overcorrection but does not select a replacement. No user decision exists on any naming principle, on the naming language, or on the specific disputed titles.
+
+**(2026-09-05, `llm-proposed`)** Six critiques give qualified 6/6 support to Register Fidelity over Dryness, while all six warn that it can become another device or house style. Claude proposes Register Variance and requires real reference documents for claimed register fidelity. Naming remains unresolved.
 
 ## Related
 
@@ -79,6 +97,7 @@ Unresolved and unadopted. The tested principle has four independent rejections a
 - [[Q-006-post-purchase-behavior]] — If mechanics carry the concept, the naming criterion changes.
 - [[product-grammar]] — The surveys' criticism that titles are retrofitted labels applies to both the taxonomy and the names.
 - [[DEC-002-perfect-store-principle]] — Real commercial services mix naming registers; register uniformity is a realism cost.
+- [[pre-v0.6-evaluation]]
 
 ## Sources
 
@@ -87,4 +106,8 @@ Unresolved and unadopted. The tested principle has four independent rejections a
 - `SRC-2026-09-04-grok-collection-v0.5-survey` — `raw/surveys/2026-09-04-grok-collection-v0.5-survey.md`
 - `SRC-2026-09-04-kimi-collection-v0.5-survey` — `raw/surveys/2026-09-04-kimi-collection-v0.5-survey.md`
 
-All four are `llm-proposed`. The naming principle under test is visible only through the four responses; the original v0.5 prompt that stated it is not registered in this repository.
+The four survey sources above are `llm-proposed`. The naming principle under test is visible only through the four responses; the original v0.5 prompt that stated it is not registered in this repository.
+
+- `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. Primary evidence for the user's objection to over-technical naming; the replacement principle and titles are LLM proposals.
+- `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. Derivative ChatGPT position; not an additional independent evaluator.
+- `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.

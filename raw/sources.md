@@ -25,6 +25,14 @@ When adding a source, append one row to the table below and record the result of
 | `SRC-2026-09-04-glm-collection-v0.5-survey` | `raw/surveys/2026-09-04-glm-collection-v0.5-survey.md` | survey | 2026-09-04 | `llm-proposed` | `c6470a3dfd8e8b608a7b6f85602ede92bd65f53d` | 2026-09-04 | promoted (partial) |
 | `SRC-2026-09-04-grok-collection-v0.5-survey` | `raw/surveys/2026-09-04-grok-collection-v0.5-survey.md` | survey | 2026-09-04 | `llm-proposed` | `a99595dcfcf88f563cae4a2e8c2ff87bea8d4466` | 2026-09-04 | promoted (partial) |
 | `SRC-2026-09-04-kimi-collection-v0.5-survey` | `raw/surveys/2026-09-04-kimi-collection-v0.5-survey.md` | survey | 2026-09-04 | `llm-proposed` | `d5be49ebe614a739fe89b14faf442b2372142c6a` | 2026-09-04 | promoted (partial) |
+| `SRC-2026-09-05-chatgpt-v0.6-rnd` | `raw/conversations/conversation-20260905-0007.md` | conversation | 2026-09-05 | `jointly-developed` | `5badba367e8f7ed5550a54d4b3c884bbd4687922` | 2026-09-05 | promoted (partial) |
+| `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` | `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md` | LLM position note | 2026-09-04 | `llm-proposed` | `568ed22708d9b57bd9cb2f509025f14ff44e11db` | 2026-09-05 | promoted (partial) |
+| `SRC-2026-09-04-claude-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-claude-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `265884573aa88489bb41d3dadb73d1281db8c9ab` | 2026-09-05 | promoted (partial) |
+| `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-deepseek-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `2f697152ae0e419422dd2ed7162711a926b89ab4` | 2026-09-05 | promoted (partial) |
+| `SRC-2026-09-04-glm-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-glm-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `39acdc9e0aa9cd6a0743186308596d0c0343e7d2` | 2026-09-05 | promoted (partial) |
+| `SRC-2026-09-04-grok-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-grok-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `14bcadbf7d8627d432f2da66658014634d97c13b` | 2026-09-05 | promoted (partial) |
+| `SRC-2026-09-04-kimi-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-kimi-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `10520df4ba4938c5c6f46f3564e67c507497589a` | 2026-09-05 | promoted (partial) |
+| `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-qwen-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `66b8c6bf4b1f42130b884716712acdcf8e27cb41` | 2026-09-05 | promoted (partial) |
 
 ## Known Provenance Gaps
 
@@ -61,6 +69,20 @@ Three things reach the Wiki only through those responses and must be treated as 
 Two further names, **“Machine Blindness”** and **“Placeholder Aesthetics”**, appear in the Gemini response as though already established and exist in no registered source. They most likely come from the unregistered prompt or from image-system work done outside this repository. They are recorded in `wiki/concepts/product-image-system.md` as unregistered, not as project concepts.
 
 It also cannot be verified from the responses alone whether the four models answered independently of one another. Their convergence is therefore a strong signal, not four separate confirmations.
+
+### Missing source video behind the v0.6 moral-residue discussion
+
+`SRC-2026-09-05-chatgpt-v0.6-rnd` includes the user's pasted summary of a video essay about a recurring “Nolan hero” structure and names an attachment, but neither the source video nor the attachment itself is registered in this repository. The conversation is primary evidence that the user wants to explore guilt, homecoming, atonement, responsibility, control, and consequences as product territory. Claims about the video and its interpretations are secondary and cannot be checked against the original audiovisual source.
+
+### Dependency of the pre-v0.6 position note
+
+`SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` explicitly synthesizes the current Wiki, the four v0.5 evaluations, the naming discussion, and the supplied video analysis. It is a derivative LLM position, not an independent fifth evaluation or a user decision. Its repetition of the lifecycle, naming, and moral-residue proposals strengthens their documentation but must not be counted as independent convergence. The source video remains absent.
+
+### Pre-v0.6 six-survey critique provenance
+
+The registered ChatGPT position note is the derivative position being critiqued, not a seventh independent evaluation. A separate shared evaluation prompt is not registered. The matching structures, candidates, and forced questions strongly indicate a common brief, but identical prompt delivery and evaluator independence cannot be verified. Counts represent convergence among six LLM responses, not six user confirmations, audience research, or necessarily independent judgments.
+
+The moral-residue material remains downstream of a missing video and attachment; the registered discussion contains only the user's pasted interpretation. Statements about legal or consumer obligations if real money moves are LLM-proposed risk flags, not verified legal guidance.
 
 ## Notes
 

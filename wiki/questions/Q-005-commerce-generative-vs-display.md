@@ -1,7 +1,7 @@
 ---
 status: unknown
 attribution: llm-proposed
-updated: 2026-09-04
+updated: 2026-09-05
 sources:
   - SRC-2026-09-04-gemini-collection-v0.4-survey
   - SRC-2026-09-04-claude-collection-v0.4-survey
@@ -9,6 +9,14 @@ sources:
   - SRC-2026-09-04-glm-collection-v0.5-survey
   - SRC-2026-09-04-grok-collection-v0.5-survey
   - SRC-2026-09-04-kimi-collection-v0.5-survey
+  - SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position
+  - SRC-2026-09-05-chatgpt-v0.6-rnd
+  - SRC-2026-09-04-claude-pre-v0.6-rnd-position
+  - SRC-2026-09-04-deepseek-pre-v0.6-rnd-position
+  - SRC-2026-09-04-glm-pre-v0.6-rnd-position
+  - SRC-2026-09-04-grok-pre-v0.6-rnd-position
+  - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
+  - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
 ---
 
 # Q-005 — Is Commerce an Amplifier of Ontology or an Ontology-Producing Institution?
@@ -48,6 +56,14 @@ Four results follow.
 3. **GLM argues the dichotomy itself is false.** “Commerce-generated products *are* ontology-first products whose ontology happens to be commercial.” Its proposed instruction is to mine commerce's own ontologies *and* collide commerce with non-commercial ones, with a single test applied to both: does a commerce mechanism — price logic, policy, inventory behavior, review semantics, delivery — do conceptual work that changes what the thing means? This corresponds to conclusion (b) in the list below, not to (a) or (c).
 4. **The classification is not operationally stable.** Gemini lists `Yesterday`, `17,400 Hz`, and `Unit 12B, Unoccupied` as Commerce-Displayed; GLM classifies all three as Commerce-Activated; Kimi places `Yesterday` in Activated in its table and then again among “Displayed products worth keeping.” The same products land in different categories under different evaluators, so the percentages above are not directly comparable and no target ratio can yet be enforced. **Defining the categories precisely enough to be reproducible is now a prerequisite for using the axis at all.**
 
+## The v0.6 discussion — a proposed bridge, not a resolution
+
+**(2026-09-05)** The conversation proposed that a product name may carry human or philosophical meaning provided Commerce does not merely illustrate it but materially tests or transforms it. `What Payment Cannot Undo` is the clearest example: the human territory is guilt, atonement, and consequences, while payment supplies the collision that exposes what exchange cannot settle. This is an `llm-proposed` bridge between the two positions, prompted by the user's objection to excessively technical naming; it does not revise [[DEC-007-ontology-before-commerce]].
+
+The derivative pre-v0.6 position note states the bridge as a two-part test: **Commerce must materially change the product, and the product must still contain something worth changing.** This keeps Commerce from becoming either a decorative shell or the sole source of ontology. It is a concise working proposal, not an independent confirmation or a revision of the current decision.
+
+**(2026-09-05, `llm-proposed`)** The six critiques converge around requiring at least one meaning-changing commerce operation, while disagreeing about retaining the three-way taxonomy. That convergence challenges but does not alter [[DEC-007-ontology-before-commerce]], which remains confirmed. The related question of whether the artwork's atomic unit is a product or transaction is recorded in [[Q-008-product-or-transaction]].
+
 ## Current State
 
 Unresolved. [[DEC-007-ontology-before-commerce]] remains `confirmed` / `user-confirmed`; this question does not invalidate it. The surveys are `llm-proposed`, and the two models point in opposite directions, so there is not even consensus. User judgment is required.
@@ -63,6 +79,7 @@ Three possible conclusions are: (a) retain DEC-007 and reject Claude's claim; (b
 - [[DEC-006-collection-before-catalog]] — The absence of this criterion poses a practical risk when expanding to a 200-product Catalog.
 - [[v0.5-evaluation]] — Where the four surveys' counts, target ratios, and conflicting classifications are recorded in full.
 - [[Q-006-post-purchase-behavior]] — Connected because three of the four surveys propose using the post-purchase test as the practical way to tell Displayed products from the rest.
+- [[Q-008-product-or-transaction]]
 
 ## Sources
 
@@ -71,4 +88,8 @@ Three possible conclusions are: (a) retain DEC-007 and reject Claude's claim; (b
 
 - `SRC-2026-09-04-gemini-collection-v0.5-survey`, `SRC-2026-09-04-glm-collection-v0.5-survey`, `SRC-2026-09-04-grok-collection-v0.5-survey`, `SRC-2026-09-04-kimi-collection-v0.5-survey` — the four v0.5 surveys under `raw/surveys/`.
 
-All six sources are `llm-proposed`, not user decisions. Neither the v0.4 nor the v0.5 evaluation prompt is registered in this repository, so what the surveys actually responded to — including the definitions of Commerce-Generated, Commerce-Activated, and Commerce-Displayed — can only be inferred through their texts.
+The six survey sources above are `llm-proposed`, not user decisions. Neither the v0.4 nor the v0.5 evaluation prompt is registered in this repository, so what the surveys actually responded to — including the definitions of Commerce-Generated, Commerce-Activated, and Commerce-Displayed — can only be inferred through their texts.
+
+- `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. User-originated thematic territory and objection; the proposed bridge and product titles remain `llm-proposed`.
+- `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. Derivative restatement of the bridge, not independent evidence.
+- `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.

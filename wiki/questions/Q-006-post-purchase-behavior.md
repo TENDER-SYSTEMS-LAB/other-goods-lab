@@ -1,13 +1,21 @@
 ---
 status: unknown
 attribution: llm-proposed
-updated: 2026-09-04
+updated: 2026-09-05
 sources:
   - SRC-2026-09-04-claude-collection-v0.4-survey
   - SRC-2026-09-04-gemini-collection-v0.5-survey
   - SRC-2026-09-04-glm-collection-v0.5-survey
   - SRC-2026-09-04-grok-collection-v0.5-survey
   - SRC-2026-09-04-kimi-collection-v0.5-survey
+  - SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position
+  - SRC-2026-09-05-chatgpt-v0.6-rnd
+  - SRC-2026-09-04-claude-pre-v0.6-rnd-position
+  - SRC-2026-09-04-deepseek-pre-v0.6-rnd-position
+  - SRC-2026-09-04-glm-pre-v0.6-rnd-position
+  - SRC-2026-09-04-grok-pre-v0.6-rnd-position
+  - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
+  - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
 ---
 
 # Q-006 — What Happens After Payment?
@@ -49,6 +57,16 @@ The concrete post-purchase designs the four produced overlap closely on the same
 
 GLM adds an adjacent blind spot that no other survey raises and that this question does not currently cover: **price**. It argues price is treated everywhere as a display field and nowhere as a conceptual surface, and that at catalog scale arbitrary prices will read as arbitrary. Single-source; recorded in [[v0.5-evaluation]] and in [[current-state]] as an open question without its own page.
 
+## Proposed v0.6 lifecycle instrument
+
+**(2026-09-05)** A later conversation combined the survey proposals into a `Product Behavior Sheet` for a possible Deep R&D Set. Proposed fields are: customer-facing name; Korean working meaning; register; product role; Commerce type; price and price logic; inventory and inventory logic; order confirmation; fulfillment; six-month order-history behavior; return; repurchase; representation; and a failure test asking what disappears when Commerce is removed.
+
+The same conversation refined the scope: post-purchase should be designed when it expands the product's meaning, not attached to every product as a compulsory gimmick. The sheet may still be mandatory as a diagnostic even where the honest result is “no additional mechanic.” Both the sheet and this distinction are `llm-proposed` and unadopted.
+
+The derivative position note expands the proposed sheet with **Product Grammar**, an explicit **delivery** field, and **resale behavior where relevant**. It also makes price and inventory tests concrete: every product should explain why it costs that amount, what counts as one unit, whether one purchase reduces another visitor's availability, and how or whether stock replenishes. This is elaboration of the same proposal, not independent convergence.
+
+**(2026-09-05, `llm-proposed`)** The six critiques split 3/3 between universal and selective lifecycle design and unanimously warn that the Behavior Sheet can become too heavy. They retain a customer-facing name, price logic, and Failure Test; inventory logic is essential to five and selective to GLM. Five directly retain order-history/lifecycle recording, while GLM emphasizes default-policy deviations. Proposed fields include unit definition, purchase promise, customer/system action, unresolved remainder, third party, support posture, and tax/shipping. None is a final sheet.
+
 ## Unresolved subproblems
 
 - What do “shipping” and “receipt” physically mean in this work? Does the visitor actually receive something? This has been an open question since 2026-09-03.
@@ -63,10 +81,15 @@ GLM adds an adjacent blind spot that no other survey raises and that this questi
 - [[DEC-002-perfect-store-principle]] — If real-commercial-service density is required, order confirmation, shipping, and order history must be included in that density.
 - [[v0.5-evaluation]] — The four-survey round that cross-validated this question and produced the concrete post-purchase designs.
 - [[Q-005-commerce-generative-vs-display]] — Three of the four surveys propose the post-purchase test as the practical way to identify Commerce-Displayed products.
+- [[Q-008-product-or-transaction]] — Real payment determines the substrate for post-purchase behavior.
 
 ## Sources
 
 - `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`
 - `SRC-2026-09-04-gemini-collection-v0.5-survey`, `SRC-2026-09-04-glm-collection-v0.5-survey`, `SRC-2026-09-04-grok-collection-v0.5-survey`, `SRC-2026-09-04-kimi-collection-v0.5-survey` — the four v0.5 surveys under `raw/surveys/`.
 
-All five sources are `llm-proposed`, not user decisions. When this page was created, Claude's v0.4 survey was its only source and Gemini's v0.4 survey did not address the topic, so the page carried a single-source dependency; the v0.5 round removed it. Neither the v0.4 nor the v0.5 evaluation prompt is registered in this repository, and whether the four v0.5 models answered independently of one another cannot be verified from the responses alone.
+The five survey sources above are `llm-proposed`, not user decisions. When this page was created, Claude's v0.4 survey was its only source and Gemini's v0.4 survey did not address the topic, so the page carried a single-source dependency; the v0.5 round removed it. Neither the v0.4 nor the v0.5 evaluation prompt is registered in this repository, and whether the four v0.5 models answered independently of one another cannot be verified from the responses alone.
+
+- `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. Synthesizes the earlier proposals into an unadopted lifecycle sheet and v0.6 framing.
+- `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. A derivative position note that elaborates the sheet and explicitly recommends delaying v0.6 composition.
+- `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.

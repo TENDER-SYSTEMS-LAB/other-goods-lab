@@ -366,3 +366,114 @@ Two dependencies are worth watching. First, the three products added in v0.5 —
 ### Provenance
 
 The v0.5 evaluation prompt is not in the repository. The 24-item list, the v0.4 → v0.5 transition, the naming principle under test, and the Commerce-Generated / Activated / Displayed classification are all known only through the four responses and are labeled as reconstructions or inferences wherever they appear. The gap was recorded in `raw/sources.md`.
+
+## [2026-09-05] ingest | v0.6 R&D conversation ingest
+
+### Source
+
+- `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`
+
+The source was registered with hash `5badba367e8f7ed5550a54d4b3c884bbd4687922` and partially promoted. It is a jointly developed conversation: the user introduced the thematic territory and challenged over-technical naming; the v0.6 structure, Product Behavior Sheet, Grammar labels, ratios, and English product titles are LLM proposals.
+
+### Updated
+
+- `wiki/collections/rnd-collection.md` — added an unadopted v0.6 discussion and R&D bench without treating it as a new Collection version.
+- `wiki/concepts/product-grammar.md` — recorded five new research territories without adding them to the taxonomy.
+- `wiki/questions/Q-004-rnd-collection-exit-condition.md` — distinguished a lifecycle experiment from an actual exit condition.
+- `wiki/questions/Q-005-commerce-generative-vs-display.md` — recorded the proposed bridge in which Commerce tests rather than merely illustrates human meaning.
+- `wiki/questions/Q-006-post-purchase-behavior.md` — recorded the proposed Product Behavior Sheet and diagnostic/feature distinction.
+- `wiki/questions/Q-007-product-naming-register.md` — recorded the user's direct objection to bureaucratic overcorrection and the unadopted replacement principle.
+- `wiki/current-state.md`, `wiki/index.md`, `raw/sources.md`, `raw/README.md`.
+
+### Decisions
+
+none. No v0.6 list, item count, ratio, lifecycle gate, naming rule, Grammar category, or product title was user-confirmed. v0.5 remains the current Collection.
+
+### Synthesis
+
+The conversation proposes changing the next R&D unit from another broad title list into a smaller Deep R&D Set that tests products through price, inventory, confirmation, fulfillment, order history, return, and repurchase. It opens user-originated territory around guilt, homecoming, atonement, responsibility, control, and continuing consequences. The most developed title moved through three LLM variants and ended at `What Payment Cannot Undo`; this evolution was retained as evidence in the naming question, not as a selected product.
+
+### Provenance
+
+The conversation names an attached text and relies on a pasted interpretation of a video essay, but neither the source video nor the attachment is registered. The conversation is therefore primary evidence for what the user wants to explore and secondary evidence for claims about the video. A stale statement inside the conversation that the Wiki had not yet synthesized v0.5 was not promoted because the repository had already completed that ingest.
+
+## [2026-09-05] ingest | Pre-v0.6 R&D position note ingest
+
+### Source
+
+- `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`
+
+The source was registered with hash `568ed22708d9b57bd9cb2f509025f14ff44e11db` and partially promoted. Its own frontmatter classifies it as `llm-proposed`. It synthesizes the Wiki, four v0.5 surveys, the naming discussion, and supplied video analysis, so it was not counted as an independent evaluation.
+
+### Updated
+
+- `wiki/collections/rnd-collection.md` — qualified the proposed v0.6 size as approximately 12–16, recorded nine deeper-development candidates and bench/rework dispositions, and added a six-step pre-v0.6 gate.
+- `wiki/questions/Q-004-rnd-collection-exit-condition.md` — distinguished the proposed v0.6 entry gate from the still-undefined Catalog exit condition.
+- `wiki/questions/Q-005-commerce-generative-vs-display.md` — recorded the two-part test that Commerce must change a product that still has something worth changing.
+- `wiki/questions/Q-006-post-purchase-behavior.md` — added Product Grammar, delivery, resale, and concrete price/inventory questions to the proposed lifecycle sheet.
+- `wiki/questions/Q-007-product-naming-register.md` — recorded ChatGPT's register-fidelity position without treating it as another independent vote.
+- `wiki/concepts/product-grammar.md` — recorded the note's recommendation to test the moral-residue territory before taxonomy promotion.
+- `wiki/current-state.md`, `wiki/index.md`, `raw/sources.md`, `raw/README.md`.
+
+### Decisions
+
+none. The note explicitly says it is not a user decision and recommends not finalizing v0.6 yet. v0.5 remains the current Collection.
+
+### Synthesis
+
+The note consolidates the pre-v0.6 position around a smaller Deep R&D Set, full-lifecycle testing, non-decorative price and inventory, conditional post-purchase behavior, and protection against overcorrecting from sentimentality into bureaucratic conceptualism. Its strongest concise criterion is dual: Commerce must materially change the product, and the product must still contain something worth changing.
+
+### Provenance
+
+This source repeats and organizes material from already registered sources rather than independently corroborating it. The video underlying the moral-residue discussion is still absent, so claims about that video remain secondary.
+
+## [2026-09-05] ingest | Pre-v0.6 six-survey critique ingest
+
+### Sources
+
+- `SRC-2026-09-04-claude-pre-v0.6-rnd-position`
+- `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`
+- `SRC-2026-09-04-glm-pre-v0.6-rnd-position`
+- `SRC-2026-09-04-grok-pre-v0.6-rnd-position`
+- `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`
+- `SRC-2026-09-04-qwen-pre-v0.6-rnd-position`
+
+All six survey originals were registered as `llm-proposed`, partially promoted, and hash-verified. The ChatGPT position note under review remains derivative rather than a seventh independent evaluation.
+
+### Created
+
+- `wiki/collections/pre-v0.6-evaluation.md`
+- `wiki/questions/Q-008-product-or-transaction.md`
+
+### Updated
+
+- `raw/sources.md`, `raw/README.md`, `README.md`, `AGENTS.md`, `wiki/index.md`, and `wiki/current-state.md`
+- `wiki/collections/rnd-collection.md`
+- `wiki/concepts/commerce-as-medium.md`, `wiki/concepts/product-grammar.md`, and `wiki/concepts/progressive-displacement.md`
+- `wiki/questions/Q-003-product-grammar-taxonomy-scope.md`, `wiki/questions/Q-004-rnd-collection-exit-condition.md`, `wiki/questions/Q-005-commerce-generative-vs-display.md`, `wiki/questions/Q-006-post-purchase-behavior.md`, and `wiki/questions/Q-007-product-naming-register.md`
+
+### Decisions
+
+none. v0.5 remains the current Collection. No v0.6 structure, candidate, naming rule, lifecycle rule, payment model, taxonomy, or Behavior Sheet was confirmed.
+
+### Synthesis
+
+All six responses say `READY WITH ONE REQUIRED CORRECTION`, which is recorded only as directionally ready for another experiment. The comparison records 6/6 qualified support for a temporary 12–16-product R&D unit, a 3/3 lifecycle split, 5/1 price-logic split, 4/2 inventory-logic split, 5/1 rework/keep split for `What Payment Cannot Undo`, and the unanimous rejection of `Self-Assigned Responsibility`. [[Q-008-product-or-transaction]] records the strongest new unresolved cluster: atomic unit and real payment.
+
+### Provenance
+
+The shared evaluation prompt, identical prompt delivery, and evaluator independence are not verified. Counts are LLM convergence, not user confirmation or audience research. The moral-residue material remains downstream of a missing video and attachment, and real-money legal or consumer statements are LLM-proposed risk flags rather than verified legal guidance.
+
+### Verification
+
+Repository-wide raw hashes were checked against the registry before and after this ingest; registered originals matched. The six newly registered survey hashes matched their registry values. No raw original was edited.
+
+## [2026-09-05] maintenance | Agent model-routing preference
+
+### Updated
+
+- `AGENTS.md`
+
+### Result
+
+Added the subagent model-routing preference for simple search/localization, document drafting/editing, and planning/verification. This is an AGENTS-only operational change; no raw project source was registered for it.
