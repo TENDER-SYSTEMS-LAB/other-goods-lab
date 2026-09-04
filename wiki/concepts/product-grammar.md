@@ -6,6 +6,10 @@ sources:
   - SRC-2026-09-04-commerce-product-rnd-summary
   - SRC-2026-09-04-gemini-collection-v0.4-survey
   - SRC-2026-09-04-claude-collection-v0.4-survey
+  - SRC-2026-09-04-gemini-collection-v0.5-survey
+  - SRC-2026-09-04-glm-collection-v0.5-survey
+  - SRC-2026-09-04-grok-collection-v0.5-survey
+  - SRC-2026-09-04-kimi-collection-v0.5-survey
 ---
 
 # Product Grammar
@@ -182,6 +186,32 @@ The surveys diverge on Counterfactual itself. Gemini recommends dropping it, whi
 
 See [[v0.4-evaluation]] for details.
 
+## Convergence Across the v0.5 Round (Unadopted)
+
+`llm-proposed` / `llm-synthesis`, unadopted. **(2026-09-04)** Four surveys of the 24-item v0.5 collection each proposed a consolidated taxonomy: Gemini 5 categories, Grok 8, Kimi 9, GLM 11. Against the 14 recorded above and the 25 criticized in v0.4, every proposal lands far lower.
+
+Five categories appear in **all four** proposals under different names, which is the strongest taxonomy signal the project has produced so far.
+
+| Converged category | Gemini | Grok | GLM | Kimi |
+|---|---|---|---|---|
+| Referent drifts under a fixed name | Indexical Shifters | Temporal Drift | Unstable Referent | Referential Instability |
+| Condition / irreversibility as identity | State Irreversibility | Condition Collapse | Unrecoverable Condition | Condition as Identity |
+| Measurable but imperceptible | Perceptual Thresholds | Threshold Perception | Instrument-Only Object | Perceptual Thresholds |
+| Byproduct of making something else | Commercial Byproducts | Process Byproduct | Process Byproduct | Production Byproducts |
+| Administratively real, physically absent | Systematic Voids | Institutional Absence | Institutional Phantom | Institutional Ghosts |
+
+A sixth — commerce events as objects — is explicit in Grok, GLM, and Kimi; Gemini folds it into Systematic Voids.
+
+Three consequences for this page:
+
+1. **Claude's v0.4 proposal to demote Irreversible from top-level status was not followed.** All four v0.5 taxonomies keep a condition/irreversibility grammar at the top level. The proposal recorded above therefore has one source arguing for it and four arguing against.
+2. **Three of the converged five did not exist in the 14 Grammars below**: perceptual threshold, process byproduct, and institutional phantom. All three entered the project as example objects in Claude's v0.4 survey and became actual v0.5 products.
+3. **GLM's structural objection**: `3 Seconds of Ocean` is not a Grammar at all but names the store's universal operation — unitization of the unownable — and functions as the collection's meta-product. If correct, `Unitized / Scale-distorted` below is a category error rather than an over-segmentation.
+
+The four surveys also repeat and sharpen the v0.4 criticism: the generative formula behind the product names is now visible to all four, and **the taxonomy provides no rejection criterion**. GLM proposes the only concrete instrument — *does a commerce mechanism do conceptual work that changes what the thing means?* — which, if adopted, would move the decisive test out of Layer 1 entirely. See [[Q-005-commerce-generative-vs-display]].
+
+Full comparison in [[v0.5-evaluation]]. Nothing here is adopted; see [[Q-003-product-grammar-taxonomy-scope]].
+
 ## New Grammar Proposals (Unadopted)
 
 `llm-proposed`, unadopted. Together the two surveys proposed 11 new Grammars. All point in the same direction: away from memory, time, and first-person experience and toward material, perception, institutions, and industry.
@@ -227,6 +257,8 @@ These questions are tracked in [[Q-003-product-grammar-taxonomy-scope]].
 - [[DEC-007-ontology-before-commerce]] — Records the decision to separate Product Ontology from Commerce Collision.
 - [[conceptual-contrast]] — The collision that occurs when the “things that cannot be products” classified here enter a normal commerce system.
 - [[v0.4-evaluation]] — Provides the detailed evidence for consolidation proposals, new Grammar proposals, and criticism of over-segmentation.
+- [[v0.5-evaluation]] — Provides the four v0.5 consolidation proposals and the five-category convergence recorded above.
+- [[Q-007-product-naming-register]] — Connected because the surveys' claim that names are retrofitted labels applies both to this taxonomy and to the product titles.
 - [[Q-005-commerce-generative-vs-display]] — Tracks the alternative claim that Commerce produces ontology, which reopens the two-layer separation.
 - [[product-image-system]] — Connects to the problem of relating Product Grammar to renderers without closing concepts through literal illustration.
 
@@ -235,3 +267,4 @@ These questions are tracked in [[Q-003-product-grammar-taxonomy-scope]].
 - `SRC-2026-09-04-commerce-product-rnd-summary` — `raw/conversations/2026-09-04-commerce-product-rnd-summary.md`. This source is a derivative summary rather than the original transcript of the 2026-09-03–04 conversation. If the original conversation is preserved separately, its provenance takes precedence.
 - `SRC-2026-09-04-gemini-collection-v0.4-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md`. An `llm-proposed` survey that does not confirm the taxonomy.
 - `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`. An `llm-proposed` survey that does not confirm the taxonomy.
+- `SRC-2026-09-04-gemini-collection-v0.5-survey`, `SRC-2026-09-04-glm-collection-v0.5-survey`, `SRC-2026-09-04-grok-collection-v0.5-survey`, `SRC-2026-09-04-kimi-collection-v0.5-survey` — the four v0.5 surveys under `raw/surveys/`. All are `llm-proposed` and none confirms a taxonomy. Whether the four answered independently cannot be verified from the responses alone, so their convergence is a strong signal rather than four separate confirmations.

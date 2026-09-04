@@ -24,7 +24,8 @@ The current confirmed direction is:
 
 As of 2026-09-04, the project is not selecting a final first product list. It is **developing a grammar for deciding what can become an OTHER GOODS product**.
 
-- The R&D Collection has reached v0.4 with 30 candidates. It is a research set for comparison and elimination, not the final collection.
+- The R&D Collection has reached v0.5 with 24 candidates, its first contraction after peaking at 30. It is a research set for comparison and elimination, not the final collection.
+- Three survey rounds have now returned the same verdict — working, but needing correction. The most recent round locates the correction not in which products exist but in what the store does after the product page: order confirmation, order history, returns, and price.
 - The scope of Product Grammar, the balance between emotive and dry products, and the exit conditions for R&D remain open.
 - The Product Image System is considering several renderers governed by one store policy instead of applying one ASCII style globally. This is a `hypothesis`, not a user decision.
 - Real payment, post-purchase experience, and product-specific rules for price, inventory, shipping, and returns have not yet been designed.
@@ -32,7 +33,7 @@ As of 2026-09-04, the project is not selecting a final first product list. It is
 ## Timeline
 
 - **2026-09-03** — Initialized the Wiki; established the project name, tagline, statement seed, and Commerce-first scope; and collected evaluations of the first 14 product candidates from three agents.
-- **2026-09-04** — Expanded the Collection to 30 candidates in v0.4 and separated Product Grammar from the key decisions and questions. Synthesized three Product Image System surveys into a multi-renderer hypothesis and a prototype program.
+- **2026-09-04** — Expanded the Collection to 30 candidates in v0.4 and separated Product Grammar from the key decisions and questions. Synthesized three Product Image System surveys into a multi-renderer hypothesis and a prototype program. Then reduced the Collection to 24 candidates in v0.5, opened new territory in perception, institutions, and industry, and ingested four further surveys that agreed the next work is the post-purchase layer rather than more product names.
 
 The [Activity Log](wiki/log.md) preserves the detailed history in chronological order.
 
@@ -50,7 +51,7 @@ Unlike ordinary document search, each new source prompts updates to the relevant
 
 - [Current State](wiki/current-state.md) — a snapshot of what is confirmed, in progress, and still unknown.
 - [Project Overview](wiki/overview.md) — the work's definition, identity, central question, and principles.
-- [R&D Collection](wiki/collections/rnd-collection.md) — how product candidates changed from v0.1 through v0.4.
+- [R&D Collection](wiki/collections/rnd-collection.md) — how product candidates changed from v0.1 through v0.5.
 - [Product Image System](wiki/concepts/product-image-system.md) — the current hypothesis that treats product images as a representation policy rather than one style.
 - [Wiki Index](wiki/index.md) — the working catalog of every Wiki page by type.
 

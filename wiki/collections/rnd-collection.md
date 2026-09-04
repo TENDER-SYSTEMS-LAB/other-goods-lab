@@ -6,6 +6,10 @@ sources:
   - SRC-2026-09-04-commerce-product-rnd-summary
   - SRC-2026-09-04-gemini-collection-v0.4-survey
   - SRC-2026-09-04-claude-collection-v0.4-survey
+  - SRC-2026-09-04-gemini-collection-v0.5-survey
+  - SRC-2026-09-04-glm-collection-v0.5-survey
+  - SRC-2026-09-04-grok-collection-v0.5-survey
+  - SRC-2026-09-04-kimi-collection-v0.5-survey
 ---
 
 # R&D Collection
@@ -138,6 +142,22 @@ The following was a plan originally recorded as an as-yet-unexecuted `llm-propos
 
 **(2026-09-04)** v0.4 was actually made and evaluated in two surveys (Gemini and Claude). However, the per-product record of 10 fields and the further development of 8–10 representative products to Product Page level anticipated by the plan cannot be confirmed—the surveys evaluate product titles and concepts only.
 
+## v0.5 (24 items)
+
+**(2026-09-04)** v0.5 was composed of 24 items and evaluated in a third survey round by four models: Gemini, GLM, Grok, and Kimi. As with v0.4, **the original prompt is not in this repository**, and the list was reconstructed from the four surveys' evaluation tables; all four assign identical numbers and titles to all 24. The full list, the evaluations, and the reconstruction of what changed from v0.4 appear in [[v0.5-evaluation]] and are not repeated here.
+
+This is the first version to **shrink**: 30 → 24. Nine v0.4 candidates were removed — including all four that both v0.4 surveys had placed in their Bottom 8 — and three were added.
+
+Two formal changes arrived with v0.5 and are not explained by any registered source: the product titles are now **English** rather than translated Korean, and the price unit changed from **₩ to $** (`A ₩8,000 Price Drop` became `$8.00 Price Drop, 10 Minutes After Purchase`). Neither is recorded anywhere as a user decision. The naming question this raises is tracked in [[Q-007-product-naming-register]].
+
+The three added products — `17,400 Hz`, `Unit 12B, Unoccupied`, and `First 12 Sheets Discarded Before Printing` — are near-verbatim instantiations of the example objects Claude proposed under its new Grammars in the v0.4 survey (`Below Threshold`, `Institutionally Real`, `Byproduct`). All four v0.5 surveys rate this new territory as the collection's most valuable. That makes the strongest-rated material in v0.5 dependent on a single `llm-proposed` source, which is a single-source dependency worth watching rather than a confirmed direction.
+
+### What the third round changed in the diagnosis
+
+All four surveys returned **WORKING BUT NEEDS CORRECTION**, the same verdict as both v0.4 surveys. Two consecutive rounds ending in the same non-verdict is itself evidence for [[Q-004-rnd-collection-exit-condition]]: adding and swapping candidates is not moving the Collection toward a “ready” assessment.
+
+What did change is where the surveys locate the problem. In v0.4 the correction demanded concerned *which products exist*; in v0.5 all four locate it in *what the store does after the product page*. All four name the transaction and post-purchase layer as the single thing to build before v0.6, and all four independently observe that the collection's generative formula — an ordinary phenomenon plus a condition or count — is now visible and has no rejection criterion. Details in [[v0.5-evaluation]].
+
 ## Why Product Pages Do Not Yet Exist
 
 Of the 26 candidates, only two—“The First Typo in a New Notebook” and “Summer at Sixteen”—have recorded Grammar/Collision data at the “separation from Commerce Collision” level (see [[product-grammar]]). Under the principle of [[DEC-001-minimal-wiki-first]], `wiki/products/` will not be created until actual content has accumulated; it will be created after step 5 of the v0.4 plan (developing 8–10 representative products to Product Page level) has actually been carried out.
@@ -150,9 +170,13 @@ Of the 26 candidates, only two—“The First Typo in a New Notebook” and “S
 - [[current-state]] — Connected because this Collection's current version and next stage are part of the project's overall current state.
 - [[v0.4-evaluation]] — Connected because it contains the list of 30 v0.4 items and the detailed evaluations from two LLM surveys, which are linked to rather than repeated here.
 - [[Q-005-commerce-generative-vs-display]] — Connected because the two surveys point out that a considerable number of the 30 v0.4 items stand on their own without commerce, directly raising this unresolved question.
+- [[v0.5-evaluation]] — Connected because it holds the 24-item v0.5 list, the four-survey comparison, and the reconstruction of the v0.4 → v0.5 transition.
+- [[Q-004-rnd-collection-exit-condition]] — Connected because two consecutive rounds returning the same verdict bears directly on when this Collection should stop.
+- [[Q-007-product-naming-register]] — Connected because v0.5's shift to English titles and dollar prices makes the naming register a Collection-level variable.
 
 ## Sources
 
 - `SRC-2026-09-04-commerce-product-rnd-summary` — `raw/conversations/2026-09-04-commerce-product-rnd-summary.md`. This source is a derivative summary rather than the original transcript of the 2026-09-03–04 conversation. If the original conversation is preserved separately, its provenance takes precedence.
 - `SRC-2026-09-04-gemini-collection-v0.4-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md`. An `llm-proposed` survey that does not invalidate decisions.
 - `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`. An `llm-proposed` survey that does not invalidate decisions.
+- `SRC-2026-09-04-gemini-collection-v0.5-survey`, `SRC-2026-09-04-glm-collection-v0.5-survey`, `SRC-2026-09-04-grok-collection-v0.5-survey`, `SRC-2026-09-04-kimi-collection-v0.5-survey` — the four v0.5 surveys under `raw/surveys/`. All are `llm-proposed`. The v0.5 evaluation prompt itself is not registered, so the 24-item list and the v0.4 → v0.5 transition recorded above are reconstructions.

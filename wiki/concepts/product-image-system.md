@@ -6,6 +6,7 @@ sources:
   - SRC-2026-09-04-gemini-product-image-system-survey
   - SRC-2026-09-04-glm-product-image-system-survey
   - SRC-2026-09-04-grok-product-image-system-survey
+  - SRC-2026-09-04-gemini-collection-v0.5-survey
 ---
 
 # Product Image System
@@ -102,6 +103,12 @@ All are `llm-proposed`; success is unknowable before real audience testing.
 - Do general visitors understand without explanation that an image is a store “processing document”?
 - Does ASCII actually shift from style to structure when actual store data becomes its substrate?
 
+## Echo in the v0.5 Collection Round (2026-09-04)
+
+`llm-proposed`. Gemini's v0.5 Collection survey — a different prompt on a different subject — independently named the visual output system as the project's **most dangerous blind spot**, arguing that if the rendering relies on “predictable artistic abstractions (like a terminal/Y2K aesthetic), the ‘perfect commerce’ illusion will instantly collapse into an art-school cliché,” and that the system must instead output “the visual evidence of a system trying and failing to package the item.” It calls this the *Visual Packaging Crisis* and puts it first among three problems to solve before scaling. This is the same architectural direction the three image surveys reached — output produced by the store's own procedures rather than one style — arrived at from the product side.
+
+That response also refers to two named visual concepts, **“Machine Blindness”** and **“Placeholder Aesthetics”**, as though they were already established. Neither appears in any registered source. They most likely originate in the unregistered v0.5 prompt or in image-system work conducted outside this repository. **Do not treat either name as a defined concept of this project until its origin is registered.** Recorded as a provenance gap in `raw/sources.md`.
+
 ## Provenance Limit
 
 The shared prompt and flower ASCII reference image used by the three surveys are not in the repository. The responses clearly address the same question structure, but the originals do not establish identical prompts, independent conditions, or direct image access. GLM explicitly states that it relied on a text description rather than the actual pixels. This page therefore analyzes **repeated LLM design signals**, not an agreed decision or empirical audience research.
@@ -118,3 +125,4 @@ The shared prompt and flower ASCII reference image used by the three surveys are
 - `SRC-2026-09-04-gemini-product-image-system-survey` — `raw/surveys/2026-09-04-gemini-product-image-system-survey.md`. An `llm-proposed` survey.
 - `SRC-2026-09-04-glm-product-image-system-survey` — `raw/surveys/2026-09-04-glm-product-image-system-survey.md`. An `llm-proposed` survey that explicitly states it relied on the provided text description rather than the actual pixels.
 - `SRC-2026-09-04-grok-product-image-system-survey` — `raw/surveys/2026-09-04-grok-product-image-system-survey.md`. An `llm-proposed` survey.
+- `SRC-2026-09-04-gemini-collection-v0.5-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.5-survey.md`. An `llm-proposed` Collection survey, cited here only for its independent restatement of the visual-output risk and for the two unregistered concept names it refers to.

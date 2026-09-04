@@ -21,10 +21,10 @@ When adding a source, append one row to the table below and record the result of
 | `SRC-2026-09-04-gemini-product-image-system-survey` | `raw/surveys/2026-09-04-gemini-product-image-system-survey.md` | survey | 2026-09-04 | `llm-proposed` | `6bc820c8eab852c026bd841ed34c02e897f47bd8` | 2026-09-04 | promoted (partial) |
 | `SRC-2026-09-04-glm-product-image-system-survey` | `raw/surveys/2026-09-04-glm-product-image-system-survey.md` | survey | 2026-09-04 | `llm-proposed` | `c33a095684408f09fa037005afcac574d9957c70` | 2026-09-04 | promoted (partial) |
 | `SRC-2026-09-04-grok-product-image-system-survey` | `raw/surveys/2026-09-04-grok-product-image-system-survey.md` | survey | 2026-09-04 | `llm-proposed` | `9dfcfda479d9f2da9f836f04b87a5f689e59dbfb` | 2026-09-04 | promoted (partial) |
-| `SRC-2026-09-04-gemini-collection-v0.5-survey` | `raw/surveys/2026-09-04-gemini-collection-v0.5-survey.md` | survey | 2026-09-04 | `llm-proposed` | `94ac9fa3c67153e6613541709e126ce609595f41` | 2026-09-04 (raw-only) | unreviewed |
-| `SRC-2026-09-04-glm-collection-v0.5-survey` | `raw/surveys/2026-09-04-glm-collection-v0.5-survey.md` | survey | 2026-09-04 | `llm-proposed` | `c6470a3dfd8e8b608a7b6f85602ede92bd65f53d` | 2026-09-04 (raw-only) | unreviewed |
-| `SRC-2026-09-04-grok-collection-v0.5-survey` | `raw/surveys/2026-09-04-grok-collection-v0.5-survey.md` | survey | 2026-09-04 | `llm-proposed` | `a99595dcfcf88f563cae4a2e8c2ff87bea8d4466` | 2026-09-04 (raw-only) | unreviewed |
-| `SRC-2026-09-04-kimi-collection-v0.5-survey` | `raw/surveys/2026-09-04-kimi-collection-v0.5-survey.md` | survey | 2026-09-04 | `llm-proposed` | `d5be49ebe614a739fe89b14faf442b2372142c6a` | 2026-09-04 (raw-only) | unreviewed |
+| `SRC-2026-09-04-gemini-collection-v0.5-survey` | `raw/surveys/2026-09-04-gemini-collection-v0.5-survey.md` | survey | 2026-09-04 | `llm-proposed` | `94ac9fa3c67153e6613541709e126ce609595f41` | 2026-09-04 | promoted (partial) |
+| `SRC-2026-09-04-glm-collection-v0.5-survey` | `raw/surveys/2026-09-04-glm-collection-v0.5-survey.md` | survey | 2026-09-04 | `llm-proposed` | `c6470a3dfd8e8b608a7b6f85602ede92bd65f53d` | 2026-09-04 | promoted (partial) |
+| `SRC-2026-09-04-grok-collection-v0.5-survey` | `raw/surveys/2026-09-04-grok-collection-v0.5-survey.md` | survey | 2026-09-04 | `llm-proposed` | `a99595dcfcf88f563cae4a2e8c2ff87bea8d4466` | 2026-09-04 | promoted (partial) |
+| `SRC-2026-09-04-kimi-collection-v0.5-survey` | `raw/surveys/2026-09-04-kimi-collection-v0.5-survey.md` | survey | 2026-09-04 | `llm-proposed` | `d5be49ebe614a739fe89b14faf442b2372142c6a` | 2026-09-04 | promoted (partial) |
 
 ## Known Provenance Gaps
 
@@ -47,6 +47,20 @@ The original “OTHER GOODS — Commerce R&D Collection v0.4 Evaluation Prompt,�
 ### Missing Product Image System prompt and reference image
 
 The shared prompt answered by `SRC-2026-09-04-gemini-product-image-system-survey`, `SRC-2026-09-04-glm-product-image-system-survey`, and `SRC-2026-09-04-grok-product-image-system-survey`, as well as the flower ASCII reference image they evaluated, is not in the repository. The responses clearly address the same question structure, but the originals do not establish that the prompts were identical or that each model saw the image directly. The GLM response explicitly states that it relied on a text description rather than the actual pixels. Treat repetition across the responses as a strong design signal, not as audience evidence or a user decision.
+
+### Missing v0.5 evaluation prompt and its embedded frames
+
+The original “OTHER GOODS — Commerce R&D Collection v0.5” evaluation prompt, answered by `SRC-2026-09-04-gemini-collection-v0.5-survey`, `SRC-2026-09-04-glm-collection-v0.5-survey`, `SRC-2026-09-04-grok-collection-v0.5-survey`, and `SRC-2026-09-04-kimi-collection-v0.5-survey`, is not in this repository. Only the four responses are registered. This repeats the gap already recorded for v0.4.
+
+Three things reach the Wiki only through those responses and must be treated as inferred rather than established:
+
+1. **The 24-item v0.5 list.** Reconstructed from the four evaluation tables. All four assign identical numbers and titles to all 24, which is strong evidence, but it is not verification against the original.
+2. **The naming principle under test** — “Use the driest name that preserves the product's essential image” — quoted or paraphrased by all four under a dedicated section. Promoted to [[Q-007-product-naming-register]] as a principle *being evaluated*, never as one adopted.
+3. **The three-way classification Commerce-Generated / Commerce-Activated / Commerce-Displayed**, used by name in all four responses without being introduced. Recorded in [[Q-005-commerce-generative-vs-display]], where the four surveys are also shown to assign the same products to different categories.
+
+Two further names, **“Machine Blindness”** and **“Placeholder Aesthetics”**, appear in the Gemini response as though already established and exist in no registered source. They most likely come from the unregistered prompt or from image-system work done outside this repository. They are recorded in `wiki/concepts/product-image-system.md` as unregistered, not as project concepts.
+
+It also cannot be verified from the responses alone whether the four models answered independently of one another. Their convergence is therefore a strong signal, not four separate confirmations.
 
 ## Notes
 

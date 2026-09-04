@@ -5,6 +5,10 @@ updated: 2026-09-04
 sources:
   - SRC-2026-09-04-gemini-collection-v0.4-survey
   - SRC-2026-09-04-claude-collection-v0.4-survey
+  - SRC-2026-09-04-gemini-collection-v0.5-survey
+  - SRC-2026-09-04-glm-collection-v0.5-survey
+  - SRC-2026-09-04-grok-collection-v0.5-survey
+  - SRC-2026-09-04-kimi-collection-v0.5-survey
 ---
 
 # Q-005 — Is Commerce an Amplifier of Ontology or an Ontology-Producing Institution?
@@ -33,11 +37,22 @@ Claude proposed **Commerce-generative vs. Commerce-display** as an axis with mor
 
 All of this is `llm-proposed` and has not been adopted.
 
+## The v0.5 round — the axis was used, not settled
+
+**(2026-09-04)** By the v0.5 round, Claude's axis had been turned into a working three-way classification — **Commerce-Generated / Commerce-Activated / Commerce-Displayed** — and all four surveys applied it by name without introducing it, which indicates the v0.5 prompt supplied it. The prompt itself is not registered, so this is inference from the responses.
+
+Four results follow.
+
+1. **All four judge the current balance unhealthy, with too large a Commerce-Displayed share.** Counts: Grok 12 / 40 / 48 %, GLM 17 / 50 / 33 %, Kimi 12.5 / 50 / 37.5 %; Gemini gave no count but called the collection “heavily skewed” to Displayed. Recommended Generated share: 20–25 % from three of four, 40 % from Gemini.
+2. **The gap between the two v0.4 positions narrowed in practice.** Gemini, the model that in v0.4 treated commerce-nativeness itself as a weakness, now rates 05, 07, and 08 as the collection's strongest products and calls `First Canceled Order` the strongest product in v0.5. Its stated reason is that commerce-generated products are the only ones that scale to 200 SKUs. This is a reversal on the same axis by the same model, on the same three products it had placed in its Bottom 8 one round earlier. It is a change of `llm-proposed` opinion, not evidence about the question.
+3. **GLM argues the dichotomy itself is false.** “Commerce-generated products *are* ontology-first products whose ontology happens to be commercial.” Its proposed instruction is to mine commerce's own ontologies *and* collide commerce with non-commercial ones, with a single test applied to both: does a commerce mechanism — price logic, policy, inventory behavior, review semantics, delivery — do conceptual work that changes what the thing means? This corresponds to conclusion (b) in the list below, not to (a) or (c).
+4. **The classification is not operationally stable.** Gemini lists `Yesterday`, `17,400 Hz`, and `Unit 12B, Unoccupied` as Commerce-Displayed; GLM classifies all three as Commerce-Activated; Kimi places `Yesterday` in Activated in its table and then again among “Displayed products worth keeping.” The same products land in different categories under different evaluators, so the percentages above are not directly comparable and no target ratio can yet be enforced. **Defining the categories precisely enough to be reproducible is now a prerequisite for using the axis at all.**
+
 ## Current State
 
 Unresolved. [[DEC-007-ontology-before-commerce]] remains `confirmed` / `user-confirmed`; this question does not invalidate it. The surveys are `llm-proposed`, and the two models point in opposite directions, so there is not even consensus. User judgment is required.
 
-Three possible conclusions are: (a) retain DEC-007 and reject Claude's claim; (b) revise DEC-007 to permit both starting points; (c) make a new decision that replaces DEC-007. None has yet been selected.
+Three possible conclusions are: (a) retain DEC-007 and reject Claude's claim; (b) revise DEC-007 to permit both starting points; (c) make a new decision that replaces DEC-007. None has yet been selected. Four further `llm-proposed` surveys now point toward (b), and none toward (a), but a count of model opinions is not a user decision and does not move the decision's status.
 
 ## Related
 
@@ -46,10 +61,14 @@ Three possible conclusions are: (a) retain DEC-007 and reject Claude's claim; (b
 - [[commerce-as-medium]] — This question overlaps with whether Commerce should be seen as a medium or an ontology-producing institution.
 - [[product-grammar]] — The claim that the Commerce-generative/Commerce-display axis can replace the existing 25-Grammar taxonomy is at stake.
 - [[DEC-006-collection-before-catalog]] — The absence of this criterion poses a practical risk when expanding to a 200-product Catalog.
+- [[v0.5-evaluation]] — Where the four surveys' counts, target ratios, and conflicting classifications are recorded in full.
+- [[Q-006-post-purchase-behavior]] — Connected because three of the four surveys propose using the post-purchase test as the practical way to tell Displayed products from the rest.
 
 ## Sources
 
 - `SRC-2026-09-04-gemini-collection-v0.4-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md`
 - `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`
 
-Both sources are `llm-proposed`, not user decisions. The original v0.4 Evaluation Prompt is not separately registered in this repository, so what the two surveys actually responded to can only be inferred through their texts.
+- `SRC-2026-09-04-gemini-collection-v0.5-survey`, `SRC-2026-09-04-glm-collection-v0.5-survey`, `SRC-2026-09-04-grok-collection-v0.5-survey`, `SRC-2026-09-04-kimi-collection-v0.5-survey` — the four v0.5 surveys under `raw/surveys/`.
+
+All six sources are `llm-proposed`, not user decisions. Neither the v0.4 nor the v0.5 evaluation prompt is registered in this repository, so what the surveys actually responded to — including the definitions of Commerce-Generated, Commerce-Activated, and Commerce-Displayed — can only be inferred through their texts.
