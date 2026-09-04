@@ -14,6 +14,10 @@ sources:
   - SRC-2026-09-04-gemini-product-image-system-survey
   - SRC-2026-09-04-glm-product-image-system-survey
   - SRC-2026-09-04-grok-product-image-system-survey
+  - SRC-2026-09-04-gemini-collection-v0.5-survey
+  - SRC-2026-09-04-glm-collection-v0.5-survey
+  - SRC-2026-09-04-grok-collection-v0.5-survey
+  - SRC-2026-09-04-kimi-collection-v0.5-survey
 ---
 
 # OTHER GOODS Wiki Index
@@ -52,8 +56,9 @@ Before creating a page, check this catalog to see whether an existing page can b
 
 ## Collections
 
-- [[rnd-collection]] — Candidates and changes from Collection v0.1 through v0.4, used to discover Product Grammar · `working` (2026-09-04)
+- [[rnd-collection]] — Candidates and changes from Collection v0.1 through v0.5, used to discover Product Grammar · `working` (2026-09-04)
 - [[v0.4-evaluation]] — Comparison of the Gemini and Claude surveys of the 30-item R&D Collection v0.4 · `working` (2026-09-04)
+- [[v0.5-evaluation]] — Comparison of the Gemini, GLM, Grok, and Kimi surveys of the 24-item R&D Collection v0.5 · `working` (2026-09-04)
 
 ## Decisions
 
@@ -73,6 +78,7 @@ Before creating a page, check this catalog to see whether an existing page can b
 - [[Q-004-rnd-collection-exit-condition]] — When to end the R&D Collection and move to the Catalog stage · `unknown` (2026-09-04)
 - [[Q-005-commerce-generative-vs-display]] — Whether Commerce amplifies already strong objects or produces new ontologies · `unknown` (2026-09-04)
 - [[Q-006-post-purchase-behavior]] — What is delivered to the visitor after checkout and what changes · `unknown` (2026-09-04)
+- [[Q-007-product-naming-register]] — Whether the “driest name” principle holds, and in what register products should be named · `unknown` (2026-09-04)
 
 ## Activity
 
@@ -81,7 +87,7 @@ Before creating a page, check this catalog to see whether an existing page can b
 ## Repository Control
 
 - [README](../README.md) — Public overview of the work and repository; canonical English entry point (2026-09-04)
-- [AGENTS](../AGENTS.md) — Reading, language, ingestion, and verification rules for agents (2026-09-04)
+- [AGENTS](../AGENTS.md) — Reading, language, ingestion, verification, and institutional Git identity rules for agents (2026-09-04)
 - [Schema](../schema.md) — Page taxonomy, status, attribution, provenance, language, and maintenance rules (2026-09-04)
 - [Raw README](../raw/README.md) — How to add and preserve original source material, including the original-language exception (2026-09-04)
 - [Raw Source Index](../raw/sources.md) — IDs, paths, hashes, and ingestion status for every raw source (2026-09-04)

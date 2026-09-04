@@ -303,3 +303,66 @@ The project's concepts, decisions, hypotheses, and priorities did not change, so
 ### Result
 
 Maintained documentation became canonical English. Registered raw originals remained untouched in their original language. Language and localization rules were added to README, AGENTS, and the schema. No project-content decision changed.
+
+## [2026-09-04] maintenance | Institutional Git identity policy
+
+Added a repository-wide rule requiring new commits to use the repository-local TENDER SYSTEMS identity and requiring commit identity to be verified separately from GitHub push authentication. The rule prohibits personal author or committer fallback, guessed institutional email addresses, secret disclosure, and history rewriting. A dedicated push identity remains preferred; personal push authentication is permitted only with explicit user authorization and acknowledgment that non-commit audit or activity records may retain the push actor. No project knowledge or raw source material changed.
+
+## [2026-09-04] ingest | Collection v0.5 four-survey ingest
+
+### Sources
+
+- `SRC-2026-09-04-gemini-collection-v0.5-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.5-survey.md`
+- `SRC-2026-09-04-glm-collection-v0.5-survey` — `raw/surveys/2026-09-04-glm-collection-v0.5-survey.md`
+- `SRC-2026-09-04-grok-collection-v0.5-survey` — `raw/surveys/2026-09-04-grok-collection-v0.5-survey.md`
+- `SRC-2026-09-04-kimi-collection-v0.5-survey` — `raw/surveys/2026-09-04-kimi-collection-v0.5-survey.md`
+
+All four were already registered in `raw/sources.md` with status `raw-only` / `unreviewed`. This entry records their promotion. Hashes for all fifteen registered sources were verified against the registry before and after the work; all matched, so no page was marked `REVIEW_REQUIRED`.
+
+### Created
+
+- `wiki/collections/v0.5-evaluation.md`
+- `wiki/questions/Q-007-product-naming-register.md`
+
+### Updated
+
+- `wiki/collections/rnd-collection.md` — added the v0.5 section: 30 → 24, the first contraction of the Collection.
+- `wiki/concepts/product-grammar.md` — added the four v0.5 consolidation proposals and the five-category convergence.
+- `wiki/concepts/progressive-displacement.md` — added the alternation-as-formula constraint and the four conflicting opening products.
+- `wiki/concepts/product-image-system.md` — recorded Gemini's independent restatement of the visual-output risk and two unregistered concept names.
+- `wiki/questions/Q-003-product-grammar-taxonomy-scope.md`, `wiki/questions/Q-005-commerce-generative-vs-display.md`, `wiki/questions/Q-006-post-purchase-behavior.md`
+- `wiki/current-state.md`, `wiki/index.md`, `raw/sources.md`, `raw/README.md`, `README.md`
+
+### Decisions
+
+none. All four surveys are `llm-proposed`. Nothing in this round was promoted to a user decision, and [[DEC-007-ontology-before-commerce]] remains `confirmed` despite four further surveys pointing away from it.
+
+### Synthesis
+
+All four surveys returned WORKING BUT NEEDS CORRECTION — the same verdict as the v0.4 round. Two consecutive rounds ending on the same non-verdict is recorded as evidence for [[Q-004-rnd-collection-exit-condition]].
+
+What changed is where the correction is located. In v0.4 it concerned which products exist; in v0.5 all four locate it in what the store does after the product page, and all four name the transaction and post-purchase layer as the one thing to build before v0.6. This removed the single-source dependency that [[Q-006-post-purchase-behavior]] had carried since its creation, though the four split on whether a post-purchase field should be mandatory for every product or only for commerce-generated and commerce-activated ones.
+
+Agreement was much stronger than in v0.4: six of 24 products appear in all four Top 8 lists, and one — `Wrong-Turn Alley` — in all four Bottom lists. Sharp conflicts remain on seven products, most starkly on the name `Residual Warmth on a Park Bench`, which two surveys call the round's best naming decision and one calls its worst.
+
+Two criticisms of method, not of products, are 4/4 and were promoted to [[current-state]]: the collection's generative formula is now visible and the taxonomy supplies no rejection criterion, and the correction may be replacing a sentimental bias with a dry, taxonomic one rather than curing it. GLM's proposed rejection test — does a commerce mechanism do conceptual work that changes what the thing means? — is the only concrete instrument offered and is unadopted.
+
+Four consolidated grammar taxonomies were proposed (5, 8, 9, and 11 categories against the current 14 and the 25 criticized in v0.4). Five categories appear in all four under different names; the convergence table was promoted to [[product-grammar]] and [[Q-003-product-grammar-taxonomy-scope]]. Claude's v0.4 proposal to demote `Irreversible` to a background property is contradicted by all four.
+
+### Open Questions
+
+- [[Q-007-product-naming-register]] was created: the “driest name” principle was rejected as a global rule by all four, which proposed four different replacements; three converge on matching the register of whatever real system would handle the object.
+- Price as a conceptual surface — GLM's most dangerous blind spot, single-source. Recorded in [[current-state]] and [[v0.5-evaluation]] without a page.
+- Why v0.5's titles became English and its prices dollars. No registered source explains it and no user decision records it.
+
+### Schema changes
+
+none. `v0.5-evaluation` uses the existing `collection` type and `Q-007` the existing `question` type. No new page type or directory was created.
+
+### Notes
+
+Two dependencies are worth watching. First, the three products added in v0.5 — `17,400 Hz`, `Unit 12B, Unoccupied`, and `First 12 Sheets Discarded Before Printing` — are near-verbatim instantiations of example objects proposed in Claude's v0.4 survey, and all four v0.5 surveys rate that territory as the collection's most valuable; the strongest-rated material in the current version therefore rests on one `llm-proposed` source. Second, whether the four v0.5 models answered independently of one another cannot be verified from the responses, so their convergence is a strong signal rather than four separate confirmations.
+
+### Provenance
+
+The v0.5 evaluation prompt is not in the repository. The 24-item list, the v0.4 → v0.5 transition, the naming principle under test, and the Commerce-Generated / Activated / Displayed classification are all known only through the four responses and are labeled as reconstructions or inferences wherever they appear. The gap was recorded in `raw/sources.md`.
