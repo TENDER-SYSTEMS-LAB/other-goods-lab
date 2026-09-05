@@ -33,6 +33,12 @@ When adding a source, append one row to the table below and record the result of
 | `SRC-2026-09-04-grok-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-grok-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `14bcadbf7d8627d432f2da66658014634d97c13b` | 2026-09-05 | promoted (partial) |
 | `SRC-2026-09-04-kimi-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-kimi-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `10520df4ba4938c5c6f46f3564e67c507497589a` | 2026-09-05 | promoted (partial) |
 | `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-qwen-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `66b8c6bf4b1f42130b884716712acdcf8e27cb41` | 2026-09-05 | promoted (partial) |
+| `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` | `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md` | conversation-decision-summary | 2026-09-06 | `jointly-developed` | `59b9b5264ce0b41df34ba9a5aaa489145621b20e` | not yet | unreviewed |
+| `SRC-2026-09-05-deepseek-pre-v0.6-survey` | `raw/surveys/2026-09-05-deepseek-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `a41ba8571f7b45e6eb45ec8dff3e9361bc6fdf91` | not yet | unreviewed |
+| `SRC-2026-09-05-gemini-pre-v0.6-survey` | `raw/surveys/2026-09-05-gemini-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `fea523a7320bb5dc5e307362b3c846b3e2cc411c` | not yet | unreviewed |
+| `SRC-2026-09-05-glm-pre-v0.6-survey` | `raw/surveys/2026-09-05-glm-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `88f920ed03f9ddc6295e034abcf7da89afa8b54c` | not yet | unreviewed |
+| `SRC-2026-09-05-grok-pre-v0.6-survey` | `raw/surveys/2026-09-05-grok-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `52a9e17aee26666ed8d707a33c84f9c9842c7625` | not yet | unreviewed |
+| `SRC-2026-09-05-qwen-pre-v0.6-survey` | `raw/surveys/2026-09-05-qwen-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `79315738c0286a36869348b6c676fb10c6a55ba7` | not yet | unreviewed |
 
 ## Known Provenance Gaps
 
