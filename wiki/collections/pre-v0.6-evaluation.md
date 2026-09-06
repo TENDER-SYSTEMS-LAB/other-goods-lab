@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: llm-synthesis
-updated: 2026-09-05
+updated: 2026-09-07
 sources:
   - SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position
   - SRC-2026-09-04-claude-pre-v0.6-rnd-position
@@ -111,10 +111,10 @@ No v0.6 list, item count, lifecycle rule, naming rule, payment model, taxonomy, 
 
 ## Sources
 
-- `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`; derivative position under review, not an independent evaluation.
-- `SRC-2026-09-04-claude-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-claude-pre-v0.6-rnd-position.md`; `llm-proposed` critique.
-- `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-deepseek-pre-v0.6-rnd-position.md`; `llm-proposed` critique.
-- `SRC-2026-09-04-glm-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-glm-pre-v0.6-rnd-position.md`; `llm-proposed` critique.
-- `SRC-2026-09-04-grok-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-grok-pre-v0.6-rnd-position.md`; `llm-proposed` critique.
-- `SRC-2026-09-04-kimi-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-kimi-pre-v0.6-rnd-position.md`; `llm-proposed` critique.
-- `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-qwen-pre-v0.6-rnd-position.md`; `llm-proposed` critique. Their common prompt, identical delivery, and independence are unverified.
+- [[SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position]] — [raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md](../../raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md); derivative position under review, not an independent evaluation.
+- [[SRC-2026-09-04-claude-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-claude-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-claude-pre-v0.6-rnd-position.md); `llm-proposed` critique.
+- [[SRC-2026-09-04-deepseek-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-deepseek-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-deepseek-pre-v0.6-rnd-position.md); `llm-proposed` critique.
+- [[SRC-2026-09-04-glm-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-glm-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-glm-pre-v0.6-rnd-position.md); `llm-proposed` critique.
+- [[SRC-2026-09-04-grok-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-grok-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-grok-pre-v0.6-rnd-position.md); `llm-proposed` critique.
+- [[SRC-2026-09-04-kimi-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-kimi-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-kimi-pre-v0.6-rnd-position.md); `llm-proposed` critique.
+- [[SRC-2026-09-04-qwen-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-qwen-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-qwen-pre-v0.6-rnd-position.md); `llm-proposed` critique. Their common prompt, identical delivery, and independence are unverified.

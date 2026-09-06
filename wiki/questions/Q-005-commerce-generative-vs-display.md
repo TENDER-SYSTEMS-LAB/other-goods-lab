@@ -1,7 +1,7 @@
 ---
 status: unknown
 attribution: llm-proposed
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - SRC-2026-09-04-gemini-collection-v0.4-survey
   - SRC-2026-09-04-claude-collection-v0.4-survey
@@ -121,15 +121,15 @@ It also **does not disturb [[DEC-007-ontology-before-commerce]]**. It is a Layer
 
 ## Sources
 
-- `SRC-2026-09-04-gemini-collection-v0.4-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md`
-- `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`
+- [[SRC-2026-09-04-gemini-collection-v0.4-survey]] — [raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md](../../raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md)
+- [[SRC-2026-09-04-claude-collection-v0.4-survey]] — [raw/surveys/2026-09-04-claude-collection-v0.4-survey.md](../../raw/surveys/2026-09-04-claude-collection-v0.4-survey.md)
 
-- `SRC-2026-09-04-gemini-collection-v0.5-survey`, `SRC-2026-09-04-glm-collection-v0.5-survey`, `SRC-2026-09-04-grok-collection-v0.5-survey`, `SRC-2026-09-04-kimi-collection-v0.5-survey` — the four v0.5 surveys under `raw/surveys/`.
+- [[SRC-2026-09-04-gemini-collection-v0.5-survey]], [[SRC-2026-09-04-glm-collection-v0.5-survey]], [[SRC-2026-09-04-grok-collection-v0.5-survey]], [[SRC-2026-09-04-kimi-collection-v0.5-survey]] — the four v0.5 surveys under `raw/surveys/`.
 
 The six survey sources above are `llm-proposed`, not user decisions. Neither the v0.4 nor the v0.5 evaluation prompt is registered in this repository, so what the surveys actually responded to — including the definitions of Commerce-Generated, Commerce-Activated, and Commerce-Displayed — can only be inferred through their texts.
 
-- `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. User-originated thematic territory and objection; the proposed bridge and product titles remain `llm-proposed`.
-- `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. Derivative restatement of the bridge, not independent evidence.
-- `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.
-- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`. A `jointly-developed` working-decision summary, `status: working`. It is a decision summary rather than a conversation transcript, and nothing in it is `user-confirmed`.
-- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the working-decisions document's section numbering; despite an earlier filename date, their content places them after those working decisions. Evaluator independence is unverified.
+- [[SRC-2026-09-05-chatgpt-v0.6-rnd]] — [raw/conversations/conversation-20260905-0007.md](../../raw/conversations/conversation-20260905-0007.md). User-originated thematic territory and objection; the proposed bridge and product titles remain `llm-proposed`.
+- [[SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position]] — [raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md](../../raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md). Derivative restatement of the bridge, not independent evidence.
+- [[SRC-2026-09-04-claude-pre-v0.6-rnd-position]], [[SRC-2026-09-04-deepseek-pre-v0.6-rnd-position]], [[SRC-2026-09-04-glm-pre-v0.6-rnd-position]], [[SRC-2026-09-04-grok-pre-v0.6-rnd-position]], [[SRC-2026-09-04-kimi-pre-v0.6-rnd-position]], and [[SRC-2026-09-04-qwen-pre-v0.6-rnd-position]] — six `llm-proposed` critiques; their shared prompt and independence are unverified.
+- [[SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions]] — [raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md](../../raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md). A `jointly-developed` working-decision summary, `status: working`. It is a decision summary rather than a conversation transcript, and nothing in it is `user-confirmed`.
+- [[SRC-2026-09-05-deepseek-pre-v0.6-survey]], [[SRC-2026-09-05-gemini-pre-v0.6-survey]], [[SRC-2026-09-05-glm-pre-v0.6-survey]], [[SRC-2026-09-05-grok-pre-v0.6-survey]], and [[SRC-2026-09-05-qwen-pre-v0.6-survey]] — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the working-decisions document's section numbering; despite an earlier filename date, their content places them after those working decisions. Evaluator independence is unverified.

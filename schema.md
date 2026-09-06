@@ -78,8 +78,10 @@ Every important claim must be traceable to a source ID through a `## Sources` se
 ```markdown
 ## Sources
 
-- [[SRC-2026-09-03-llm-wiki-agent-prompt]] — raw/documents/2026-09-03-llm-wiki-agent-prompt.md
+- [[SRC-2026-09-03-llm-wiki-agent-prompt]] — [raw/documents/2026-09-03-llm-wiki-agent-prompt.md](raw/documents/2026-09-03-llm-wiki-agent-prompt.md)
 ```
+
+Each entry carries two links. The `[[SRC-...]]` wikilink is the source identifier, shared by every page that rests on the same original. The Markdown link is the file itself, written relative to the page: `../raw/...` from a page directly under `wiki/`, `../../raw/...` from a page in a subdirectory.
 
 When provenance is a secondary citation—that is, when the original conversation or material behind a claim is absent from the repository and appears only indirectly through another source—state that limit. For example, four product candidates were initially mentioned in `SRC-2026-09-03-llm-wiki-agent-prompt` as already discussed, while the original conversation was missing. A provenance note must capture that limit.
 
@@ -115,6 +117,16 @@ sources:
   - SRC-2026-09-03-llm-wiki-agent-prompt
 ---
 ```
+
+## File Naming
+
+- Decisions: `wiki/decisions/DEC-NNN-short-slug.md`
+- Questions: `wiki/questions/Q-NNN-short-slug.md`
+- Concepts: `wiki/concepts/short-slug.md`
+- Collections: `wiki/collections/short-slug.md`
+- Raw sources: `raw/<type>/YYYY-MM-DD-short-slug.md`, registered with the source ID `SRC-YYYY-MM-DD-short-slug`
+
+Cross-link pages with `[[wikilink]]` syntax. Write `## Sources` entries in the form given under Provenance, and record each source's path in the `raw/sources.md` registry table as a Markdown link to the file.
 
 ## Updates
 

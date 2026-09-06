@@ -1,7 +1,7 @@
 ---
 status: confirmed
 attribution: user-confirmed
-updated: 2026-09-03
+updated: 2026-09-07
 sources:
   - SRC-2026-09-03-llm-wiki-agent-prompt
 ---
@@ -37,7 +37,7 @@ There are no product-specific pages, so product questions can currently be answe
 
 ## Sources
 
-- `SRC-2026-09-03-llm-wiki-agent-prompt` — `raw/documents/2026-09-03-llm-wiki-agent-prompt.md`
+- [[SRC-2026-09-03-llm-wiki-agent-prompt]] — [raw/documents/2026-09-03-llm-wiki-agent-prompt.md](../../raw/documents/2026-09-03-llm-wiki-agent-prompt.md)
 
 ## Related
 

@@ -1,7 +1,7 @@
 ---
 status: confirmed
 attribution: user-confirmed
-updated: 2026-09-03
+updated: 2026-09-07
 sources:
   - SRC-2026-09-03-chatgpt-brainstorming
 ---
@@ -37,4 +37,4 @@ The following sequence is an `attribution: llm-synthesis` application of the Com
 
 ## Sources
 
-- `SRC-2026-09-03-chatgpt-brainstorming` — `raw/conversations/ChatGPT-brain-storming-20260903-2252.md`
+- [[SRC-2026-09-03-chatgpt-brainstorming]] — [raw/conversations/ChatGPT-brain-storming-20260903-2252.md](../../raw/conversations/ChatGPT-brain-storming-20260903-2252.md)

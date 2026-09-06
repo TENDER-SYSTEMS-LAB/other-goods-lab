@@ -1,7 +1,7 @@
 ---
 status: unknown
 attribution: llm-proposed
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position
   - SRC-2026-09-04-claude-pre-v0.6-rnd-position
@@ -80,12 +80,12 @@ Two adjacent working positions bear on this question:
 
 ## Sources
 
-- `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`; the derivative position under review.
-- `SRC-2026-09-04-claude-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-claude-pre-v0.6-rnd-position.md`; `llm-proposed` critique.
-- `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-deepseek-pre-v0.6-rnd-position.md`; `llm-proposed` critique.
-- `SRC-2026-09-04-glm-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-glm-pre-v0.6-rnd-position.md`; `llm-proposed` critique.
-- `SRC-2026-09-04-grok-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-grok-pre-v0.6-rnd-position.md`; `llm-proposed` critique.
-- `SRC-2026-09-04-kimi-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-kimi-pre-v0.6-rnd-position.md`; `llm-proposed` critique.
-- `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — `raw/surveys/2026-09-04-qwen-pre-v0.6-rnd-position.md`; `llm-proposed` critique. Real-money and legal statements are unverified LLM-proposed risk flags; the shared prompt and evaluator independence are not verified.
-- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`; the `jointly-developed` working direction on this question, `status: working` and not user-confirmed.
-- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques. Their shared brief is not registered, so the absence of real-money questions in that round cannot be distinguished from the brief not asking about it.
+- [[SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position]] — [raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md](../../raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md); the derivative position under review.
+- [[SRC-2026-09-04-claude-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-claude-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-claude-pre-v0.6-rnd-position.md); `llm-proposed` critique.
+- [[SRC-2026-09-04-deepseek-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-deepseek-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-deepseek-pre-v0.6-rnd-position.md); `llm-proposed` critique.
+- [[SRC-2026-09-04-glm-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-glm-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-glm-pre-v0.6-rnd-position.md); `llm-proposed` critique.
+- [[SRC-2026-09-04-grok-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-grok-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-grok-pre-v0.6-rnd-position.md); `llm-proposed` critique.
+- [[SRC-2026-09-04-kimi-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-kimi-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-kimi-pre-v0.6-rnd-position.md); `llm-proposed` critique.
+- [[SRC-2026-09-04-qwen-pre-v0.6-rnd-position]] — [raw/surveys/2026-09-04-qwen-pre-v0.6-rnd-position.md](../../raw/surveys/2026-09-04-qwen-pre-v0.6-rnd-position.md); `llm-proposed` critique. Real-money and legal statements are unverified LLM-proposed risk flags; the shared prompt and evaluator independence are not verified.
+- [[SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions]] — [raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md](../../raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md); the `jointly-developed` working direction on this question, `status: working` and not user-confirmed.
+- [[SRC-2026-09-05-deepseek-pre-v0.6-survey]], [[SRC-2026-09-05-gemini-pre-v0.6-survey]], [[SRC-2026-09-05-glm-pre-v0.6-survey]], [[SRC-2026-09-05-grok-pre-v0.6-survey]], and [[SRC-2026-09-05-qwen-pre-v0.6-survey]] — five `llm-proposed` critiques. Their shared brief is not registered, so the absence of real-money questions in that round cannot be distinguished from the brief not asking about it.

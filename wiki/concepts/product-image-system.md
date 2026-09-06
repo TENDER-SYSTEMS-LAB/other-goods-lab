@@ -1,7 +1,7 @@
 ---
 status: hypothesis
 attribution: llm-synthesis
-updated: 2026-09-04
+updated: 2026-09-07
 sources:
   - SRC-2026-09-04-gemini-product-image-system-survey
   - SRC-2026-09-04-glm-product-image-system-survey
@@ -122,7 +122,7 @@ The shared prompt and flower ASCII reference image used by the three surveys are
 
 ## Sources
 
-- `SRC-2026-09-04-gemini-product-image-system-survey` — `raw/surveys/2026-09-04-gemini-product-image-system-survey.md`. An `llm-proposed` survey.
-- `SRC-2026-09-04-glm-product-image-system-survey` — `raw/surveys/2026-09-04-glm-product-image-system-survey.md`. An `llm-proposed` survey that explicitly states it relied on the provided text description rather than the actual pixels.
-- `SRC-2026-09-04-grok-product-image-system-survey` — `raw/surveys/2026-09-04-grok-product-image-system-survey.md`. An `llm-proposed` survey.
-- `SRC-2026-09-04-gemini-collection-v0.5-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.5-survey.md`. An `llm-proposed` Collection survey, cited here only for its independent restatement of the visual-output risk and for the two unregistered concept names it refers to.
+- [[SRC-2026-09-04-gemini-product-image-system-survey]] — [raw/surveys/2026-09-04-gemini-product-image-system-survey.md](../../raw/surveys/2026-09-04-gemini-product-image-system-survey.md). An `llm-proposed` survey.
+- [[SRC-2026-09-04-glm-product-image-system-survey]] — [raw/surveys/2026-09-04-glm-product-image-system-survey.md](../../raw/surveys/2026-09-04-glm-product-image-system-survey.md). An `llm-proposed` survey that explicitly states it relied on the provided text description rather than the actual pixels.
+- [[SRC-2026-09-04-grok-product-image-system-survey]] — [raw/surveys/2026-09-04-grok-product-image-system-survey.md](../../raw/surveys/2026-09-04-grok-product-image-system-survey.md). An `llm-proposed` survey.
+- [[SRC-2026-09-04-gemini-collection-v0.5-survey]] — [raw/surveys/2026-09-04-gemini-collection-v0.5-survey.md](../../raw/surveys/2026-09-04-gemini-collection-v0.5-survey.md). An `llm-proposed` Collection survey, cited here only for its independent restatement of the visual-output risk and for the two unregistered concept names it refers to.

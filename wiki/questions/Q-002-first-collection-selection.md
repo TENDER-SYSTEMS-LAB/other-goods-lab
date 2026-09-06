@@ -1,7 +1,7 @@
 ---
 status: unknown
 attribution: llm-synthesis
-updated: 2026-09-04
+updated: 2026-09-07
 sources:
   - SRC-2026-09-03-chatgpt-brainstorming
   - SRC-2026-09-03-claude-collection-survey
@@ -133,10 +133,10 @@ Rather than reopening this question, the v0.4 surveys created the prior question
 
 ## Sources
 
-- `SRC-2026-09-03-chatgpt-brainstorming` — Evidence that the first four candidates were user proposals
-- `SRC-2026-09-03-claude-collection-survey` — `raw/surveys/2026-09-03-claude-collection-survey.md`
-- `SRC-2026-09-03-gemini-collection-survey` — `raw/surveys/2026-09-03-gemini-collection-survey.md`
-- `SRC-2026-09-03-perplexcity-collection-survey` — `raw/surveys/2026-09-03-perplexcity-collection-survey.md`
-- `SRC-2026-09-04-commerce-product-rnd-summary` — `raw/conversations/2026-09-04-commerce-product-rnd-summary.md`. This is a derivative summary rather than the original conversation transcript; if the original conversation is preserved separately, its provenance takes precedence.
-- `SRC-2026-09-04-gemini-collection-v0.4-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md`. It is `llm-proposed`, and the original v0.4 evaluation prompt is not in the repository.
-- `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`. It is `llm-proposed` and has the same provenance limitation described above.
+- [[SRC-2026-09-03-chatgpt-brainstorming]] — [raw/conversations/ChatGPT-brain-storming-20260903-2252.md](../../raw/conversations/ChatGPT-brain-storming-20260903-2252.md) — Evidence that the first four candidates were user proposals
+- [[SRC-2026-09-03-claude-collection-survey]] — [raw/surveys/2026-09-03-claude-collection-survey.md](../../raw/surveys/2026-09-03-claude-collection-survey.md)
+- [[SRC-2026-09-03-gemini-collection-survey]] — [raw/surveys/2026-09-03-gemini-collection-survey.md](../../raw/surveys/2026-09-03-gemini-collection-survey.md)
+- [[SRC-2026-09-03-perplexcity-collection-survey]] — [raw/surveys/2026-09-03-perplexcity-collection-survey.md](../../raw/surveys/2026-09-03-perplexcity-collection-survey.md)
+- [[SRC-2026-09-04-commerce-product-rnd-summary]] — [raw/conversations/2026-09-04-commerce-product-rnd-summary.md](../../raw/conversations/2026-09-04-commerce-product-rnd-summary.md). This is a derivative summary rather than the original conversation transcript; if the original conversation is preserved separately, its provenance takes precedence.
+- [[SRC-2026-09-04-gemini-collection-v0.4-survey]] — [raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md](../../raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md). It is `llm-proposed`, and the original v0.4 evaluation prompt is not in the repository.
+- [[SRC-2026-09-04-claude-collection-v0.4-survey]] — [raw/surveys/2026-09-04-claude-collection-v0.4-survey.md](../../raw/surveys/2026-09-04-claude-collection-v0.4-survey.md). It is `llm-proposed` and has the same provenance limitation described above.

@@ -1,7 +1,7 @@
 ---
 status: confirmed
 attribution: user-confirmed
-updated: 2026-09-04
+updated: 2026-09-07
 sources:
   - SRC-2026-09-04-commerce-product-rnd-summary
   - SRC-2026-09-04-gemini-collection-v0.4-survey
@@ -44,9 +44,9 @@ Gemini's survey moved in the opposite direction. It placed the same three produc
 
 ## Sources
 
-- `SRC-2026-09-04-commerce-product-rnd-summary` — `raw/conversations/2026-09-04-commerce-product-rnd-summary.md`. This source is a derivative summary of the 2026-09-03–04 brainstorming rather than the original conversation transcript.
-- `SRC-2026-09-04-gemini-collection-v0.4-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md`. An `llm-proposed` survey that does not invalidate this decision.
-- `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`. An `llm-proposed` survey that does not invalidate this decision.
+- [[SRC-2026-09-04-commerce-product-rnd-summary]] — [raw/conversations/2026-09-04-commerce-product-rnd-summary.md](../../raw/conversations/2026-09-04-commerce-product-rnd-summary.md). This source is a derivative summary of the 2026-09-03–04 brainstorming rather than the original conversation transcript.
+- [[SRC-2026-09-04-gemini-collection-v0.4-survey]] — [raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md](../../raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md). An `llm-proposed` survey that does not invalidate this decision.
+- [[SRC-2026-09-04-claude-collection-v0.4-survey]] — [raw/surveys/2026-09-04-claude-collection-v0.4-survey.md](../../raw/surveys/2026-09-04-claude-collection-v0.4-survey.md). An `llm-proposed` survey that does not invalidate this decision.
 
 ## Related
 

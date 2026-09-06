@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: llm-synthesis
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions
   - SRC-2026-09-05-deepseek-pre-v0.6-survey
@@ -159,11 +159,11 @@ No v0.6 list, unit count, SKU count, candidate, naming rule, price doctrine, lif
 
 ## Sources
 
-- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`; the `jointly-developed` working position under review, `status: working` and not user-confirmed.
-- `SRC-2026-09-05-deepseek-pre-v0.6-survey` — `raw/surveys/2026-09-05-deepseek-pre-v0.6-survey.md`; `llm-proposed` critique.
-- `SRC-2026-09-05-gemini-pre-v0.6-survey` — `raw/surveys/2026-09-05-gemini-pre-v0.6-survey.md`; `llm-proposed` critique.
-- `SRC-2026-09-05-glm-pre-v0.6-survey` — `raw/surveys/2026-09-05-glm-pre-v0.6-survey.md`; `llm-proposed` critique. The only source for feature localization, the price-doctrine gap, and the rivalry proposal.
-- `SRC-2026-09-05-grok-pre-v0.6-survey` — `raw/surveys/2026-09-05-grok-pre-v0.6-survey.md`; `llm-proposed` critique.
-- `SRC-2026-09-05-qwen-pre-v0.6-survey` — `raw/surveys/2026-09-05-qwen-pre-v0.6-survey.md`; `llm-proposed` critique.
+- [[SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions]] — [raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md](../../raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md); the `jointly-developed` working position under review, `status: working` and not user-confirmed.
+- [[SRC-2026-09-05-deepseek-pre-v0.6-survey]] — [raw/surveys/2026-09-05-deepseek-pre-v0.6-survey.md](../../raw/surveys/2026-09-05-deepseek-pre-v0.6-survey.md); `llm-proposed` critique.
+- [[SRC-2026-09-05-gemini-pre-v0.6-survey]] — [raw/surveys/2026-09-05-gemini-pre-v0.6-survey.md](../../raw/surveys/2026-09-05-gemini-pre-v0.6-survey.md); `llm-proposed` critique.
+- [[SRC-2026-09-05-glm-pre-v0.6-survey]] — [raw/surveys/2026-09-05-glm-pre-v0.6-survey.md](../../raw/surveys/2026-09-05-glm-pre-v0.6-survey.md); `llm-proposed` critique. The only source for feature localization, the price-doctrine gap, and the rivalry proposal.
+- [[SRC-2026-09-05-grok-pre-v0.6-survey]] — [raw/surveys/2026-09-05-grok-pre-v0.6-survey.md](../../raw/surveys/2026-09-05-grok-pre-v0.6-survey.md); `llm-proposed` critique.
+- [[SRC-2026-09-05-qwen-pre-v0.6-survey]] — [raw/surveys/2026-09-05-qwen-pre-v0.6-survey.md](../../raw/surveys/2026-09-05-qwen-pre-v0.6-survey.md); `llm-proposed` critique.
 
 The shared evaluation brief is not registered, its section numbering does not match the registered working-decisions document, and evaluator independence is unverified. Counts on this page are convergence among five LLM responses, never user confirmation, never audience research.

@@ -527,3 +527,24 @@ Four findings were recorded in `raw/sources.md`.
 ### Verification
 
 Repository-wide raw hashes were checked against the registry before and after this ingest. All 29 registered originals matched on both passes. No file under `raw/` was modified.
+
+## [2026-09-06] lint | Restore source links so provenance is navigable
+
+- `raw/sources.md`: the `Path` column recorded every source as inline code, so no registry row linked to the file it registers. Rewrote all 29 rows as Markdown links in the form `[raw/<type>/<file>.md](<type>/<file>.md)`, matching the LONGING registry. Source IDs, hashes, dates, attribution, and Wiki status are unchanged.
+- Wiki `## Sources` entries and the `### Source`/`### Sources` blocks in this log wrote source IDs as inline code. Rewrote them as `[[SRC-...]]`, the form `schema.md` already required in its own Provenance example, so pages resting on the same original now share a link.
+- `schema.md`: added the missing `## File Naming` section, which carries the `[[wikilink]]` cross-link rule and the registry link convention. This repository's schema was the only one omitting that section.
+- No claim, attribution, status, or hash changed. This is a link-format correction only.
+
+## [2026-09-06] lint | Link source files from every Sources entry
+
+- Extends the entry above. The 161 single-source `## Sources` and log entries across 30 pages now read `[[SRC-...]] — [raw/<type>/<file>.md](<relative path>)`, so each page links both the shared source identifier and the original file.
+- 28 grouped entries — those citing four, five, or six surveys together and referring to `raw/surveys/` as a directory rather than to one file — were left unchanged. Adding per-file links there would mean rewriting evidentiary prose, not correcting a link.
+- `schema.md`: the Provenance example now shows both links and states the relative-path rule — `../raw/...` from a page directly under `wiki/`, `../../raw/...` from a page in a subdirectory.
+- No claim, attribution, status, or hash changed. This is a link-format correction only.
+
+## [2026-09-07] maintenance | Synchronize the provenance-link handoff
+
+- Restored all 29 edited source lines in earlier log entries to their committed text, preserving the append-only history. The two 2026-09-06 lint entries above remain the record of the link maintenance.
+- The two pre-existing 2026-09-06 lint entries are preserved verbatim, including their original scope and count statements. The verified scope is 158 source-file link conversions outside the historical log: 29 registry rows in `raw/sources.md`, 128 single-source entries across 29 Wiki subject pages, and one example in `schema.md`.
+- Updated the 29 changed Wiki subject pages to `updated: 2026-09-07` and synchronized all 30 Wiki catalog dates, plus the `Schema` and `Raw Source Index` dates, in `wiki/index.md`.
+- This handoff changes navigation and maintenance metadata only. It does not change a claim, attribution, status, source hash, or user decision.

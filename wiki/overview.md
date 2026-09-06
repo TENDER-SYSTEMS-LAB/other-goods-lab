@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: jointly-developed
-updated: 2026-09-04
+updated: 2026-09-07
 sources:
   - SRC-2026-09-03-llm-wiki-agent-prompt
   - SRC-2026-09-03-chatgpt-brainstorming
@@ -60,8 +60,8 @@ As of 2026-09-04, the Commerce work is in an R&D stage. The Collection operates 
 
 ## Sources
 
-- `SRC-2026-09-03-chatgpt-brainstorming` — `raw/conversations/ChatGPT-brain-storming-20260903-2252.md` (contains both user proposals and selections and LLM proposals)
-- `SRC-2026-09-03-llm-wiki-agent-prompt` — `raw/documents/2026-09-03-llm-wiki-agent-prompt.md`
-- `SRC-2026-09-04-commerce-product-rnd-summary` — A derivative summary of a conversation rather than the original transcript. Material promoted from it has secondary-citation provenance.
-- `SRC-2026-09-04-gemini-collection-v0.4-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md`. An `llm-proposed` survey.
-- `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`. An `llm-proposed` survey. For both surveys, the original v0.4 Evaluation Prompt containing the 30 products and evaluation criteria is not registered in this repository.
+- [[SRC-2026-09-03-chatgpt-brainstorming]] — [raw/conversations/ChatGPT-brain-storming-20260903-2252.md](../raw/conversations/ChatGPT-brain-storming-20260903-2252.md) (contains both user proposals and selections and LLM proposals)
+- [[SRC-2026-09-03-llm-wiki-agent-prompt]] — [raw/documents/2026-09-03-llm-wiki-agent-prompt.md](../raw/documents/2026-09-03-llm-wiki-agent-prompt.md)
+- [[SRC-2026-09-04-commerce-product-rnd-summary]] — [raw/conversations/2026-09-04-commerce-product-rnd-summary.md](../raw/conversations/2026-09-04-commerce-product-rnd-summary.md) — A derivative summary of a conversation rather than the original transcript. Material promoted from it has secondary-citation provenance.
+- [[SRC-2026-09-04-gemini-collection-v0.4-survey]] — [raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md](../raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md). An `llm-proposed` survey.
+- [[SRC-2026-09-04-claude-collection-v0.4-survey]] — [raw/surveys/2026-09-04-claude-collection-v0.4-survey.md](../raw/surveys/2026-09-04-claude-collection-v0.4-survey.md). An `llm-proposed` survey. For both surveys, the original v0.4 Evaluation Prompt containing the 30 products and evaluation criteria is not registered in this repository.

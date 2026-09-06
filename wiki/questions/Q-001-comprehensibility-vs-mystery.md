@@ -1,7 +1,7 @@
 ---
 status: unknown
 attribution: user-originated
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - SRC-2026-09-03-llm-wiki-agent-prompt
   - SRC-2026-09-03-chatgpt-brainstorming
@@ -93,13 +93,13 @@ The question remains `unknown`. It has been recorded since 2026-09-03 that it wi
 
 ## Sources
 
-- `SRC-2026-09-03-chatgpt-brainstorming` — `raw/conversations/ChatGPT-brain-storming-20260903-2252.md`
-- `SRC-2026-09-03-llm-wiki-agent-prompt` — `raw/documents/2026-09-03-llm-wiki-agent-prompt.md`
-- `SRC-2026-09-04-commerce-product-rnd-summary` — `raw/conversations/2026-09-04-commerce-product-rnd-summary.md`. This is a derivative summary rather than the original conversation transcript; if the original conversation is preserved separately, its provenance takes precedence.
-- `SRC-2026-09-04-gemini-collection-v0.4-survey` — `raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md`. It is `llm-proposed`, and the original v0.4 evaluation prompt is not in the repository.
-- `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`. It is `llm-proposed` and has the same provenance limitation described above.
-- `SRC-2026-09-04-gemini-product-image-system-survey` — `raw/surveys/2026-09-04-gemini-product-image-system-survey.md`. It is `llm-proposed` and raises the risk of premature closure through an image rule.
-- `SRC-2026-09-04-glm-product-image-system-survey` — `raw/surveys/2026-09-04-glm-product-image-system-survey.md`. It is `llm-proposed` and explicitly states that it relied on a text description rather than actual pixels.
-- `SRC-2026-09-04-grok-product-image-system-survey` — `raw/surveys/2026-09-04-grok-product-image-system-survey.md`. It is `llm-proposed` and raises the same risk.
-- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`. A `jointly-developed` working-decision summary, `status: working`. It is a decision summary rather than a conversation transcript, and nothing in it is `user-confirmed`.
-- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the working-decisions document's section numbering; despite an earlier filename date, their content places them after those working decisions. Evaluator independence is unverified.
+- [[SRC-2026-09-03-chatgpt-brainstorming]] — [raw/conversations/ChatGPT-brain-storming-20260903-2252.md](../../raw/conversations/ChatGPT-brain-storming-20260903-2252.md)
+- [[SRC-2026-09-03-llm-wiki-agent-prompt]] — [raw/documents/2026-09-03-llm-wiki-agent-prompt.md](../../raw/documents/2026-09-03-llm-wiki-agent-prompt.md)
+- [[SRC-2026-09-04-commerce-product-rnd-summary]] — [raw/conversations/2026-09-04-commerce-product-rnd-summary.md](../../raw/conversations/2026-09-04-commerce-product-rnd-summary.md). This is a derivative summary rather than the original conversation transcript; if the original conversation is preserved separately, its provenance takes precedence.
+- [[SRC-2026-09-04-gemini-collection-v0.4-survey]] — [raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md](../../raw/surveys/2026-09-04-gemini-collection-v0.4-survey.md). It is `llm-proposed`, and the original v0.4 evaluation prompt is not in the repository.
+- [[SRC-2026-09-04-claude-collection-v0.4-survey]] — [raw/surveys/2026-09-04-claude-collection-v0.4-survey.md](../../raw/surveys/2026-09-04-claude-collection-v0.4-survey.md). It is `llm-proposed` and has the same provenance limitation described above.
+- [[SRC-2026-09-04-gemini-product-image-system-survey]] — [raw/surveys/2026-09-04-gemini-product-image-system-survey.md](../../raw/surveys/2026-09-04-gemini-product-image-system-survey.md). It is `llm-proposed` and raises the risk of premature closure through an image rule.
+- [[SRC-2026-09-04-glm-product-image-system-survey]] — [raw/surveys/2026-09-04-glm-product-image-system-survey.md](../../raw/surveys/2026-09-04-glm-product-image-system-survey.md). It is `llm-proposed` and explicitly states that it relied on a text description rather than actual pixels.
+- [[SRC-2026-09-04-grok-product-image-system-survey]] — [raw/surveys/2026-09-04-grok-product-image-system-survey.md](../../raw/surveys/2026-09-04-grok-product-image-system-survey.md). It is `llm-proposed` and raises the same risk.
+- [[SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions]] — [raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md](../../raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md). A `jointly-developed` working-decision summary, `status: working`. It is a decision summary rather than a conversation transcript, and nothing in it is `user-confirmed`.
+- [[SRC-2026-09-05-deepseek-pre-v0.6-survey]], [[SRC-2026-09-05-gemini-pre-v0.6-survey]], [[SRC-2026-09-05-glm-pre-v0.6-survey]], [[SRC-2026-09-05-grok-pre-v0.6-survey]], and [[SRC-2026-09-05-qwen-pre-v0.6-survey]] — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the working-decisions document's section numbering; despite an earlier filename date, their content places them after those working decisions. Evaluator independence is unverified.

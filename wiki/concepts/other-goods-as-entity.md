@@ -1,7 +1,7 @@
 ---
 status: deferred
 attribution: user-originated
-updated: 2026-09-03
+updated: 2026-09-07
 sources:
   - SRC-2026-09-03-chatgpt-brainstorming
 ---
@@ -28,4 +28,4 @@ Under [[DEC-004-commerce-first]], the current priority is to create the concept 
 
 ## Sources
 
-- `SRC-2026-09-03-chatgpt-brainstorming` — `raw/conversations/ChatGPT-brain-storming-20260903-2252.md`
+- [[SRC-2026-09-03-chatgpt-brainstorming]] — [raw/conversations/ChatGPT-brain-storming-20260903-2252.md](../../raw/conversations/ChatGPT-brain-storming-20260903-2252.md)

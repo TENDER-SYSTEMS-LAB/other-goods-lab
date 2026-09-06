@@ -1,7 +1,7 @@
 ---
 status: confirmed
 attribution: user-confirmed
-updated: 2026-09-04
+updated: 2026-09-07
 sources:
   - SRC-2026-09-04-commerce-product-rnd-summary
 ---
@@ -34,7 +34,7 @@ The Collection changes from a “final product list” into an “R&D Set,” wh
 
 ## Sources
 
-- `SRC-2026-09-04-commerce-product-rnd-summary` — `raw/conversations/2026-09-04-commerce-product-rnd-summary.md`. This source is a derivative summary of the 2026-09-03–04 brainstorming rather than the original conversation transcript.
+- [[SRC-2026-09-04-commerce-product-rnd-summary]] — [raw/conversations/2026-09-04-commerce-product-rnd-summary.md](../../raw/conversations/2026-09-04-commerce-product-rnd-summary.md). This source is a derivative summary of the 2026-09-03–04 brainstorming rather than the original conversation transcript.
 
 ## Related
 
