@@ -1,7 +1,7 @@
 ---
 status: unknown
 attribution: jointly-developed
-updated: 2026-09-05
+updated: 2026-09-06
 sources:
   - SRC-2026-09-04-gemini-collection-v0.5-survey
   - SRC-2026-09-04-glm-collection-v0.5-survey
@@ -15,6 +15,12 @@ sources:
   - SRC-2026-09-04-grok-pre-v0.6-rnd-position
   - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
   - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
+  - SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions
+  - SRC-2026-09-05-deepseek-pre-v0.6-survey
+  - SRC-2026-09-05-gemini-pre-v0.6-survey
+  - SRC-2026-09-05-glm-pre-v0.6-survey
+  - SRC-2026-09-05-grok-pre-v0.6-survey
+  - SRC-2026-09-05-qwen-pre-v0.6-survey
 ---
 
 # Q-007 — In What Register Should Products Be Named?
@@ -89,6 +95,19 @@ Unresolved and unadopted. The tested principle has four independent rejections a
 
 **(2026-09-05, `llm-proposed`)** Six critiques give qualified 6/6 support to Register Fidelity over Dryness, while all six warn that it can become another device or house style. Claude proposes Register Variance and requires real reference documents for claimed register fidelity. Naming remains unresolved.
 
+**(2026-09-06, `jointly-developed`, `status: working`)** The tested principle is now explicitly set aside as a global rule. The working decisions state that maximizing dryness "is no longer accepted as a global rule," that technical or bureaucratic language should not automatically displace philosophical, emotional, or ordinary language, and that **a product name may carry human meaning**. The reasoning is that Commerce can produce the collision elsewhere — through price, stock, eligibility, checkout, return, order history, or simply the visual fact of presentation as merchandise — so the title need not carry it alone.
+
+The positive direction is **register diversity, not a replacement rule**: a real store contains specification names, plain names, status strings, ordinary spoken English, descriptive titles, and institutional language side by side. "Uniform bureaucratic cool is itself a stylistic trap." This resolves the direction of travel — the same direction the four v0.5 surveys converged on from the opposite side — while still selecting no governing principle.
+
+Two concrete title dispositions follow from it, both `jointly-developed` working titles rather than confirmations:
+
+- `What Payment Cannot Undo` was judged **inadequate** for its intended territory: it translated the idea too quickly into payment, debt, and settlement. The working replacement `The World I Helped Break` is preferred precisely because it is *not* translated into commercial register, and because the speaker is implicated in what is being sold.
+- `"These Days," Five Years Ago` retains its quotation marks on the argument that the phrase itself is the object under examination rather than decorative punctuation, and spells `Five` rather than `5`.
+
+**(2026-09-06, `llm-proposed`)** Five critiques of those decisions largely support the shift while dividing on the hardest case. Four of five affirm the quotation marks as necessary rather than affectation, three of them for the same reason the working decisions give; Gemini alone proposes reformatting or removing them. On `The World I Helped Break`, four of five keep the title — GLM arguing that "helped" refuses grandiosity and that first-person titles transfer their "I" on purchase — while Qwen alone judges it too literary and proposes translating it into commercial language (`Acknowledged Complicity, Non-Refundable`). Three of five note that the `First ___` and number-plus-unit templates are forming visible families regardless of register.
+
+The unresolved subproblems below are unchanged, including the store's naming language: **the switch to English titles and dollar prices is still explained by no registered source.** See [[pre-v0.6-evaluation-round-2]].
+
 ## Related
 
 - [[v0.5-evaluation]] — The round in which this question arose, including the full naming comparison.
@@ -98,6 +117,7 @@ Unresolved and unadopted. The tested principle has four independent rejections a
 - [[product-grammar]] — The surveys' criticism that titles are retrofitted labels applies to both the taxonomy and the names.
 - [[DEC-002-perfect-store-principle]] — Real commercial services mix naming registers; register uniformity is a realism cost.
 - [[pre-v0.6-evaluation]]
+- [[pre-v0.6-evaluation-round-2]] — Where the five critiques of the 2026-09-06 naming direction are compared.
 
 ## Sources
 
@@ -111,3 +131,5 @@ The four survey sources above are `llm-proposed`. The naming principle under tes
 - `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. Primary evidence for the user's objection to over-technical naming; the replacement principle and titles are LLM proposals.
 - `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. Derivative ChatGPT position; not an additional independent evaluator.
 - `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.
+- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`. A `jointly-developed` working-decision summary, `status: working`. It is a decision summary rather than a conversation transcript, and nothing in it is `user-confirmed`.
+- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the working-decisions document's section numbering; despite an earlier filename date, their content places them after those working decisions. Evaluator independence is unverified.

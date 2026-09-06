@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: jointly-developed
-updated: 2026-09-05
+updated: 2026-09-06
 sources:
   - SRC-2026-09-04-commerce-product-rnd-summary
   - SRC-2026-09-04-gemini-collection-v0.4-survey
@@ -18,6 +18,12 @@ sources:
   - SRC-2026-09-04-grok-pre-v0.6-rnd-position
   - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
   - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
+  - SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions
+  - SRC-2026-09-05-deepseek-pre-v0.6-survey
+  - SRC-2026-09-05-gemini-pre-v0.6-survey
+  - SRC-2026-09-05-glm-pre-v0.6-survey
+  - SRC-2026-09-05-grok-pre-v0.6-survey
+  - SRC-2026-09-05-qwen-pre-v0.6-survey
 ---
 
 # Product Grammar
@@ -232,6 +238,20 @@ The individual list is not repeated here. See [[v0.4-evaluation]].
 
 A derivative pre-v0.6 position note restates this as territory to test with external evaluators before composing v0.6. It does not independently validate the territories or promote them into Product Grammar.
 
+## What the 2026-09-06 Working Decisions Do Not Add to This Page
+
+`jointly-developed`, `status: working`. The working decisions introduce three new classifications and **explicitly decline taxonomy status for all three**. None is recorded here as a Grammar, and nothing on this page changes as a result. They are noted only so that a later reader does not mistake them for Layer 1 material.
+
+| Classification | Where it lives | Why it is not a Grammar |
+|---|---|---|
+| **Commerce-Generated / Commerce-Transformative / Commerce-as-Assertion** | Layer 2. See [[Q-005-commerce-generative-vs-display]] and [[rnd-collection]] | The source calls these "experimental observation axes, not a final Product Grammar taxonomy." They describe what Commerce does to a thing, which is exactly what [[DEC-007-ontology-before-commerce]] separates from Layer 1 |
+| **Singular product / relational product set / system-level intervention** | Unit structure, not ontology. See [[rnd-collection]] | These describe how many objects carry a meaning and where it lives, not what kind of unownable thing it is. A single Grammar could be expressed through any of the three |
+| **Product temperature** — Human/Existential, Ordinary/Sensory, Institutional/Material/Technical, Commerce-Native | A bias check on the Collection, not a property of a product. See [[rnd-collection]] | The source states it is "not a final taxonomy" but "a simple balancing instrument," whose question is whether one logic is beginning to explain the whole store |
+
+One genuinely new ontological observation does arise from the relational unit, and it belongs to Layer 1 even though no Grammar is proposed for it. The Tolerance Pair locates its ontology in **the institutionally created boundary that turns continuous physical variation into categorical commercial reality** — the meaning is in neither SKU but in the threshold between them. This is close to, but not the same as, the converged `Institutional Phantom` category above: that names a thing administratively real and physically absent, while this names a *cut* that is physically arbitrary and commercially decisive. Whether it warrants a Grammar of its own, or belongs under an existing one, is open in [[Q-003-product-grammar-taxonomy-scope]]. It is recorded here as an observation, not as a fifteenth category.
+
+Two `llm-proposed` responses in the following round warn against letting these classifications accumulate. GLM counts the combined framework at thirty-six cells and argues the curation layer is becoming a second artwork; Grok warns the unit-type triad "already risks becoming another taxonomy that the project then has to service." Both add that the vocabulary must never reach the visitor. See [[pre-v0.6-evaluation-round-2]].
+
 **(2026-09-05, `llm-proposed`)** The six critiques add pressure against making Product Grammar classification a mandatory Product Behavior Sheet field. Only Kimi explicitly retains it as essential; the others cut, demote, condition, or omit it. They also constrain Moral Residue to a test territory, often reframing it as non-transferable obligation, unsettled consequence, or settlement remainder. No new Grammar is added.
 
 ## Separation from Commerce Collision
@@ -275,6 +295,7 @@ These questions are tracked in [[Q-003-product-grammar-taxonomy-scope]].
 - [[Q-007-product-naming-register]] — Connected because the surveys' claim that names are retrofitted labels applies both to this taxonomy and to the product titles.
 - [[Q-005-commerce-generative-vs-display]] — Tracks the alternative claim that Commerce produces ontology, which reopens the two-layer separation.
 - [[product-image-system]] — Connects to the problem of relating Product Grammar to renderers without closing concepts through literal illustration.
+- [[pre-v0.6-evaluation-round-2]] — Where the taxonomy-sprawl warnings against the newest classifications are compared.
 
 ## Sources
 
@@ -285,3 +306,5 @@ These questions are tracked in [[Q-003-product-grammar-taxonomy-scope]].
 - `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. The thematic starting point is user-originated; the five labels and example products are LLM-proposed and explicitly not promoted into the taxonomy.
 - `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. Derivative LLM synthesis that recommends testing the territory before v0.6.
 - `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.
+- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`. A `jointly-developed` working-decision summary, `status: working`. It is a decision summary rather than a conversation transcript, and nothing in it is `user-confirmed`.
+- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the working-decisions document's section numbering; despite an earlier filename date, their content places them after those working decisions. Evaluator independence is unverified.

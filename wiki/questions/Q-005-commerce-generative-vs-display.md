@@ -1,7 +1,7 @@
 ---
 status: unknown
 attribution: llm-proposed
-updated: 2026-09-05
+updated: 2026-09-06
 sources:
   - SRC-2026-09-04-gemini-collection-v0.4-survey
   - SRC-2026-09-04-claude-collection-v0.4-survey
@@ -17,6 +17,12 @@ sources:
   - SRC-2026-09-04-grok-pre-v0.6-rnd-position
   - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
   - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
+  - SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions
+  - SRC-2026-09-05-deepseek-pre-v0.6-survey
+  - SRC-2026-09-05-gemini-pre-v0.6-survey
+  - SRC-2026-09-05-glm-pre-v0.6-survey
+  - SRC-2026-09-05-grok-pre-v0.6-survey
+  - SRC-2026-09-05-qwen-pre-v0.6-survey
 ---
 
 # Q-005 — Is Commerce an Amplifier of Ontology or an Ontology-Producing Institution?
@@ -70,6 +76,36 @@ Unresolved. [[DEC-007-ontology-before-commerce]] remains `confirmed` / `user-con
 
 Three possible conclusions are: (a) retain DEC-007 and reject Claude's claim; (b) revise DEC-007 to permit both starting points; (c) make a new decision that replaces DEC-007. None has yet been selected. Four further `llm-proposed` surveys now point toward (b), and none toward (a), but a count of model opinions is not a user decision and does not move the decision's status.
 
+## The 2026-09-06 reframing — the question moved, it did not close
+
+`jointly-developed`, `status: working`. The working decisions replace the operative test rather than answering the amplifier-versus-institution question. The earlier evaluation logic — *if Commerce does not materially transform the product, the product is weak* — is judged **too narrow** and replaced by:
+
+> **Does Commerce create a tension that would not exist without it?**
+
+This admits products where Commerce does almost nothing beyond calmly declaring that the thing is merchandise, and it is the reasoning behind the third of three new observation axes:
+
+- **Commerce-Generated** — Commerce creates the state or object.
+- **Commerce-Transformative** — the thing exists independently, but Commerce changes how its identity, condition, ownership, value, or lifecycle is understood.
+- **Commerce-as-Assertion** — Commerce may barely transform the thing; the tension is the institution's calm assertion that it is a product.
+
+Three things this changes for this question, none of them a resolution.
+
+1. **The three-way classification changed shape.** Commerce-Generated / Commerce-Activated / Commerce-Displayed — the triad the unregistered v0.5 prompt supplied, whose instability is recorded above — is superseded by Generated / Transformative / **Assertion**. The source labels the new triad **experimental observation axes, explicitly not a final taxonomy**, so it must not be recorded as the answer to Q-003 either.
+2. **The weakest category was reinterpreted rather than deleted.** Commerce-Displayed was the category everything unwanted fell into. Assertion occupies roughly the same position with the opposite valence: GLM's distinction is that Displayed products sit beside commerce inertly and are *whimsical* merchandise, while Assertion products are *contested* merchandise, where the institution's calm certainty collides with the thing's unownability. Whether that distinction survives contact with real visitors is untested.
+3. **The rejection criterion problem is unchanged and arguably sharper.** GLM argues the reframed question is **unfalsifiable on its own**, because any strange thing placed beside a price produces some tension, and that this is precisely the door through which "the poetry book with price tags" re-enters.
+
+### The proposed guardrail — feature localization
+
+`llm-proposed`, single-model, unadopted. GLM's instrument: the tension a product creates must be traceable to **one named commercial feature** — price, stock, shipping, the address field, condition grade, purchase eligibility, reviews, returns, restock, refund, notification. For every candidate the team should be able to write down the one feature it bends. *If the only writable answer is "there is a price tag," the product is a displayed poem rather than merchandise.*
+
+Two properties make it the most usable proposal this question has received. It is **falsifiable**, unlike the reframed test it guards. And it is **not a class penalty**: GLM applies it across temperatures, benching the human product that fails it (`30th Rain Through the Same Window`, the only pool item whose sole activated feature is the price tag) while keeping assertion-led products that pass through the address field (`Distance to Home: 1,847 mi`) or the condition grade (`The World I Helped Break`).
+
+It also **does not disturb [[DEC-007-ontology-before-commerce]]**. It is a Layer 2 test: it does not require ideas to begin with commerce, only that a candidate be able to land on one commercial feature. Applied, it would supply what the four v0.5 surveys said the grammar lacks — a way to exclude — without deciding whether Commerce amplifies or produces ontology.
+
+**(2026-09-06, `llm-proposed`)** Five critiques divide on the axis itself: three answer "test only," two a qualified yes, none rejects it, and none accepts it unconditionally. All five independently name the same risk — Assertion becoming an admission loophole. Their shared condition is that the commercial frame around such a product must be complete and deadpan; Qwen's version is that Commerce-as-Assertion "requires the UI to do 100% of the conceptual heavy lifting." See [[pre-v0.6-evaluation-round-2]].
+
+**Status: still unresolved.** [[DEC-007-ontology-before-commerce]] remains `confirmed`. Neither the reframed test nor the guardrail is adopted, and neither selects among conclusions (a), (b), and (c) above.
+
 ## Related
 
 - [[DEC-007-ontology-before-commerce]] — The decision challenged by this question, but a challenge does not itself overturn a decision.
@@ -80,6 +116,8 @@ Three possible conclusions are: (a) retain DEC-007 and reject Claude's claim; (b
 - [[v0.5-evaluation]] — Where the four surveys' counts, target ratios, and conflicting classifications are recorded in full.
 - [[Q-006-post-purchase-behavior]] — Connected because three of the four surveys propose using the post-purchase test as the practical way to tell Displayed products from the rest.
 - [[Q-008-product-or-transaction]]
+- [[pre-v0.6-evaluation-round-2]] — Where the five critiques of Commerce-as-Assertion and the feature-localization guardrail are compared.
+- [[rnd-collection]] — Holds the three observation axes and the active pool they classify.
 
 ## Sources
 
@@ -93,3 +131,5 @@ The six survey sources above are `llm-proposed`, not user decisions. Neither the
 - `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. User-originated thematic territory and objection; the proposed bridge and product titles remain `llm-proposed`.
 - `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. Derivative restatement of the bridge, not independent evidence.
 - `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.
+- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`. A `jointly-developed` working-decision summary, `status: working`. It is a decision summary rather than a conversation transcript, and nothing in it is `user-confirmed`.
+- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the working-decisions document's section numbering; despite an earlier filename date, their content places them after those working decisions. Evaluator independence is unverified.

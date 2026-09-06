@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: jointly-developed
-updated: 2026-09-05
+updated: 2026-09-06
 sources:
   - SRC-2026-09-04-commerce-product-rnd-summary
   - SRC-2026-09-04-gemini-collection-v0.4-survey
@@ -18,6 +18,12 @@ sources:
   - SRC-2026-09-04-grok-pre-v0.6-rnd-position
   - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
   - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
+  - SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions
+  - SRC-2026-09-05-deepseek-pre-v0.6-survey
+  - SRC-2026-09-05-gemini-pre-v0.6-survey
+  - SRC-2026-09-05-glm-pre-v0.6-survey
+  - SRC-2026-09-05-grok-pre-v0.6-survey
+  - SRC-2026-09-05-qwen-pre-v0.6-survey
 ---
 
 # R&D Collection
@@ -168,6 +174,8 @@ What did change is where the surveys locate the problem. In v0.4 the correction 
 
 ## v0.6 Discussion (Unadopted)
 
+> **Read the 2026-09-06 section below before using this one.** The 16-item size, the global dryness principle, and `What Payment Cannot Undo` recorded here were all revised by the later working decisions. This section is preserved as the earlier state of the discussion, not as current direction.
+
 **(2026-09-05)** No v0.6 collection has been selected or produced. A new conversation synthesized the four v0.5 surveys into an `llm-proposed` **16-item Deep R&D Set**: instead of generating another broad list of titles, take a smaller set through the full commercial lifecycle and test whether each remains conceptually alive across price, inventory, order confirmation, fulfillment, order history, return, and repurchase. The proposed 16-item size, approximately 25/50/25 balance among Commerce-Generated / Activated / Displayed products, nine retained core items, three middle-register items, and four new items are all unadopted.
 
 A separately registered ChatGPT position note qualifies the exact size as **approximately 12–16 products** and explicitly recommends not finalizing v0.6 yet. It identifies nine products as having earned deeper development: `Yesterday`, `First Typo in a New Notebook`, `First Canceled Order`, `Day After the Return Window Closed`, `Upper-Right Corner, Dented in Transit`, `$8.00 Price Drop, 10 Minutes After Purchase`, `17,400 Hz`, `Unit 12B, Unoccupied`, and `First 12 Sheets Discarded Before Printing`. It moves `Wrong-Turn Alley`, `6-Minute Unrecorded Conversation`, `Last 10 Minutes Before Knowing the Ending`, and `Before Reading the Reviews` to bench or rework. It treats `Summer, Age 16`, `One Day of the Trip, No Photos`, `The Room Before It Became Home`, `Third Door Opened Today`, and `“These Days,” 5 Years Ago` as references that should not advance automatically. All of these dispositions remain LLM proposals.
@@ -190,6 +198,87 @@ Six `llm-proposed` critiques of the derivative position note converge on a small
 
 The external-critique gate has therefore been satisfied only in an LLM sense. Unbriefed human evaluation remains absent. See [[pre-v0.6-evaluation]] and [[Q-008-product-or-transaction]].
 
+## Post-v0.5 → Pre-v0.6 Working Decisions (2026-09-06)
+
+`attribution: jointly-developed`, `status: working`. These are working directions reached in discussion, recorded in `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions`. The document itself distinguishes working decisions from unresolved items and treats LLM survey results as advisory evidence. **Nothing here is `user-confirmed`, and v0.5 remains the current Collection: no v0.6 has been composed.**
+
+### Evolution — what changed from the earlier v0.6 discussion
+
+| Point | Previous state (2026-09-05) | Current working state (2026-09-06) |
+|---|---|---|
+| Purpose of v0.6 | A 16-item Deep R&D Set proving products survive the full lifecycle | Test what happens when radically different kinds of things are treated as **ordinary merchandise**; test different relationships between Ontology and Commerce, not a maximum of clever mechanics |
+| Product count | Approximately 12–16, treated as a target | **Not a hard constraint.** Count conceptual experiments first; v0.6 may grow if a genuinely distinct ontology is found |
+| Unit of meaning | Implicitly one concept = one product | Explicitly rejected. The meaningful unit may be a product, a relationship between products, or a behavior of the store |
+| Commerce test | If Commerce does not materially transform the product, the product is weak | Too narrow. **Does Commerce create a tension that would not exist without it?** Calm assertion that something is merchandise can itself be productive |
+| Naming | "Use the driest name that preserves the essential image," with register fidelity as the leading replacement | The global dryness rule is **not accepted**. Register *diversity* is the direction; uniform bureaucratic cool is itself a stylistic trap |
+| Moral-residue candidate | `What Payment Cannot Undo` (5 rework / 1 keep in the earlier round) | Judged **inadequate** — it translated the idea too quickly into payment, debt, and settlement. Working replacement: `The World I Helped Break` |
+| `"These Days," Five Years Ago` | Treated as a reference not to advance automatically; GLM called it v0.5's weakest product | **Restored** to the active pool as ontologically distinct from `Yesterday` |
+| Post-purchase | Proposed as a mandatory diagnostic across a lifecycle sheet | Every unit tested through Commerce; **not every unit needs a special mechanic.** "Nothing conceptually important happens here" is itself useful evidence |
+| Transaction | Unresolved (see [[Q-008-product-or-transaction]]) | Working direction: **Product = entry point, Transaction = activation.** Simulated normal USD commerce is the working v0.6 R&D assumption, revisitable |
+
+### Three working roles for Commerce
+
+Recorded by the source as **experimental observation axes, explicitly not a final Product Grammar taxonomy**. They replace the earlier Commerce-Generated / Commerce-Activated / Commerce-Displayed triad that the v0.5 prompt supplied.
+
+- **Commerce-Generated** — Commerce creates the state or object; without commercial infrastructure it largely does not exist. Examples: `First Canceled Order`, `Day After the Return Window Closed`, `$8.00 Price Drop, 10 Minutes After Purchase`.
+- **Commerce-Transformative** — the thing exists independently, but Commerce changes how its identity, condition, ownership, value, or lifecycle is understood. Examples: `Yesterday`, `First Typo in a New Notebook`, `Upper-Right Corner, Dented in Transit`, `17,400 Hz`, `Unit 12B, Unoccupied`.
+- **Commerce-as-Assertion** — Commerce may barely transform the thing; the tension comes from the institution calmly asserting that it is a product. Examples: `Distance to Home: 1,847 mi`, `Warmth Left on a Park Bench`, `"These Days," Five Years Ago`, potentially `The World I Helped Break`. The source treats this third axis as protection against OTHER GOODS becoming only a system-mechanics project.
+
+The five critiques in [[pre-v0.6-evaluation-round-2]] accept the axis conditionally — three answer "test only," two a qualified yes, none rejects it and none accepts it unconditionally — and all five name the same risk: that Assertion becomes an admission loophole for poems with price tags. See [[Q-005-commerce-generative-vs-display]].
+
+### Three R&D unit types
+
+- **Singular product** — one SKU carries the ontology. Examples: `Yesterday`, `The World I Helped Break`, `Distance to Home: 1,847 mi`, `17,400 Hz`.
+- **Relational product set** — two or more products must be seen together for the ontology to become visible.
+- **System-level intervention** — the work belongs to the storefront system rather than to a SKU. Working example: `Control Over Final Outcome — Unavailable`, better as an unavailable option, add-on, warranty, or checkout choice than as a standalone product. The source calls this category experimental; two consecutive critique rounds (6/6 then 5/5) nevertheless place it at system level rather than as a SKU.
+
+R&D units are counted separately from storefront SKUs. One Tolerance Pair is **1 R&D unit and 2 storefront SKUs**.
+
+### The Tolerance Pair
+
+The first developed relational unit, and the most operationally specified behavior anywhere in this project.
+
+| | `0.49 mm Deviation` | `0.51 mm Deviation` |
+|---|---|---|
+| Stock | 1 | 1 |
+| Quality status | Within Tolerance | Out of Tolerance |
+| Purchase | For sale | **Not eligible for purchase** |
+
+The physical difference is 0.02 mm; the commercial difference is categorical. The ontology is located in neither SKU but in the boundary between them, and the source states the pair should let the viewer infer the threshold rather than explain it. The unpurchasable item may still carry a price, inventory, a product page, and specifications — creating a separation between **existence** and **sellability**.
+
+The earlier single product `0.49 mm Deviation, Within Tolerance` was judged too close to an ordinary industrial specification; the relational form is the working replacement. All five responses in [[pre-v0.6-evaluation-round-2]] agree the unpurchasable SKU should display a price, on the shared reasoning that the price states the cut is about eligibility rather than value.
+
+### Technical-system bias and product temperature
+
+The source records an explicit risk that OTHER GOODS drifts into a cold conceptual-design project about standards, systems, and institutional classification. Technical, bureaucratic, and industrial products are valuable but are also easy to explain analytically and easy for LLM rubrics to reward. The Collection must preserve human, ordinary, sensory, emotional, temporal, and existential material.
+
+**Product temperature** — Human/Existential, Ordinary/Sensory, Institutional/Material/Technical, Commerce-Native — is recorded as a **bias-checking instrument, not a taxonomy and not a quota**. The question it asks is: *is one logic beginning to explain the whole store?* Two of the five critiques warn that temperature balancing invites keeping weak products for symmetry.
+
+### Active v0.6 candidate pool
+
+**Not a v0.6 Collection.** This is the pool to compose from, recorded in §15 of the source.
+
+- **Human / Existential / Temporal** — `Yesterday`, `"These Days," Five Years Ago`, `Distance to Home: 1,847 mi`, `The World I Helped Break`
+- **Ordinary / Sensory / Latent** — `Warmth Left on a Park Bench`, `30th Rain Through the Same Window`, `12 Stairs, Never Counted`, `First Typo in a New Notebook`
+- **Institutional / Technical / Material** — `17,400 Hz`, `Unit 12B, Unoccupied`, `Tolerance Pair` (`0.49 mm Deviation` / `0.51 mm Deviation`), `First 12 Makeready Sheets`, `Upper-Right Corner, Dented in Transit`
+- **Commerce-Native** — `First Canceled Order`, `Day After the Return Window Closed`, `$8.00 Price Drop, 10 Minutes After Purchase`
+- **System-level bench** — `Control Over Final Outcome — Unavailable`
+- **Deferred / bench** — `Summer, Age 16`, `Pending Refund, 3–5 Business Days`, `Standby Power, 2.3 W`, `Self-Assigned Responsibility`, `What Payment Cannot Undo`. The source states that deferred does not necessarily mean rejected.
+
+Note two dispositions carried from the earlier round: `Self-Assigned Responsibility` was the unanimous 6/6 weakest candidate and is benched consistently with that; `Distance to Home: 1,847 mi` had **no** KEEP vote in that round yet returns to the active pool, a reversal no registered source explains. See [[pre-v0.6-evaluation-round-2]] and `raw/sources.md`.
+
+### Working design principle
+
+The source's own summary of the methodological change entering v0.6:
+
+> A product does not have to explain its ontology alone. The meaningful unit may be a product, a relationship between products, or a behavior of the store itself. Commerce does not need to transform everything; it only needs to create a tension that would not exist without the store.
+
+### Stated next step
+
+Compose the first actual v0.6 Collection from the pool, optimizing for distinct ontology, different Commerce roles, different temperatures, relational possibility, system-level intervention, and resistance to a single visible generative formula — not for a fixed SKU count. The source then proposes collecting another independent LLM critique round.
+
+That critique round was in fact collected and is compared in [[pre-v0.6-evaluation-round-2]]. Its own unanimous answer to "the single most important test to run after composing v0.6" is not another critique round: all five name a live storefront tested with unbriefed non-specialist visitors. No such test has been run, and no transactional surface exists in this repository.
+
 ## Why Product Pages Do Not Yet Exist
 
 Of the 26 candidates, only two—“The First Typo in a New Notebook” and “Summer at Sixteen”—have recorded Grammar/Collision data at the “separation from Commerce Collision” level (see [[product-grammar]]). Under the principle of [[DEC-001-minimal-wiki-first]], `wiki/products/` will not be created until actual content has accumulated; it will be created after step 5 of the v0.4 plan (developing 8–10 representative products to Product Page level) has actually been carried out.
@@ -207,6 +296,7 @@ Of the 26 candidates, only two—“The First Typo in a New Notebook” and “S
 - [[Q-007-product-naming-register]] — Connected because v0.5's shift to English titles and dollar prices makes the naming register a Collection-level variable.
 - [[Q-006-post-purchase-behavior]] — Holds the lifecycle test and Product Behavior Sheet proposed for v0.6.
 - [[pre-v0.6-evaluation]] — Compares the six critiques of the unadopted pre-v0.6 position.
+- [[pre-v0.6-evaluation-round-2]] — Compares the five critiques of the 2026-09-06 working decisions, including the unanimous instruction to test a live store with unbriefed visitors.
 - [[Q-008-product-or-transaction]] — Holds the unresolved atomic-unit and real-payment question.
 
 ## Sources
@@ -218,3 +308,5 @@ Of the 26 candidates, only two—“The First Typo in a New Notebook” and “S
 - `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. A jointly developed conversation containing user-originated territory and LLM-proposed v0.6 structures and titles. The referenced video and attachment are not registered; only the user's pasted interpretation is available.
 - `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. A derivative LLM position note, not an independent evaluation or user decision.
 - `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques under `raw/surveys/`; their common brief and independence are not verified.
+- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`. A `jointly-developed` working-decision summary, `status: working`. It is the source of the methodological correction, the three commerce roles, the three R&D unit types, the Tolerance Pair, the temperature bias check, the active pool, and the working transaction assumption. **It is not a conversation transcript and not a user confirmation**; its own framing records working directions alongside explicitly unresolved items.
+- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the registered working-decisions document's section numbering. Despite carrying an earlier filename date, their content places them after those working decisions.

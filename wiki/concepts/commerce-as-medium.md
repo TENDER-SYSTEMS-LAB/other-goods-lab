@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: jointly-developed
-updated: 2026-09-05
+updated: 2026-09-06
 sources:
   - SRC-2026-09-03-llm-wiki-agent-prompt
   - SRC-2026-09-03-chatgpt-brainstorming
@@ -12,6 +12,12 @@ sources:
   - SRC-2026-09-04-grok-pre-v0.6-rnd-position
   - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
   - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
+  - SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions
+  - SRC-2026-09-05-deepseek-pre-v0.6-survey
+  - SRC-2026-09-05-gemini-pre-v0.6-survey
+  - SRC-2026-09-05-glm-pre-v0.6-survey
+  - SRC-2026-09-05-grok-pre-v0.6-survey
+  - SRC-2026-09-05-qwen-pre-v0.6-survey
 ---
 
 # Commerce as Medium
@@ -47,6 +53,18 @@ The early Wiki lacked the original conversation behind this concept and knew its
 
 **2026-09-05, `llm-proposed` challenge.** Six pre-v0.6 critiques distinguish Commerce as a semantic agent from Commerce as a container. They propose a minimum test: at least one commerce operation must materially change a product's meaning. This is unadopted and challenges the current framing without modifying [[DEC-007-ontology-before-commerce]]. See [[Q-005-commerce-generative-vs-display]] and [[Q-008-product-or-transaction]].
 
+**2026-09-06 — Commerce need not transform in order to be the medium.** `jointly-developed`, `status: working`. Previous state: the operative test was whether Commerce materially changes the product, which had been pushing the work toward elaborate lifecycle mechanics. Transition: that test was judged too narrow, because it penalized ontologies whose tension is declarative rather than procedural. Current state: the test becomes **"does Commerce create a tension that would not exist without it?"**, which admits products where the store does little beyond calmly asserting that the thing is merchandise.
+
+Three consequences for this concept:
+
+- **Assertion joins the medium's vocabulary.** The plain act of pricing, stocking, listing, and offering is now treated as a use of the medium, not as a failure to use it. This is closer to [[conceptual-contrast]]'s original operating rule — reproduce the commercial system perfectly, keep the things it handles noncommercial — than the transformation test was.
+- **The medium extends past the SKU.** Some work belongs to the storefront system rather than to a product: an unavailable option, an add-on, a warranty, a checkout choice. And some belongs to the *relation between* listings, where neither page is fully intelligible alone. Cart, checkout, eligibility rules, and category adjacency become carriers of meaning in their own right, not just surfaces a product collides with.
+- **A new medium state appears: the ineligible listing.** A product may have a price, inventory, a page, and specifications while being impossible to purchase — separating existence from sellability. This is a commercial state with no non-commercial equivalent, and it exists only because the medium is being operated rather than depicted.
+
+The accompanying working transaction direction is **Product = entry point, Transaction = activation**, with simulated normal USD commerce as the v0.6 R&D assumption. See [[rnd-collection]] and [[Q-008-product-or-transaction]].
+
+**2026-09-06, `llm-proposed` constraint.** Five critiques accept the reframing but attach the same condition in five formulations: the commercial frame must be complete and deadpan, or Assertion collapses into decoration. Qwen's version is that the interface must do "100% of the conceptual heavy lifting" through banal logistical enforcement; GLM's is that the tension must be traceable to one named commercial feature, or the product is "a displayed poem" rather than merchandise. This is a constraint on execution of the medium, not a revision of the concept, and it is unadopted. See [[pre-v0.6-evaluation-round-2]].
+
 ## Related
 
 - [[DEC-002-perfect-store-principle]]
@@ -58,6 +76,7 @@ The early Wiki lacked the original conversation behind this concept and knew its
 - [[rnd-collection]] — Records the work in which this framing changed.
 - [[Q-005-commerce-generative-vs-display]]
 - [[Q-008-product-or-transaction]]
+- [[pre-v0.6-evaluation-round-2]] — Where the execution constraint on Commerce-as-Assertion is compared.
 
 ## Sources
 
@@ -65,3 +84,5 @@ The early Wiki lacked the original conversation behind this concept and knew its
 - `SRC-2026-09-03-llm-wiki-agent-prompt` — `raw/documents/2026-09-03-llm-wiki-agent-prompt.md`
 - `SRC-2026-09-04-commerce-product-rnd-summary` — `raw/conversations/2026-09-04-commerce-product-rnd-summary.md`. This is a derivative summary rather than the original conversation transcript. If the original conversation is preserved separately, its provenance takes precedence.
 - `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.
+- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`. A `jointly-developed` working-decision summary, `status: working`. It is a decision summary rather than a conversation transcript, and nothing in it is `user-confirmed`.
+- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the working-decisions document's section numbering; despite an earlier filename date, their content places them after those working decisions. Evaluator independence is unverified.

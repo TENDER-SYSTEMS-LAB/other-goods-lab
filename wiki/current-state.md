@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: jointly-developed
-updated: 2026-09-05
+updated: 2026-09-06
 sources:
   - SRC-2026-09-03-llm-wiki-agent-prompt
   - SRC-2026-09-03-chatgpt-brainstorming
@@ -26,11 +26,17 @@ sources:
   - SRC-2026-09-04-grok-pre-v0.6-rnd-position
   - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
   - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
+  - SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions
+  - SRC-2026-09-05-deepseek-pre-v0.6-survey
+  - SRC-2026-09-05-gemini-pre-v0.6-survey
+  - SRC-2026-09-05-glm-pre-v0.6-survey
+  - SRC-2026-09-05-grok-pre-v0.6-survey
+  - SRC-2026-09-05-qwen-pre-v0.6-survey
 ---
 
 # Current State
 
-Reference date: 2026-09-05.
+Reference date: 2026-09-06.
 
 ## Current Definition
 
@@ -61,6 +67,25 @@ A 2026-09-05 conversation began discussing v0.6 but did not create or confirm it
 A separately registered ChatGPT position note qualifies that proposal as **approximately 12–16 products** and says not to finalize v0.6 before external critique, resolution of the naming principle, testing of moral residue, a decision on `What Payment Cannot Undo`, and selection of Product Behavior Sheet fields. It is derivative of the same Wiki, surveys, and discussion, so it is not independent evidence or a user decision.
 
 Six `llm-proposed` critiques of that unadopted position were then collected. All six say `READY WITH ONE REQUIRED CORRECTION`; 6/6 support reducing and deepening for an R&D experiment but warn that it is not catalog density, and 6/6 constrain moral-residue entry. They do not confirm project readiness, v0.6, or any proposed candidate, rule, or sheet. Their strongest unresolved cluster is [[Q-008-product-or-transaction]]: whether the atomic unit is a product or transaction, and whether real money moves. See [[pre-v0.6-evaluation]]. No v0.6 structure, candidate, naming rule, lifecycle rule, payment model, or taxonomy has been confirmed.
+
+**2026-09-06 — a methodological shift, `jointly-developed` and `status: working`.** A working-decision summary reached in discussion revises several of the directions above. It is not `user-confirmed`, and **v0.5 remains the current Collection: no v0.6 has been composed.** Its substantive changes:
+
+- **v0.6 is no longer a better list of titles.** Its objective is to test what happens when radically different kinds of things are treated as ordinary merchandise, and to test different relationships between Product Ontology and Commerce — not to maximize clever commerce mechanics.
+- **The earlier commerce test was too narrow.** "If Commerce does not materially transform the product, the product is weak" is replaced by **"Does Commerce create a tension that would not exist without it?"** This admits products where Commerce does little beyond calmly declaring that the thing is merchandise.
+- **Three working roles for Commerce** — Commerce-Generated, Commerce-Transformative, and Commerce-as-Assertion — recorded as **experimental observation axes, explicitly not a final Product Grammar taxonomy**. They replace the Commerce-Generated / Activated / Displayed triad that the unregistered v0.5 prompt supplied.
+- **One concept no longer equals one product.** The meaningful unit may be a singular product, a **relational product set**, or a **system-level intervention** in the store's own behavior. R&D units are counted separately from storefront SKUs.
+- **The 12–16 count is no longer a constraint.** Count conceptual experiments first; v0.6 may grow if a genuinely distinct ontology appears.
+- **The global dryness naming rule is not accepted.** Register *diversity* is the direction; uniform bureaucratic cool is itself named a stylistic trap. See [[Q-007-product-naming-register]].
+- **Lifecycle testing without mandatory mechanics.** Every retained unit is tested through commerce questions, but not every unit needs a special mechanic; "nothing conceptually important happens here" is itself useful evidence. See [[Q-006-post-purchase-behavior]].
+- **Working transaction direction: Product = entry point, Transaction = activation**, with simulated normal USD commerce as the v0.6 R&D assumption rather than a permanent settlement decision. See [[Q-008-product-or-transaction]].
+- **Technical-system bias is an explicit risk**, and product temperature is introduced as a bias-checking instrument — not a taxonomy and not a quota. Its question is whether one logic is beginning to explain the whole store.
+- **Candidate changes.** `What Payment Cannot Undo` was judged inadequate for its intended territory and replaced by the working title `The World I Helped Break`; `"These Days," Five Years Ago` returns to the active pool; `0.49 mm Deviation` is superseded by the relational **Tolerance Pair**.
+
+The **Tolerance Pair** is the first developed relational unit and the most operationally specified behavior in the project: `0.49 mm Deviation` within tolerance and for sale, `0.51 mm Deviation` out of tolerance and **stocked but not eligible for purchase**, separating existence from sellability. See [[rnd-collection]].
+
+**2026-09-06 — five further `llm-proposed` critiques.** Five responses critique those working decisions; all five return `READY WITH MINOR REVISIONS`, which records only directional readiness for a first composition and a build. 5/5 accept relational sets as first-class R&D units, 5/5 say the unpurchasable SKU should show a price, 5/5 treat `Control Over Final Outcome — Unavailable` as a system-level intervention rather than a SKU, and 5/5 name the same biggest new risk: Commerce-as-Assertion becoming an admission loophole for poems with price tags. On the axis itself they split three "test only" to two qualified yes, with no rejection and no unconditional acceptance.
+
+**Their unanimous next step is not another critique round.** All five name a live working storefront tested with unbriefed non-specialist visitors as the single most important next experiment. This is the third consecutive round to name the transaction layer as the thing to build, and no transactional surface exists in this repository. See [[pre-v0.6-evaluation-round-2]].
 
 Regarding product images, all three surveys—Gemini, GLM, and Grok—selected Option C: **do not use ASCII as a single global style; demote it to one renderer within a larger Representation System**. Their reasons differ. Gemini recognizes ASCII's structural metaphor but identifies risks of scalability and genre; GLM considers it structural only when actual store data is the material of its glyphs; Grok considers its conceptual necessity itself weak. The strong convergence is therefore not a justification for ASCII, but an architecture requiring a plural imaging policy rather than a single style. This is an `llm-proposed` hypothesis from the three LLMs, not a user decision. See [[product-image-system]] for details.
 
@@ -109,6 +134,10 @@ All of the above is `llm-proposed`; the user has not yet selected any product.
 
 The 2026-09-05 conversation added an unselected R&D bench rather than a v0.6 list. Its most developed LLM-proposed candidates are `What Payment Cannot Undo`, `Self-Assigned Responsibility`, `Repair Scope: Partial`, and `Distance to Home: 1,847 mi`, alongside proposed system objects involving a pending refund, manufacturing tolerance, and standby power. Their shared thematic starting point is user-originated, but none of the English titles is user-confirmed.
 
+**2026-09-06.** That bench was reorganized into an **active v0.6 candidate pool** of roughly twenty-two items across four temperatures plus a system-level bench and a deferred bench. It is a pool to compose from, **not a v0.6 Collection**. `What Payment Cannot Undo` and `Self-Assigned Responsibility` moved to the deferred bench; `The World I Helped Break`, `"These Days," Five Years Ago`, and the `Tolerance Pair` entered as working candidates. The full pool is in [[rnd-collection]]. All of it is `jointly-developed` working material; no title is `user-confirmed`.
+
+One disposition is worth watching. `Distance to Home: 1,847 mi` received **no KEEP vote** from the six critiques of 2026-09-04 and was one model's forced exclusion, yet it returns to the active pool and is then rated KEEP by all five responses of the following round. No registered source explains the reversal. Recorded as an Evolution in [[pre-v0.6-evaluation-round-2]] and in `raw/sources.md`.
+
 The complete list and version-by-version changes are in [[rnd-collection]]. This document does not repeat the candidate list; it only records the current disposition of the four initial candidates directly supplied by the user. All have `attribution: user-originated`.
 
 - `Yesterday` — retained in every version from v0.1 through v0.5, and placed in the Top by every survey in both the v0.4 and v0.5 rounds — six of six. `status: working`.
@@ -138,10 +167,11 @@ These items were not discarded; they are deferred outside the current scope unde
 - [[Q-004-rnd-collection-exit-condition]]
 - [[Q-005-commerce-generative-vs-display]] — an unresolved challenge to the confirmed decision [[DEC-007-ontology-before-commerce]].
 - [[Q-006-post-purchase-behavior]] — no longer a single-source question; four v0.5 surveys now address it and split on whether the field should be mandatory for every product.
-- [[Q-007-product-naming-register]] — in what register products should be named, and whether the tested “driest name” principle survives. New on 2026-09-04.
+- [[Q-007-product-naming-register]] — in what register products should be named. New on 2026-09-04. Updated 2026-09-06: the tested “driest name” principle is set aside as a global rule and register *diversity* is the working direction, but no governing principle has been selected.
 - [[Q-008-product-or-transaction]] — whether the atomic unit is a product or transaction, and whether real money moves.
 - The open question in [[product-image-system]] — can several renderers be bound into one store policy without closing them into a new style taxonomy?
-- **Price as a conceptual surface.** GLM's v0.5 survey names this the project's most dangerous blind spot: price is treated everywhere as a display field and never as conceptual material, yet at catalog scale arbitrary prices will read as arbitrary. Single-source and `llm-proposed`; no page created.
+- **Price as a conceptual surface.** GLM's v0.5 survey names this the project's most dangerous blind spot: price is treated everywhere as a display field and never as conceptual material, yet at catalog scale arbitrary prices will read as arbitrary. GLM repeated the finding in the 2026-09-06 round, calling it the biggest omission of every round so far and arguing that in this store price is itself an ontological claim. Raised in two rounds but still by one model; `llm-proposed`, no page created.
+- **Is Commerce-as-Assertion a valid axis or an admission loophole?** New on 2026-09-06. Five critiques split three "test only" to two qualified yes, none rejecting and none unconditionally accepting. GLM's proposed guardrail — **feature localization**, requiring each product's tension to be traceable to one named commercial feature — is the only concrete instrument offered and is unadopted. Tracked under [[Q-005-commerce-generative-vs-display]].
 - **What language the store's products are named in.** v0.5 switched to English titles and dollar prices with no registered explanation.
 - Which products should constitute the first Collection, and which commerce function should be primary for each product?
 - [[Q-008-product-or-transaction]] — does actual payment and checkout strengthen or weaken the concept?
@@ -176,8 +206,11 @@ A derivative pre-v0.6 position note expands the lifecycle sheet with Product Gra
 
 On the same day, the three Product Image System surveys' shared next step was not to confirm a single ASCII approach, but to build comparative prototypes: an ASCII stress test for formless products; several-renderer comparisons of the same product; and visitor testing of a mixed-policy Catalog inside a normal Commerce shell. Detailed implementation and ordering remain unadopted and are organized in [[product-image-system]].
 
+2026-09-06. The working decisions state their own next step as composing the first actual v0.6 Collection from the active pool — optimizing for distinct ontology, different Commerce roles, different temperatures, relational possibility, and resistance to a single visible generative formula, rather than for a fixed SKU count — and then collecting another independent critique round. That critique round was collected, and its own answer differs: all five responses name a live storefront tested with unbriefed non-specialist visitors as the most important next experiment, and none proposes a further critique round. GLM states the structural risk directly — that the project is being steered by LLM critique cycles, "this document included," producing pendulum aesthetics rather than discovered work — and proposes that the store itself become the instrument. This is `llm-proposed` convergence, not a user decision, but it is now the third consecutive round to name the transaction layer as the thing to build.
+
 ## Recently Changed
 
+- 2026-09-06 — Ingested the post-v0.5 → pre-v0.6 working decisions and five further LLM critiques of them. Recorded the reframed commerce test, the three commerce roles as observation axes, the three R&D unit types, the R&D-unit-versus-SKU distinction, the removal of the fixed 12–16 count and of the global dryness rule, the Tolerance Pair, the temperature bias check, the working transaction direction, and the active candidate pool. Created [[pre-v0.6-evaluation-round-2]]. Recorded four provenance findings: a fifth unregistered evaluation brief, a filename-date ordering caution, the unexplained `Distance to Home` reversal, and the still-unrecorded English/USD switch. **No v0.6 was composed and no decision was confirmed.**
 - 2026-09-05 — Ingested six pre-v0.6 LLM critiques of that derivative position. Recorded 6/6 qualified support for a temporary 12–16-product R&D unit, split lifecycle/price/inventory positions, candidate dispositions, and the new atomic-unit/payment question in [[pre-v0.6-evaluation]] and [[Q-008-product-or-transaction]]. No v0.6 or recommendation was adopted.
 - 2026-09-05 — Ingested a derivative ChatGPT pre-v0.6 position note. It qualified the proposed set size to approximately 12–16, recorded nine deeper-development candidates, four bench/rework candidates, a six-step pre-v0.6 gate, and a two-part Commerce/product test. It was not counted as an independent evaluation and added no decision.
 - 2026-09-05 — Ingested a ChatGPT conversation about possible v0.6 work. Registered the user's new thematic territory and naming objection, and recorded the LLM-proposed Deep R&D Set, lifecycle sheet, candidate bench, and five unadopted Grammar territories. No v0.6 list or new decision was confirmed; the referenced video and attachment are not registered.
@@ -191,6 +224,8 @@ On the same day, the three Product Image System surveys' shared next step was no
 
 ## Sources
 
+- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`. A `jointly-developed` working-decision summary, `status: working`. Source of the reframed commerce test, the three commerce roles, the three R&D unit types, the Tolerance Pair, the temperature bias check, the active pool, and the working transaction assumption. It is a decision summary rather than a conversation transcript, and it is **not** a user confirmation; its own framing separates working decisions from explicitly unresolved items.
+- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered, and its section numbering does not match the working-decisions document, so the brief is a derived document this repository does not hold. Although filename-dated a day earlier, their content places them after those working decisions. Evaluator independence is unverified.
 - `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. A derivative `llm-proposed` position note synthesizing the Wiki, v0.5 surveys, naming discussion, and supplied video analysis. It is not an independent evaluation or user decision.
 - `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques under `raw/surveys/`. Their shared prompt, delivery, and independence are unverified; counts are LLM convergence, not user confirmation.
 - `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. A jointly developed conversation. The thematic territory and objection to over-technical naming are user-originated; v0.6 structure, lifecycle sheet, Grammar labels, and product titles are LLM-proposed. The referenced video and attachment are absent.

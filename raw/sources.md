@@ -33,12 +33,12 @@ When adding a source, append one row to the table below and record the result of
 | `SRC-2026-09-04-grok-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-grok-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `14bcadbf7d8627d432f2da66658014634d97c13b` | 2026-09-05 | promoted (partial) |
 | `SRC-2026-09-04-kimi-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-kimi-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `10520df4ba4938c5c6f46f3564e67c507497589a` | 2026-09-05 | promoted (partial) |
 | `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` | `raw/surveys/2026-09-04-qwen-pre-v0.6-rnd-position.md` | survey | 2026-09-04 | `llm-proposed` | `66b8c6bf4b1f42130b884716712acdcf8e27cb41` | 2026-09-05 | promoted (partial) |
-| `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` | `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md` | conversation-decision-summary | 2026-09-06 | `jointly-developed` | `59b9b5264ce0b41df34ba9a5aaa489145621b20e` | not yet | unreviewed |
-| `SRC-2026-09-05-deepseek-pre-v0.6-survey` | `raw/surveys/2026-09-05-deepseek-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `a41ba8571f7b45e6eb45ec8dff3e9361bc6fdf91` | not yet | unreviewed |
-| `SRC-2026-09-05-gemini-pre-v0.6-survey` | `raw/surveys/2026-09-05-gemini-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `fea523a7320bb5dc5e307362b3c846b3e2cc411c` | not yet | unreviewed |
-| `SRC-2026-09-05-glm-pre-v0.6-survey` | `raw/surveys/2026-09-05-glm-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `88f920ed03f9ddc6295e034abcf7da89afa8b54c` | not yet | unreviewed |
-| `SRC-2026-09-05-grok-pre-v0.6-survey` | `raw/surveys/2026-09-05-grok-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `52a9e17aee26666ed8d707a33c84f9c9842c7625` | not yet | unreviewed |
-| `SRC-2026-09-05-qwen-pre-v0.6-survey` | `raw/surveys/2026-09-05-qwen-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `79315738c0286a36869348b6c676fb10c6a55ba7` | not yet | unreviewed |
+| `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` | `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md` | conversation-decision-summary | 2026-09-06 | `jointly-developed` | `59b9b5264ce0b41df34ba9a5aaa489145621b20e` | 2026-09-06 | promoted (partial) |
+| `SRC-2026-09-05-deepseek-pre-v0.6-survey` | `raw/surveys/2026-09-05-deepseek-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `a41ba8571f7b45e6eb45ec8dff3e9361bc6fdf91` | 2026-09-06 | promoted (partial) |
+| `SRC-2026-09-05-gemini-pre-v0.6-survey` | `raw/surveys/2026-09-05-gemini-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `fea523a7320bb5dc5e307362b3c846b3e2cc411c` | 2026-09-06 | promoted (partial) |
+| `SRC-2026-09-05-glm-pre-v0.6-survey` | `raw/surveys/2026-09-05-glm-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `88f920ed03f9ddc6295e034abcf7da89afa8b54c` | 2026-09-06 | promoted (partial) |
+| `SRC-2026-09-05-grok-pre-v0.6-survey` | `raw/surveys/2026-09-05-grok-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `52a9e17aee26666ed8d707a33c84f9c9842c7625` | 2026-09-06 | promoted (partial) |
+| `SRC-2026-09-05-qwen-pre-v0.6-survey` | `raw/surveys/2026-09-05-qwen-pre-v0.6-survey.md` | survey | 2026-09-05 | `llm-proposed` | `79315738c0286a36869348b6c676fb10c6a55ba7` | 2026-09-06 | promoted (partial) |
 
 ## Known Provenance Gaps
 
@@ -89,6 +89,34 @@ It also cannot be verified from the responses alone whether the four models answ
 The registered ChatGPT position note is the derivative position being critiqued, not a seventh independent evaluation. A separate shared evaluation prompt is not registered. The matching structures, candidates, and forced questions strongly indicate a common brief, but identical prompt delivery and evaluator independence cannot be verified. Counts represent convergence among six LLM responses, not six user confirmations, audience research, or necessarily independent judgments.
 
 The moral-residue material remains downstream of a missing video and attachment; the registered discussion contains only the user's pasted interpretation. Statements about legal or consumer obligations if real money moves are LLM-proposed risk flags, not verified legal guidance.
+
+### Pre-v0.6 critique round 2 — a fifth unregistered evaluation brief
+
+The shared brief answered by `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` is not registered. Only the five responses are.
+
+It is also demonstrably **not** `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions`, even though it clearly derives from it. The section numbering does not match: GLM cites the methodological correction as "Section 3" and the three commerce roles as "Section 4," while the registered document places them at §2 and §3. Qwen's headings show a "1. Project Context" and "2. Why v0.6 Exists" preceding them, and both Qwen and DeepSeek show forced questions labelled A–L and a required final-output section that appear in no registered source. The brief therefore contains material this repository does not hold, including the twelve questions whose answers are the most quantitatively cited part of the round.
+
+This is the **fifth consecutive evaluation round whose prompt is absent**, after v0.4, v0.5, the Product Image System round, and the first pre-v0.6 critique round. Whether the five models answered independently likewise cannot be verified. Counts drawn from these responses are convergence among five LLM outputs, never user confirmation and never audience research.
+
+### Filename dates do not establish decision order
+
+The five surveys above carry filename and registry date **2026-09-05**, one day earlier than `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions`. All six were added in the same commit.
+
+Their content establishes the opposite ordering. Every one of the five critiques Commerce-as-Assertion, the Tolerance Pair, the R&D-unit-versus-SKU distinction, `The World I Helped Break`, and the restored `"These Days," Five Years Ago` — none of which appears in any earlier registered source. The surveys are therefore **downstream** of those working decisions, or of a brief that already contained them.
+
+Record the general caution: in this repository a filename date reflects when material was generated or exported in the operator's session, not its position in the project's decision order. Establish sequence from content and from explicit supersession evidence, never from a date in a filename.
+
+### Unexplained reversal of `Distance to Home: 1,847 mi`
+
+In the first pre-v0.6 critique round, this candidate received **0 KEEP, 1 REWORK, and 3 DROP** votes, with two further mixed drop-or-rework positions, and Claude selected it as its single forced exclusion. See `wiki/collections/pre-v0.6-evaluation.md`.
+
+`SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` nevertheless places it in the active Human/Existential pool and uses it as a leading illustration of Commerce-as-Assertion. All five responses in the following round then rate it KEEP.
+
+No registered source explains the change. Two readings are available and neither is verifiable from the record: a `jointly-developed` judgment overrode an `llm-proposed` consensus, which the attribution system permits and which requires no justification; or the new Assertion framing supplied a reading the earlier round did not have. This is recorded as an Evolution in `wiki/collections/pre-v0.6-evaluation-round-2.md` so that the contradiction is visible rather than silent. It is **not** a source-Wiki mismatch and requires no `REVIEW_REQUIRED` marking.
+
+### Still unexplained: English titles and dollar prices
+
+Recorded here for continuity, not as a new finding. The v0.5 shift from Korean-derived titles to English and from ₩ to $ remains explained by no registered source, and no user decision records it. The 2026-09-06 material continues in English and dollars without addressing it. Tracked in `wiki/questions/Q-007-product-naming-register.md` under unresolved subproblems.
 
 ## Notes
 

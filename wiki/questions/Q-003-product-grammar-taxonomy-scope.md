@@ -1,7 +1,7 @@
 ---
 status: unknown
 attribution: jointly-developed
-updated: 2026-09-05
+updated: 2026-09-06
 sources:
   - SRC-2026-09-04-commerce-product-rnd-summary
   - SRC-2026-09-04-gemini-collection-v0.4-survey
@@ -16,6 +16,12 @@ sources:
   - SRC-2026-09-04-grok-pre-v0.6-rnd-position
   - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
   - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
+  - SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions
+  - SRC-2026-09-05-deepseek-pre-v0.6-survey
+  - SRC-2026-09-05-gemini-pre-v0.6-survey
+  - SRC-2026-09-05-glm-pre-v0.6-survey
+  - SRC-2026-09-05-grok-pre-v0.6-survey
+  - SRC-2026-09-05-qwen-pre-v0.6-survey
 ---
 
 # Q-003 — The Scope and Boundaries of the Product Grammar Taxonomy
@@ -48,6 +54,14 @@ A newer objection cuts across the counting question entirely. All four v0.5 surv
 
 **2026-09-05, `llm-proposed`.** The six pre-v0.6 critiques dispute whether Product Grammar remains a mandatory production field in the Behavior Sheet. This concerns its operational usefulness, not a new answer to category count: only Kimi explicitly retains it as essential, while several other responses cut or demote it.
 
+**2026-09-06, `jointly-developed`, `status: working`.** The working decisions introduce three new classifications and **explicitly refuse taxonomy status for all three**. The three commerce roles are "experimental observation axes, not a final Product Grammar taxonomy." Product temperature is "not a final taxonomy" but "a simple balancing instrument." The three R&D unit types are presented as a structural decomposition rather than a category system. Nothing new is added to the 14 Grammars, and no consolidation proposal is adopted.
+
+This is the clearest signal yet about this question's own shape. The project has now generated five classification systems — 14 Grammars, Generated/Activated/Displayed, Generated/Transformative/Assertion, singular/relational/system-level, and four temperatures — and the newest source declines to promote any of the last three to taxonomy. The stated reason is a risk rather than a category count: that OTHER GOODS drifts into "a cold conceptual-design project about standards, systems, and institutional classification."
+
+Two `llm-proposed` responses in the following round make the arithmetic explicit. GLM counts three roles × three unit types × four temperatures as thirty-six cells and warns that "the curation layer is becoming a second artwork that will leak into the storefront if unchecked," adding the constraint that the visitor must never encounter the word "temperature." Grok independently warns that the unit-type framework "already risks becoming another taxonomy that the project then has to service."
+
+Neither the category count nor the boundary subproblems are resolved. What has changed is the weight of evidence that **counting categories is not this question's real content**: the working decisions govern the same material through observation axes and a bias check, while the only proposed instrument that would actually exclude a candidate — GLM's feature localization — is a Layer 2 test with no category count at all. See [[Q-005-commerce-generative-vs-display]] and [[pre-v0.6-evaluation-round-2]].
+
 ## Discussed Approaches
 
 A format was proposed that records Product Grammar / Primary Commerce Collision / Secondary Commerce Collision separately for each product. The Primary/Secondary distinction may be a partial answer to the problem of multiple membership on the Commerce Collision side, but it is a structure for Commerce Collision; multiple membership in Grammar remains undecided. The poetic bias of Boundaryless / Counterfactual Grammars and the room for Ontology to extend toward what “products one does not want” indicates were identified as gaps in the taxonomy.
@@ -62,6 +76,7 @@ A format was proposed that records Product Grammar / Primary Commerce Collision 
 - [[v0.4-evaluation]] — Detailed basis for the 2026-09-04 taxonomy consolidation proposals.
 - [[v0.5-evaluation]] — The four further consolidation proposals and the five-category convergence.
 - [[Q-005-commerce-generative-vs-display]] — A question newly raised by the v0.4 surveys alongside the taxonomy consolidation discussion.
+- [[pre-v0.6-evaluation-round-2]] — Where the taxonomy-sprawl warnings against the newest classifications are compared.
 
 ## Sources
 
@@ -70,3 +85,5 @@ A format was proposed that records Product Grammar / Primary Commerce Collision 
 - `SRC-2026-09-04-claude-collection-v0.4-survey` — `raw/surveys/2026-09-04-claude-collection-v0.4-survey.md`. It is `llm-proposed` and has the same provenance limitation described above.
 - `SRC-2026-09-04-gemini-collection-v0.5-survey`, `SRC-2026-09-04-glm-collection-v0.5-survey`, `SRC-2026-09-04-grok-collection-v0.5-survey`, `SRC-2026-09-04-kimi-collection-v0.5-survey` — the four v0.5 surveys under `raw/surveys/`. All `llm-proposed`; the v0.5 evaluation prompt is likewise not registered.
 - `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.
+- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`. A `jointly-developed` working-decision summary, `status: working`. It is a decision summary rather than a conversation transcript, and nothing in it is `user-confirmed`.
+- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the working-decisions document's section numbering; despite an earlier filename date, their content places them after those working decisions. Evaluator independence is unverified.

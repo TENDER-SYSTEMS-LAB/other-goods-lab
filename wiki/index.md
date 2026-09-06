@@ -1,7 +1,7 @@
 ---
 status: working
 attribution: llm-synthesis
-updated: 2026-09-05
+updated: 2026-09-06
 sources:
   - SRC-2026-09-03-llm-wiki-agent-prompt
   - SRC-2026-09-03-chatgpt-brainstorming
@@ -26,6 +26,12 @@ sources:
   - SRC-2026-09-04-grok-pre-v0.6-rnd-position
   - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
   - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
+  - SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions
+  - SRC-2026-09-05-deepseek-pre-v0.6-survey
+  - SRC-2026-09-05-gemini-pre-v0.6-survey
+  - SRC-2026-09-05-glm-pre-v0.6-survey
+  - SRC-2026-09-05-grok-pre-v0.6-survey
+  - SRC-2026-09-05-qwen-pre-v0.6-survey
 ---
 
 # OTHER GOODS Wiki Index
@@ -50,22 +56,23 @@ Before creating a page, check this catalog to see whether an existing page can b
 ## Core
 
 - [[overview]] — Definition, identity, central question, and principles of the work · `working` (2026-09-04)
-- [[current-state]] — Latest snapshot of confirmed decisions, current scope, candidates, unresolved questions, and priorities · `working` (2026-09-05)
+- [[current-state]] — Latest snapshot of confirmed decisions, current scope, candidates, unresolved questions, and priorities · `working` (2026-09-06)
 
 ## Concepts
 
-- [[commerce-as-medium]] — Uses the full set of e-commerce rules, including price, inventory, search, checkout, and shipping, as the work's medium · `working` (2026-09-05)
+- [[commerce-as-medium]] — Uses the full set of e-commerce rules, including price, inventory, search, checkout, and shipping, as the work's medium · `working` (2026-09-06)
 - [[conceptual-contrast]] — Collision between a normal commercial system and things that cannot be products · `working` (2026-09-03)
-- [[progressive-displacement]] — Visitor experience of discovering unfamiliar outcomes after becoming familiar with a rule · `working` (2026-09-05)
-- [[product-grammar]] — Current 14-part taxonomy plus unadopted consolidation and new-territory proposals · `working` (2026-09-05)
+- [[progressive-displacement]] — Visitor experience of discovering unfamiliar outcomes after becoming familiar with a rule · `working` (2026-09-06)
+- [[product-grammar]] — Current 14-part taxonomy, unadopted consolidation and new-territory proposals, and what the later classifications deliberately do not add · `working` (2026-09-06)
 - [[product-image-system]] — Hypothesis that places ASCII and other renderers under one store representation policy · `hypothesis` (2026-09-04)
 - [[time-as-currency]] — Blockchain-based `TIME` currency and changing-value direction · `deferred` (2026-09-03)
 - [[other-goods-as-entity]] — Organizational and system world in which OTHER GOODS exists independently of an artist · `deferred` (2026-09-03)
 
 ## Collections
 
-- [[rnd-collection]] — Candidates through current v0.5 plus unadopted pre-v0.6 discussion and six-critique synthesis · `working` (2026-09-05)
+- [[rnd-collection]] — Candidates through current v0.5 plus the 2026-09-06 working decisions, the three R&D unit types, the Tolerance Pair, and the active v0.6 pool · `working` (2026-09-06)
 - [[pre-v0.6-evaluation]] — Comparison of six LLM critiques of the unadopted pre-v0.6 position, including forced-decision splits and candidate dispositions · `working` (2026-09-05)
+- [[pre-v0.6-evaluation-round-2]] — Comparison of five LLM critiques of the 2026-09-06 working decisions, including the unanimous call for a live unbriefed-visitor store test · `working` (2026-09-06)
 - [[v0.4-evaluation]] — Comparison of the Gemini and Claude surveys of the 30-item R&D Collection v0.4 · `working` (2026-09-04)
 - [[v0.5-evaluation]] — Comparison of the Gemini, GLM, Grok, and Kimi surveys of the 24-item R&D Collection v0.5 · `working` (2026-09-04)
 
@@ -81,26 +88,26 @@ Before creating a page, check this catalog to see whether an existing page can b
 
 ## Open Questions
 
-- [[Q-001-comprehensibility-vs-mystery]] — Balance between immediately understandable use and lasting interpretive depth · `unknown` (2026-09-04)
+- [[Q-001-comprehensibility-vs-mystery]] — Balance between immediately understandable use and lasting interpretive depth · `unknown` (2026-09-06)
 - [[Q-002-first-collection-selection]] — How to compare evaluations of the first Collection and narrow it to a final composition · `unknown` (2026-09-04)
-- [[Q-003-product-grammar-taxonomy-scope]] — Where to place the scope and boundaries of the Product Grammar taxonomy · `unknown` (2026-09-05)
-- [[Q-004-rnd-collection-exit-condition]] — When to end the R&D Collection and move to the Catalog stage · `unknown` (2026-09-05)
-- [[Q-005-commerce-generative-vs-display]] — Whether Commerce amplifies already strong objects or produces new ontologies · `unknown` (2026-09-05)
-- [[Q-006-post-purchase-behavior]] — What changes after checkout and how a lifecycle sheet should test it · `unknown` (2026-09-05)
-- [[Q-007-product-naming-register]] — How to balance register fidelity with the user's objection to over-technical naming · `unknown` (2026-09-05)
-- [[Q-008-product-or-transaction]] — Whether the artwork's atomic unit is a product or transaction and whether real money moves · `unknown` (2026-09-05)
+- [[Q-003-product-grammar-taxonomy-scope]] — Where to place the scope and boundaries of the Product Grammar taxonomy · `unknown` (2026-09-06)
+- [[Q-004-rnd-collection-exit-condition]] — When to end the R&D Collection and move to the Catalog stage · `unknown` (2026-09-06)
+- [[Q-005-commerce-generative-vs-display]] — Whether Commerce amplifies already strong objects or produces new ontologies, and whether Commerce-as-Assertion is an axis or a loophole · `unknown` (2026-09-06)
+- [[Q-006-post-purchase-behavior]] — What changes after checkout and how a lifecycle sheet should test it · `unknown` (2026-09-06)
+- [[Q-007-product-naming-register]] — How to name products once the global dryness rule is set aside in favor of register diversity · `unknown` (2026-09-06)
+- [[Q-008-product-or-transaction]] — Whether the artwork's atomic unit is a product or transaction and whether real money moves · `unknown` (2026-09-06)
 
 ## Activity
 
-- [[log]] — Append-only history of ingestion, queries, linting, decisions, and maintenance (2026-09-05)
+- [[log]] — Append-only history of ingestion, queries, linting, decisions, and maintenance (2026-09-06)
 
 ## Repository Control
 
 - [README](../README.md) — Public overview of the work and repository; canonical English entry point (2026-09-05)
 - [AGENTS](../AGENTS.md) — Reading, language, ingestion, verification, institutional Git identity, and model-routing rules for agents (2026-09-05)
 - [Schema](../schema.md) — Page taxonomy, status, attribution, provenance, language, and maintenance rules (2026-09-04)
-- [Raw README](../raw/README.md) — How to add and preserve original source material, including the original-language exception (2026-09-05)
-- [Raw Source Index](../raw/sources.md) — IDs, paths, hashes, and ingestion status for every raw source (2026-09-05)
+- [Raw README](../raw/README.md) — How to add and preserve original source material, including the original-language exception (2026-09-06)
+- [Raw Source Index](../raw/sources.md) — IDs, paths, hashes, and ingestion status for every raw source (2026-09-06)
 
 ## Page Creation Gates
 

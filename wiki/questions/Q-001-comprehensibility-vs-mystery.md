@@ -1,7 +1,7 @@
 ---
 status: unknown
 attribution: user-originated
-updated: 2026-09-04
+updated: 2026-09-06
 sources:
   - SRC-2026-09-03-llm-wiki-agent-prompt
   - SRC-2026-09-03-chatgpt-brainstorming
@@ -11,6 +11,12 @@ sources:
   - SRC-2026-09-04-gemini-product-image-system-survey
   - SRC-2026-09-04-glm-product-image-system-survey
   - SRC-2026-09-04-grok-product-image-system-survey
+  - SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions
+  - SRC-2026-09-05-deepseek-pre-v0.6-survey
+  - SRC-2026-09-05-gemini-pre-v0.6-survey
+  - SRC-2026-09-05-glm-pre-v0.6-survey
+  - SRC-2026-09-05-grok-pre-v0.6-survey
+  - SRC-2026-09-05-qwen-pre-v0.6-survey
 ---
 
 # Q-001 — The Balance Between Comprehensibility and Mystery
@@ -67,6 +73,12 @@ All of this is `llm-proposed`, and the question remains open.
 
 **2026-09-04.** The three Product Image System surveys found the same problem recurring at the image layer. If a single ASCII style repeats across the entire Catalog, visitors may close the work after a few products with the explanation “this store converts concepts into ASCII,” flattening the differences among more than 100 products under the same style. All three responses selected Option C, which demotes ASCII to one renderer within a larger Representation System, but they did not agree on ASCII's own conceptual necessity. This shows that comprehensibility is at stake not only in explanatory copy or product arrangement but also in **the learnability of the image policy**. See [[product-image-system]] for details. Because this is not actual audience data, the question remains `unknown`.
 
+**2026-09-06.** Five `llm-proposed` critiques converge on an operational form of this question that had not previously been stated: **does an unbriefed visitor experience the site as a store or as a gallery?** All five name a live storefront tested with non-specialist viewers as the most important next experiment, and their proposed observations map onto this question's two halves. For comprehensibility: whether visitors navigate the logistics of buying or "just read the titles like museum placards" (Qwen); whether a disabled purchase reads as an institutional rule or as a broken button (Gemini). For non-closure: what remains interesting **after the first conceptual recognition fades** (Grok), which is the first proposed measure of [[progressive-displacement]] that could actually falsify it.
+
+Two further contributions bear on the mystery half. GLM argues that the store's differentiation burden falls almost entirely on the first ten seconds of the homepage, because "deadpan absurd commerce" already exists as a recognizable novelty genre — which sharpens Claude's earlier observation that visitors fix the genre from the first three or four products. And the working decisions add a constraint from the other direction: the Tolerance Pair "should preferably allow the viewer to infer the threshold rather than explicitly explain it," with the refusal left unexplained. That is the first concrete instance in this project of comprehensibility and mystery being assigned to different surfaces of the same product — the interface stays legible while the rule stays undisclosed.
+
+The question remains `unknown`. It has been recorded since 2026-09-03 that it will not close before actual audience testing, and no such testing has taken place. See [[pre-v0.6-evaluation-round-2]].
+
 ## Related
 
 - [[commerce-as-medium]]
@@ -77,6 +89,7 @@ All of this is `llm-proposed`, and the question remains open.
 - [[product-grammar]] — Records the candidate Grammars related to mixing product roles within the Collection.
 - [[v0.4-evaluation]] — Detailed basis from the 2026-09-04 v0.4 surveys regarding the proportion of emotional products and exposure order.
 - [[product-image-system]] — Addresses the unresolved problem of premature closure through a single image grammar and a multiple-renderer policy.
+- [[pre-v0.6-evaluation-round-2]] — Where the store-or-gallery test and the residual-attention measure are compared.
 
 ## Sources
 
@@ -88,3 +101,5 @@ All of this is `llm-proposed`, and the question remains open.
 - `SRC-2026-09-04-gemini-product-image-system-survey` — `raw/surveys/2026-09-04-gemini-product-image-system-survey.md`. It is `llm-proposed` and raises the risk of premature closure through an image rule.
 - `SRC-2026-09-04-glm-product-image-system-survey` — `raw/surveys/2026-09-04-glm-product-image-system-survey.md`. It is `llm-proposed` and explicitly states that it relied on a text description rather than actual pixels.
 - `SRC-2026-09-04-grok-product-image-system-survey` — `raw/surveys/2026-09-04-grok-product-image-system-survey.md`. It is `llm-proposed` and raises the same risk.
+- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`. A `jointly-developed` working-decision summary, `status: working`. It is a decision summary rather than a conversation transcript, and nothing in it is `user-confirmed`.
+- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the working-decisions document's section numbering; despite an earlier filename date, their content places them after those working decisions. Evaluator independence is unverified.

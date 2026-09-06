@@ -477,3 +477,53 @@ Repository-wide raw hashes were checked against the registry before and after th
 ### Result
 
 Added the subagent model-routing preference for simple search/localization, document drafting/editing, and planning/verification. This is an AGENTS-only operational change; no raw project source was registered for it.
+
+## [2026-09-06] ingest | Post-v0.5 working decisions and pre-v0.6 critique round 2
+
+### Sources
+
+- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`
+- `SRC-2026-09-05-deepseek-pre-v0.6-survey`
+- `SRC-2026-09-05-gemini-pre-v0.6-survey`
+- `SRC-2026-09-05-glm-pre-v0.6-survey`
+- `SRC-2026-09-05-grok-pre-v0.6-survey`
+- `SRC-2026-09-05-qwen-pre-v0.6-survey`
+
+All six were already registered in the previous commit with `Ingested: not yet` and `Wiki Status: unreviewed`; this task performed the ingest and updated those columns. The working-decision summary was promoted as `jointly-developed` / `status: working`. The five surveys were promoted as `llm-proposed`. No raw original was edited.
+
+### Created
+
+- `wiki/collections/pre-v0.6-evaluation-round-2.md`
+
+### Updated
+
+- `wiki/current-state.md` — advanced the reference date to 2026-09-06 and recorded the methodological shift and the five-survey round.
+- `wiki/collections/rnd-collection.md` — added the working decisions as a new section with an Evolution table, the three commerce roles, the three R&D unit types, the Tolerance Pair, the temperature bias check, and the active v0.6 candidate pool. Added a forward pointer at the head of the earlier v0.6 discussion so the superseded 16-item proposal is not read as current.
+- `wiki/questions/Q-001-comprehensibility-vs-mystery.md`, `Q-003-product-grammar-taxonomy-scope.md`, `Q-004-rnd-collection-exit-condition.md`, `Q-005-commerce-generative-vs-display.md`, `Q-006-post-purchase-behavior.md`, `Q-007-product-naming-register.md`, and `Q-008-product-or-transaction.md`
+- `wiki/concepts/commerce-as-medium.md`, `product-grammar.md`, and `progressive-displacement.md`
+- `wiki/index.md`, `raw/sources.md`, and `raw/README.md`
+
+### Decisions
+
+none. **No v0.6 was composed and nothing was confirmed.** v0.5 remains the current Collection. The working-decision summary is `jointly-developed` and `status: working`; its own framing separates working directions from explicitly unresolved items, and no part of it was recorded as `user-confirmed`. The five surveys' unanimous `READY WITH MINOR REVISIONS` was recorded only as directional readiness for a first composition and a build, never as project readiness or user approval.
+
+### Synthesis
+
+The working decisions revise several directions the Wiki had recorded from the previous round. The commerce test changes from "does Commerce materially transform the product?" to "does Commerce create a tension that would not exist without it?", admitting products where the store does little beyond calmly asserting that the thing is merchandise. Three commerce roles — Generated, Transformative, and Assertion — are recorded as experimental observation axes and explicitly not a taxonomy, replacing the Generated / Activated / Displayed triad the unregistered v0.5 prompt had supplied. One concept no longer equals one product: the meaningful unit may be a singular product, a relational product set, or a system-level intervention, and R&D units are counted separately from storefront SKUs. The 12–16 count and the global dryness naming rule are both set aside. `What Payment Cannot Undo` is judged inadequate and replaced by the working title `The World I Helped Break`; `"These Days," Five Years Ago` returns to the active pool; the single `0.49 mm Deviation` becomes the relational Tolerance Pair, whose out-of-tolerance SKU is stocked and priced but not eligible for purchase — separating existence from sellability, and the most operationally specified behavior anywhere in this project. The working transaction direction is Product = entry point, Transaction = activation, with simulated USD commerce as the v0.6 R&D assumption.
+
+The five critiques of those decisions return 5/5 `READY WITH MINOR REVISIONS`. They agree 5/5 on relational sets as first-class R&D units, on showing a price on the unpurchasable SKU, on treating `Control Over Final Outcome — Unavailable` as a system-level intervention rather than a SKU, and on the biggest new risk: Commerce-as-Assertion becoming an admission loophole for poems with price tags. On the axis itself they split three "test only" to two qualified yes. GLM supplies the round's only concrete guardrail, feature localization, which is `llm-proposed` and unadopted.
+
+The round's strongest result is question L: all five name a live working storefront tested with unbriefed non-specialist visitors as the single most important next experiment, and none proposes a further critique round. This is the third consecutive round to name the transaction layer as the thing to build. Recorded in `Q-004` alongside a pattern this round completes: four evaluation rounds have now produced steadily improving verdicts — `WORKING BUT NEEDS CORRECTION`, then `READY WITH ONE REQUIRED CORRECTION`, then `READY WITH MINOR REVISIONS` — while the artifact has not changed state. Improving LLM verdicts on successive briefs are therefore not evidence of R&D readiness.
+
+### Provenance
+
+Four findings were recorded in `raw/sources.md`.
+
+1. **A fifth unregistered evaluation brief.** The shared brief behind the five surveys is not registered and is demonstrably not the registered working-decisions document: its section numbering differs, and it carries a project-context section and twelve forced questions A–L that appear in no registered source. This repeats the gap already recorded for v0.4, v0.5, the Product Image System round, and the first pre-v0.6 round.
+2. **Filename dates do not establish decision order.** The five surveys carry an earlier filename date than the document they respond to. Sequence was established from content, not from dates.
+3. **The `Distance to Home: 1,847 mi` reversal.** The candidate had no KEEP vote in the previous round and was one model's forced exclusion, yet returns to the active pool and is then rated KEEP by all five responses. No registered source explains it. Recorded as an Evolution rather than left as a silent contradiction; this is not a source-Wiki mismatch and no page was marked `REVIEW_REQUIRED`.
+4. **The English/USD switch remains unexplained**, and the 2026-09-06 material continues in English and dollars without addressing it.
+
+### Verification
+
+Repository-wide raw hashes were checked against the registry before and after this ingest. All 29 registered originals matched on both passes. No file under `raw/` was modified.

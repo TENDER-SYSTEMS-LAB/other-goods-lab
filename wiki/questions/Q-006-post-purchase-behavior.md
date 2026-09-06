@@ -1,7 +1,7 @@
 ---
 status: unknown
 attribution: llm-proposed
-updated: 2026-09-05
+updated: 2026-09-06
 sources:
   - SRC-2026-09-04-claude-collection-v0.4-survey
   - SRC-2026-09-04-gemini-collection-v0.5-survey
@@ -16,6 +16,12 @@ sources:
   - SRC-2026-09-04-grok-pre-v0.6-rnd-position
   - SRC-2026-09-04-kimi-pre-v0.6-rnd-position
   - SRC-2026-09-04-qwen-pre-v0.6-rnd-position
+  - SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions
+  - SRC-2026-09-05-deepseek-pre-v0.6-survey
+  - SRC-2026-09-05-gemini-pre-v0.6-survey
+  - SRC-2026-09-05-glm-pre-v0.6-survey
+  - SRC-2026-09-05-grok-pre-v0.6-survey
+  - SRC-2026-09-05-qwen-pre-v0.6-survey
 ---
 
 # Q-006 — What Happens After Payment?
@@ -67,6 +73,27 @@ The derivative position note expands the proposed sheet with **Product Grammar**
 
 **(2026-09-05, `llm-proposed`)** The six critiques split 3/3 between universal and selective lifecycle design and unanimously warn that the Behavior Sheet can become too heavy. They retain a customer-facing name, price logic, and Failure Test; inventory logic is essential to five and selective to GLM. Five directly retain order-history/lifecycle recording, while GLM emphasizes default-policy deviations. Proposed fields include unit definition, purchase promise, customer/system action, unresolved remainder, third party, support posture, and tax/shipping. None is a final sheet.
 
+## The 2026-09-06 working position — test everything, mechanize selectively
+
+`jointly-developed`, `status: working`. The working decisions settle the universal-versus-selective split of the previous round in a specific way, without adopting a sheet:
+
+> **Every product must be tested through Commerce. Not every product needs a special Commerce gimmick.**
+
+The listed test surfaces are price, price logic, inventory, sellability, cart, purchase, order confirmation, fulfillment, delivery, order history, return, refund, repurchase, and time. Two consequences are recorded explicitly.
+
+- **A truthful answer of "nothing conceptually important happens here" may itself be useful evidence.** This adopts GLM's earlier distinction — mandatory as a *test*, not as a *feature* — while rejecting the pressure to manufacture complexity "merely to make the R&D sheet look sophisticated."
+- **The absence of a complicated post-purchase mechanic is not automatically a weakness.** This directly qualifies Claude's original v0.4 proposal to remove products for which a post-purchase answer cannot be written. The named beneficiaries are assertion-led products such as `Distance to Home: 1,847 mi`, `Warmth Left on a Park Bench`, `"These Days," Five Years Ago`, and `The World I Helped Break`.
+
+### Sellability as a lifecycle state
+
+The Tolerance Pair introduces a state this question had not previously covered: a product that **exists in stock but is not commercially admissible**. `0.51 mm Deviation` may hold a price, inventory, a product page, and specifications while remaining impossible to purchase, separating **existence** from **sellability**. All five critiques of these decisions agree the price should be displayed, on the shared reasoning that a price states the cut concerns eligibility rather than value; GLM adds that the refusal should stay mute, with no tooltip and no threshold shown. This is the most operationally specified post-purchase-adjacent behavior the project has, and it is a purchase-*blocking* behavior rather than a post-purchase one. See [[rnd-collection]].
+
+### The substrate question is now answered provisionally
+
+The working transaction direction — **Product = entry point, Transaction = activation**, with simulated normal USD commerce as the v0.6 R&D assumption — supplies the substrate this question needs in order to be designed at all, without settling [[Q-008-product-or-transaction]]. Order confirmation, order history, and return behavior become specifiable under a simulated transaction; whether they become *operational* in the sense that real money makes them remains undecided.
+
+**(2026-09-06, `llm-proposed`)** Five critiques of these decisions do not dispute the selective-mechanics position. Their lifecycle attention shifts almost entirely to execution: the wording of a confirmation email for `Yesterday`, what order history says the day after the return window closes, whether a replacement request for `Upper-Right Corner, Dented in Transit` destroys the item purchased, and whether a disabled purchase reads as institution or as a broken button. All five name a live checkout tested with unbriefed visitors as the most important next experiment. See [[pre-v0.6-evaluation-round-2]].
+
 ## Unresolved subproblems
 
 - What do “shipping” and “receipt” physically mean in this work? Does the visitor actually receive something? This has been an open question since 2026-09-03.
@@ -82,6 +109,8 @@ The derivative position note expands the proposed sheet with **Product Grammar**
 - [[v0.5-evaluation]] — The four-survey round that cross-validated this question and produced the concrete post-purchase designs.
 - [[Q-005-commerce-generative-vs-display]] — Three of the four surveys propose the post-purchase test as the practical way to identify Commerce-Displayed products.
 - [[Q-008-product-or-transaction]] — Real payment determines the substrate for post-purchase behavior.
+- [[pre-v0.6-evaluation-round-2]] — Where the five critiques of the selective-mechanics position are compared.
+- [[rnd-collection]] — Holds the Tolerance Pair and the existence-versus-sellability separation.
 
 ## Sources
 
@@ -93,3 +122,5 @@ The five survey sources above are `llm-proposed`, not user decisions. When this 
 - `SRC-2026-09-05-chatgpt-v0.6-rnd` — `raw/conversations/conversation-20260905-0007.md`. Synthesizes the earlier proposals into an unadopted lifecycle sheet and v0.6 framing.
 - `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` — `raw/conversations/2026-09-04-chatgpt-pre-v0.6-rnd-position.md`. A derivative position note that elaborates the sheet and explicitly recommends delaying v0.6 composition.
 - `SRC-2026-09-04-claude-pre-v0.6-rnd-position`, `SRC-2026-09-04-deepseek-pre-v0.6-rnd-position`, `SRC-2026-09-04-glm-pre-v0.6-rnd-position`, `SRC-2026-09-04-grok-pre-v0.6-rnd-position`, `SRC-2026-09-04-kimi-pre-v0.6-rnd-position`, and `SRC-2026-09-04-qwen-pre-v0.6-rnd-position` — six `llm-proposed` critiques; their shared prompt and independence are unverified.
+- `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` — `raw/conversations/2026-09-06-post-v0.5-pre-v0.6-working-decisions.md`. A `jointly-developed` working-decision summary, `status: working`. It is a decision summary rather than a conversation transcript, and nothing in it is `user-confirmed`.
+- `SRC-2026-09-05-deepseek-pre-v0.6-survey`, `SRC-2026-09-05-gemini-pre-v0.6-survey`, `SRC-2026-09-05-glm-pre-v0.6-survey`, `SRC-2026-09-05-grok-pre-v0.6-survey`, and `SRC-2026-09-05-qwen-pre-v0.6-survey` — five `llm-proposed` critiques under `raw/surveys/`. Their shared evaluation brief is not registered and does not match the working-decisions document's section numbering; despite an earlier filename date, their content places them after those working decisions. Evaluator independence is unverified.
