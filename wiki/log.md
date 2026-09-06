@@ -548,3 +548,9 @@ Repository-wide raw hashes were checked against the registry before and after th
 - The two pre-existing 2026-09-06 lint entries are preserved verbatim, including their original scope and count statements. The verified scope is 158 source-file link conversions outside the historical log: 29 registry rows in `raw/sources.md`, 128 single-source entries across 29 Wiki subject pages, and one example in `schema.md`.
 - Updated the 29 changed Wiki subject pages to `updated: 2026-09-07` and synchronized all 30 Wiki catalog dates, plus the `Schema` and `Raw Source Index` dates, in `wiki/index.md`.
 - This handoff changes navigation and maintenance metadata only. It does not change a claim, attribution, status, source hash, or user decision.
+
+## [2026-09-07] maintenance | Reduce routine context and verification work
+
+Replaced mandatory full-file startup with targeted catalog/page reading and on-demand schema, source, and history lookup. Shortened agent instructions while retaining institutional commit identity and each repository's standing push authorization. Removed the schema's conflicting periodic hash-audit rule: register a new source's hash once, inspect changed raw paths for routine edits, and reserve a complete provenance audit for an explicit request.
+
+Scoped lint and catalog updates to affected material and limited logging to durable results. Kept raw guides procedural and source-registry rows unchanged; registered originals and previous log entries are preserved. Updated only the affected repository-control catalog entries. Git-only work can reuse an unchanged completed review.

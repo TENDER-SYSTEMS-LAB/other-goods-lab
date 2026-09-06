@@ -23,18 +23,8 @@ Use `YYYY-MM-DD-kebab-case-slug.md`. When adding multiple files on the same date
 
 Every new source added under `raw/` must also be registered in `raw/sources.md`. An unregistered source is treated as nonexistent.
 
-## Current-State Notes
+## Finding sources and history
 
-On 2026-09-03, the first conversation export and the Collection v0.1 evaluation surveys from Claude, Gemini, and Perplexcity were registered. The conversation establishes the initial ideas and user selections; the surveys make it possible to compare each agent's hypotheses and evaluation differences. Preserve the originals and hashes of additional material in the same way.
+Search [the registry](sources.md) by source ID/path for registration and provenance limits. Consult [the Wiki log](../wiki/log.md) for ingestion history; do not duplicate changing counts or chronology in this guide.
 
-On 2026-09-04, `SRC-2026-09-04-commerce-product-rnd-summary`, two Collection v0.4 surveys, and three Product Image System surveys were added, bringing the registered source count to 11. The R&D summary is a derivative summary rather than a conversation transcript, so material promoted from it has secondary-citation provenance. The shared Product Image System prompt and its flower ASCII reference image are also absent from the repository and are recorded as a separate provenance limitation.
-
-Later on 2026-09-04, four Collection v0.5 surveys (Gemini, GLM, Grok, and Kimi) were added and ingested, bringing the registered source count to 15. As with v0.4, the v0.5 evaluation prompt itself is absent, so the 24-item candidate list, the naming principle those surveys tested, and the Commerce-Generated / Activated / Displayed classification they applied are known only through the responses. That limitation is recorded in `sources.md`.
-
-On 2026-09-05, `SRC-2026-09-05-chatgpt-v0.6-rnd` was registered and partially promoted, bringing the registered source count to 16. It records a discussion of a possible v0.6 Deep R&D Set and a user-originated exploration of guilt, homecoming, atonement, responsibility, control, and continuing consequences. The video and attachment discussed in the conversation are not registered; only the user's pasted account is available.
-
-Later on 2026-09-05, `SRC-2026-09-04-chatgpt-pre-v0.6-rnd-position` was registered and partially promoted, bringing the registered source count to 17. Although dated 2026-09-04, it is a derivative ChatGPT position note that synthesizes the Wiki, v0.5 surveys, naming discussion, and supplied video analysis. It is not an independent evaluation or a user decision.
-
-Later on 2026-09-05, six pre-v0.6 critique surveys (Claude, DeepSeek, GLM, Grok, Kimi, and Qwen) were registered and partially promoted, bringing the registered source count to 23. They critique the derivative ChatGPT position note rather than an actual v0.6; their matching structure indicates a common brief, but the prompt, delivery, and evaluator independence are not verifiable. Their convergence is LLM synthesis, never user confirmation.
-
-On 2026-09-06, `SRC-2026-09-06-post-v0.5-pre-v0.6-working-decisions` and five further pre-v0.6 critique surveys (DeepSeek, Gemini, GLM, Grok, and Qwen) were registered and partially promoted, bringing the registered source count to 29. The working-decision summary is `jointly-developed` and records working directions alongside explicitly unresolved items; it is a decision summary rather than a conversation transcript, and nothing in it is user-confirmed. The five surveys critique those working decisions, and their shared brief is again absent — the fifth consecutive round registered without its prompt. Note also that those five files carry an earlier filename date than the document they respond to; in this repository a filename date does not establish decision order. Both limitations are recorded in `sources.md`.
+For routine work, follow [AGENTS — Verification](../AGENTS.md#verification). Hash only the new source being registered; do not load the full source table or recheck unchanged originals.
